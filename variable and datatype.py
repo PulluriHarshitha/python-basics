@@ -100,3 +100,67 @@ z = -87.7e100
 print(type(x))
 print(type(y))
 print(type(z))
+
+x = int(1)     #specify a variable type dataset[int]
+y = int(2.8)    
+z = int(3)     
+print(x)
+print(y)
+print(z) 
+
+a = float(1)     #specify a variable  type in dataset [float]
+b = float(2.8)
+c = float(3)
+d = float(4.2)
+print(a)
+print(b)
+print(c)
+print(d)
+
+x = str("friendsship")  #specify a variable type in dataset [string]
+y = str("rohith")
+z = str("harshu")
+print(x)
+print(y)
+print(z)
+
+a= 15
+print(type(a))
+
+b=14.6
+print(b)
+
+a= ("harshitha")
+print(len(a))
+
+marks = [8]
+print(len(marks))   
+
+a = True
+print((a))
+
+list = [1,2,3,4,5,6]
+print("list of numbers:",list)
+
+tuple =(10,20,30,40,50)
+print(tuple[1])
+
+student = {
+    "name": "Harshitha",  #dictionary
+    "age": 20,
+    "course": "Python"
+}
+print(student)
+
+
+student = {
+    "name": "Harshitha",
+    "age": 22,
+    "course": "python"
+}
+
+for key in student.keys():
+    print(key)
+
+
+   
