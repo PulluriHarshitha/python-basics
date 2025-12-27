@@ -84,6 +84,46 @@ x = 5     #Returns True if both statements are true
 print(x > 3 and x < 10) 
 print(x > 6 and x < 10)
 
+x = 5     #returns True if one of the statements is true
+print(x > 3 or x < 4)
+print(x > 4 or x < 3)
+
+x = 5     #returns False because not is used to reverse the result
+print(not(x < 3 and x > 10))
+
+#IDENITIFY OPERATOR 
+
+y = ["apple", "banana" ,"mango"]
+z = ["orange","apple","mango"]
+print(x is z)  #is:Returns True if both variables are the same object
+print(x is y)
+print(x == y)
+print(x == z)
+
+x = ["apple", "banana"]
+y = ["apple", "banana"]
+z = x
+print(x is not z)   #is not: Returns True if both variables are not the same object
+print(x is not y)
+print(x != y)
+
+#MEMBERSHIP OPERATORS
+
+fruits = ["apple", "banana", "cherry"]
+print("banana" in fruits)   # if a sequence with the specified value is present in the object
+print("orange" in fruits)
+
+fruits = ["apple", "banana", "cherry"]
+print("pineapple" not in fruits)  #if a sequence with the specified value is not present in the object
+print("apple" not in fruits)
+
+text = "Hello World"
+print("H" in text)
+print("E" in text)
+print("z" not in text)
+print("Hello " in text)
+
+
 
 
 
