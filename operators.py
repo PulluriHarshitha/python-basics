@@ -122,7 +122,32 @@ print("H" in text)
 print("E" in text)
 print("z" not in text)
 print("Hello " in text)
+   
+#BITWISE OPERATORS(BINARY)
+a = 6   
+b = 3
+print(a & b)  #AND
 
+a = 12
+b = 13
+print(a|b)  #OR
+
+a = 15
+b = 2
+print(a^b)  #XOR
+
+a = 9
+b = 2
+print(~a)
+print(~b)  #NOT
+
+a = 3
+b = 2
+print(3<<2)  #LEFTSHIFT
+
+a = 4
+b = 3
+print(4>>3) #RIGHTSHIFT
 
 
 
