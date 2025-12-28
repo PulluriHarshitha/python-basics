@@ -50,3 +50,33 @@ print(thislist)
 thislist = ["c","c++","java","ml"]
 thislist.insert(4,"python")
 print(thislist)
+
+#APPEND ITEMS
+
+thislist = ["java", "c++", "html"]
+thislist.append("python")
+print(thislist)
+
+thislist = ["java","c++","python","ML"]
+thislist.insert(2,"java script")
+print(thislist)
+
+thislist1 = ["java","python","c++","DS"]
+thislist2 = ["html","css","c#","reactjs"]
+thislist1.extend(thislist2)
+print(thislist1)
+
+thislist = ["java", "python", "atcd"]
+thistuple = ("html", "css","javascript")
+thislist.extend(thistuple)
+print(thislist)   #Add elements of a tuple to a list
+
+#REMOVE SPECIFIED ITEM A LIST
+
+thislist = ["rose", "jasmine", "tulips"]
+thislist.remove("rose")
+print(thislist)
+
+thislist = ["tulips" , "rose", "jasmine", "sunflower", "lily", "lotus"]
+thislist.remove("lotus")
+print(thislist)  #remove a element in first occurence
