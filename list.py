@@ -80,3 +80,23 @@ print(thislist)
 thislist = ["tulips" , "rose", "jasmine", "sunflower", "lily", "lotus"]
 thislist.remove("lotus")
 print(thislist)  #remove a element in first occurence
+
+thislist = ["tulips", "rose", "mariegold"]
+thislist.pop(0)
+print(thislist)
+
+thislist = ["rose", "sunflower", "lotus"]
+thislist.pop()
+print(thislist)  #it remove the last item
+
+thislist = ["tulip", "sunflower", "lotus"]
+del thislist[0]
+print(thislist)
+
+thislist = ["tulip", "lotus", "rose"]
+del thislist
+
+thislist = ["tulip", "lotus", "rose"]
+thislist.clear()
+print(thislist)
+
