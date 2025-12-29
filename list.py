@@ -100,3 +100,47 @@ thislist = ["tulip", "lotus", "rose"]
 thislist.clear()
 print(thislist)
 
+#LOOP LISTS
+
+thislist = ["HYD", "BANGLORE", "KNR"]
+for x in thislist:
+  print(x)
+
+thislist = ["HYD", "KNR", "NZB"]
+for i in range(len(thislist)):
+  print(thislist[i])
+
+thislist = ["HARSHU", "REETHU", "SHINY"]
+i = 0
+while i < len(thislist):
+    print(thislist[i])
+    i = i + 1
+
+    #LIST COMPREHENSION
+
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = []
+for x in fruits:
+  if "a" in x:
+    newlist.append(x)
+print(newlist)
+
+#SORT LISTS
+
+thislist = ["HYD", "KNR", "HNK", "GDK", "JGL"]
+thislist.sort()
+print(thislist)
+
+thislist = [100, 50, 65, 82, 23]
+thislist.sort()
+print(thislist)
+
+thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
+thislist.sort(reverse = True)
+print(thislist)    #To sort descending, use the keyword argument reverse = True:
+
+thislist = [100, 50, 65, 92, 76]
+thislist.sort(reverse = True)
+print(thislist)
+
+
