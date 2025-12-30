@@ -143,4 +143,40 @@ thislist = [100, 50, 65, 92, 76]
 thislist.sort(reverse = True)
 print(thislist)
 
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+thislist.sort()
+print(thislist)
+
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+thislist.reverse()
+print(thislist)     #reverse order
+
+      #COPY LISTS
+
+thislist = ["circle", "square", "oval"]
+mylist = thislist.copy()
+print(mylist)
+
+thislist = ["triangle", "circle", "square"]
+mylist = thislist[:]
+mylist.append("rectangle")
+print(thislist)
+print(mylist)   #[:] creates a separate copy of the list, not a reference to the same list.
+
+#JOIN LISTS
+
+list1 = ["a", "b", "c"]
+list2 = [1, 2, 3]
+list3 = list1 + list2
+print(list3)
+
+list1 = ["a", "b" , "c"]
+list2 = [1, 2, 3]
+for x in list1:
+  list2.append(x)
+print(list2)    #Append list1 into list2:
+
+
+
+
 
