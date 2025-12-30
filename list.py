@@ -184,4 +184,9 @@ for i in range(len(list1)):
     join_list.append(list2[i])
 print(join_list)      #join the lists one by one
 
+list1 = ["a", "b" ,"c"]
+list2 = [1, 2, 3]
+list1.extend(list2)
+print(list1)   #extend keyword
+
 
