@@ -22,6 +22,10 @@ print(tuple3)    #uple items can be of any data type
 tuple1 = ("Harshu", 19, True,  "female")
 print(tuple1)   #tuple can contain different data types
 
+thistuple = tuple(("sun", "mon", "sat"))  # note the double round-brackets as constructor
+print(thistuple)
+
+
 
 
 
