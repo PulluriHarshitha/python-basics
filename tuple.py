@@ -68,6 +68,33 @@ thistuple = ("JULY", "DEC", "JUNE")
 print(thistuple)
 del thistuple   #del the tuple
 
+#UNPACK TUPLES
+
+thistuple = ("sunday", "monday", "friday")
+a, b, c = thistuple
+print(a)
+print(b)
+print(c)   #means assigning each value of a tuple to separate variables in one statement
+
+fruits = ("soap", "shampoo", "paste")
+(santoor, chick, closeup) = fruits
+print(santoor)
+print(chick)
+print(closeup)
+
+week = ("sunday", "monday", "thursday", "friday")
+a, b, *c = week
+print(a)
+print(b)
+print(c)   #If there are more values than variables, you can use * before a variable will collect all extra values into a list
+
+student = ("Harshitha", 21, "IT")
+name, _, branch = student
+print(name)
+print(branch)   #_ means “ignore this value”
+
+
+
 
 
 
