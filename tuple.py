@@ -39,7 +39,38 @@ print(thistuple[2:5])
 thistuple = ("JAN", "FEB", "MAR", "APR", "JUN", "JUL", "AUG")
 print(thistuple[2:5])
 
-       #UPDATE TUPLES
+ #UPDATE TUPLES
+
+x = ("JAN", "FEB", "MAR")
+y = list(x)
+y[1] = "DEC"
+x = tuple(y)
+print(x)   #Convert the tuple into a list
+
+thistuple = ("JAN", "FEB", "MAR")
+y = list(thistuple)
+y.append("APR")
+thistuple = tuple(y)  #Convert the tuple into a list, add "APR", and convert it back into a tuple
+print(thistuple)
+
+thistuple = ("JAN", "FEB", "MAR")
+y = ("DEC",)
+thistuple += y
+print(thistuple)
+
+thistuple = ("MAR", "JUN", "JUL")
+y = list(thistuple)
+y.remove("JUN")
+thistuple = tuple(y)
+print(thistuple)   #REMOVE LIST
+
+thistuple = ("JULY", "DEC", "JUNE")
+print(thistuple)
+del thistuple   #del the tuple
+
+
+
+
 
 
 
