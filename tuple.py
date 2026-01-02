@@ -116,7 +116,30 @@ thistuple = ("MAY", "JUNE", "JULY")
 i = 0
 while i < len(thistuple):
     print(thistuple[i])
-    i = i + 1
+    i = i + 1                 #Using while loop to print tuple elements
+
+
+thistuple = ("SEP", "OCT", "NOV")
+i = len(thistuple) - 1
+while i >= 0:
+    print(thistuple[i])
+    i = i - 1    #Using while loop to print elements in reverse order
+
+     #JOIN TUPLES
+tuple1 = ("harshitha")
+tuple2 = ("rohithreddy")
+tuple3 = tuple1 + tuple2
+print(tuple3)  #join two or more tuples you can use the + operator
+
+thistuple = ("harshu","rohith")
+mytuple = thistuple * 4
+print(mytuple)   #multiply the content of a tuple a given number of times, you can use the * operator:
+
+
+
+
+
+
 
 
 
