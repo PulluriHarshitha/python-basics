@@ -94,8 +94,29 @@ print(name)
 print(branch)   #_ means “ignore this value”
 
 
+#LOOP ITEMS
+
+thistuple = ("JAN", "FEB", "MAR")
+for x in thistuple:
+    print(thistuple)  #if you want to print the whole tuple 3 times
+
+thistuple = ("JAN", "FEB", "MAR")
+for x in thistuple:
+    print(x)          #if you want to print each value
+
+#print(x) → prints each element
+#print(thistuple) → prints the entire tuple
+
+thistuple = ("OCT", "NOV", "DEC")
+for i in range(len(thistuple)):
+  print(thistuple[i])   #Loop Through the Use the range() and len() functions Index Numbers 
 
 
+thistuple = ("MAY", "JUNE", "JULY")
+i = 0
+while i < len(thistuple):
+    print(thistuple[i])
+    i = i + 1
 
 
 
