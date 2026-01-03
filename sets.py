@@ -58,13 +58,42 @@ print(thisset)   #add one item to a set use the add() method.
 a = {"softwaredeveloper","surya", "schoolmates"}
 b = {"justmarried", "dearkavya","telugumedium"}
 a.update(b)
-print(a)   #pdate() is used to add elements of one set into another set.
+print(a)   #update() is used to add elements of one set into another set.
 
 
 thisset = {"justmarried", "dearkavya", "schoolmates"}
 mylist = ["surya", "telugumedium"]
 thisset.update(mylist)
 print(thisset)      #Add Any Iterable if list,set,tuple
+
+     #REMOVE SET ITEMS
+
+thisset = {"justmarried", "dearkavya", "telugumedium"}
+thisset.discard("dearkavya")
+print(thisset)    #remove an item in a set, use the remove(), or the discard() method.
+
+hisset = {"justmarried", "dearkavya", "telugumedium"}
+thisset.remove("telugumedium")
+print(thisset)
+
+
+thisset = {"justmarried", "dearkavya", "surya"}
+x = thisset.pop()
+print(x)        #removed item
+print(thisset)   #print(thisset) #the set after removal
+
+
+thisset = {"justmarried", "surya", "schoolmates"}
+thisset.clear()
+print(thisset)   #The clear() method empties the set
+
+
+thisset = {"merizindagithu", "terebin", "sher"}
+del thisset
+print(thisset)  #it should total del,it shows error
+
+
+
 
 
 
