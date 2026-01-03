@@ -49,3 +49,22 @@ print("vishwa" in thisset)   #Check if "vishwa" is present in the set
 thisset = {"vishwa", "sundari", "justmarried"}
 print("vishwa" not in thisset)
 
+          #ADD SET ITEMS
+
+thisset = {"vishwa", "bala", "sundari"}
+thisset.add("justmarried")
+print(thisset)   #add one item to a set use the add() method.
+
+a = {"softwaredeveloper","surya", "schoolmates"}
+b = {"justmarried", "dearkavya","telugumedium"}
+a.update(b)
+print(a)   #pdate() is used to add elements of one set into another set.
+
+
+thisset = {"justmarried", "dearkavya", "schoolmates"}
+mylist = ["surya", "telugumedium"]
+thisset.update(mylist)
+print(thisset)      #Add Any Iterable if list,set,tuple
+
+
+
