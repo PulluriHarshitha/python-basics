@@ -184,6 +184,12 @@ set2 = {"google", "microsoft", "apple" ,"satva"}
 set3 = set1.symmetric_difference(set2)
 print(set3)   #The symmetric_difference() method will keep only the elements that are NOT present in both sets.
 
-
+set1 = {"apple", "wipro", "amazon","flipkart","satva"}
+set2 = {"google", "microsoft", "apple" ,"satva"}
+set3 = set1 ^ set2
+print(set3) # we can use "^" operator insted of symmertric_difference()
   
-
+set1 = {"apple", "cognizant", "accenture","tata"}
+set2 = {"google", "microsoft", "apple","meesho"}
+set1.symmetric_difference_update(set2)
+print(set1)  #symmetric_difference_update() removes common items and keeps only different items, updating the original set
