@@ -171,3 +171,19 @@ set1 = {"apple", "IBM", "amazon"}
 set2 = {"google", "amazon", "flipkart"}
 set3 = set1 - set2
 print(set3)  # u can use operator "-"
+
+set1 = {"apple", "flipkart", "amazon"}
+set2 = {"wipro", "microsoft", "flipkart"}
+set1.difference_update(set2)
+print(set1)  #the difference_update() method to keep only the items from the first set that are not present in the other set:
+
+    #SYMMETRIC DIFFERENCES
+
+set1 = {"apple", "wipro", "amazon","flipkart","satva"}
+set2 = {"google", "microsoft", "apple" ,"satva"}
+set3 = set1.symmetric_difference(set2)
+print(set3)   #The symmetric_difference() method will keep only the elements that are NOT present in both sets.
+
+
+  
+
