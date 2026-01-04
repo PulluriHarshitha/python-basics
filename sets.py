@@ -89,11 +89,75 @@ print(thisset)   #The clear() method empties the set
 
 
 thisset = {"merizindagithu", "terebin", "sher"}
-del thisset
-print(thisset)  #it should total del,it shows error
+del thisset  #it should total del,it shows error
+
+        #LOOP SETS
+        
+thisset = {"backbenchers", "dearkavya", "surya"}
+for x in thisset:
+    print(x)
+
+      #JOIN SETS
+    #UNION
+
+set1 = {"a", "b", "c"}
+set2 = {1, 2, 3}
+set3 = set1.union(set2)
+print(set3)  #union() method returns a new set with all items from both sets.
+
+set1 = {"a","b","c"}  
+set2 = {1,2,3}  
+set3 = set1 | set2
+print(set3)   # "|" instead use name operator
+  
+set1 = {"a","b","c"}
+set2 = {1,2,3}
+set3 = {"harshu","chachu"}
+set4 = {"srinivas","kalyani"}
+myset = set1.union(set2,set3,set4)
+print(myset)   #joining multiple sets by using union
+
+set1 = {"a","b","c"}
+set2 = {1,2,3}
+set3 = {"harshu","chachu"}
+set4 = {"srinivas","kalyani"}
+myset = set1 | set2 | set3 | set4
+print(myset)  #by using union operator
+
+x = {"a", "b", "c"}
+y = (1, 2, 3)
+z = x.union(y)
+print(z)  #union methods allow join set with other datatypes like list,tuples
+
+  #UPDATE
+
+Set1 = {"a", "b" , "c"}
+set2 = {1, 2, 3}
+set1.update(set2)
+print(set1)    #update method insert all items from one to another set
+
+   #INTERSECTION
+
+set1 = {"google", "infosys", "tcs","techmahindra"}
+set2 = {"google", "microsoft", "IBM","tcs"}
+set3 = set1.intersection(set2)  #intersection will return a new set it keeps a duplicate elements
+print(set3)
+
+et1 = {"google", "infosys", "tcs","techmahindra"}
+set2 = {"google", "microsoft", "IBM","tcs"}
+set3 = set1 & set2  #intersection using a operator
+print(set3)
+
+set1 = {"apple", "IBM", "TCS","oracle"}
+set2 = {"google", "microsoft", "apple","wipro","TCS"}
+set1.intersection_update(set2)
+print(set1)  #intersection_update() removes everything except the common elements and updates the original set.
 
 
+set1 = {"apple", 1,  "deloite", 0, "IBM"}
+set2 = {False, "google", 1, "apple", 2, True, "IBM"}
+set3 = set1.intersection(set2)
+print(set3)  #values True and 1 are considered the same value. The same goes for False and 0.
 
 
-
-
+    #DIFFERENCE
