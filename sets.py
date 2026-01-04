@@ -161,3 +161,13 @@ print(set3)  #values True and 1 are considered the same value. The same goes for
 
 
     #DIFFERENCE
+
+set1 = {"apple", "IBM", "amazon"}
+set2 = {"google", "amazon", "flipkart"}
+set3 = set1.difference(set2)
+print(set3)  #difference() method will return a new set that will contain only the items from the first set that are not present in the other set
+  
+set1 = {"apple", "IBM", "amazon"}
+set2 = {"google", "amazon", "flipkart"}
+set3 = set1 - set2
+print(set3)  # u can use operator "-"
