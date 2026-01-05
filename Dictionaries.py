@@ -22,4 +22,23 @@ thisperson = {
 print(thisdict)   #Dictionaries cannot have two items with the same key
 
 
+thisdict = {
+    "name": "Harshitha",
+    "age": 20,
+    "course": "Python"
+}
+print(len(thisdict))   #len of dictionary
+
+thisdict = {
+  "name": "harshitha",
+  "year": 2005,
+  "college": "SMEC",
+  "colors": ["black", "white", "blue"],
+  "topics" : "True"
+}
+print(thisdict)     #different datatypes allow single dictionaries
+
+
+
+
 
