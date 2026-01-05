@@ -56,6 +56,30 @@ thisdict =	{
 x = thisdict.get("year")
 print(x)       #used to get() method
 
+thisdict = {
+  "name": "harshu",
+  "age": "20",
+  "year": 2005
+}
+x = thisdict.keys()
+print(x)     #gets all the keys from the dictionary and prints them
+
+
+bike = {
+"brand": "royal enfield",
+"model": "Classic 500 ",
+"year": 1901
+}
+
+x = bike.keys()
+
+print(x) #before the change
+
+bike["country"] = "england"
+
+print(x) #after the updated keys after pgm
+
+
 
 
 
