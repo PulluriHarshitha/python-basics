@@ -109,6 +109,51 @@ bike["country"] = "england"
 print(x)
 
 
+#GET ITEMS
+
+car = {
+  "brand": "BMW",
+  "model": "BMW iX3",
+  "year": 2025
+}
+x = car.items()
+print(x)  
+
+
+#UPDATED A CAR ITEMS
+
+car = {
+"brand": "BMW",
+"model": "BMW iX3",
+"year": 2024
+}
+x = car.items()
+print(x) #before the change
+car["engine"] =  "Petrol" 
+print(x) #after the change
+
+#ADD A NEW ELEMENT
+
+car = {
+"brand": "BMW",
+"model": "BMW iX3",
+"year": 2024
+}
+x = car.items()
+print(x) #before the change
+car["engine"] =  "Petrol" 
+car["color"] = "grey"
+print(x)
+
+#CHECK IF KEYS EXISTS OR NOT
+
+car = {
+"brand": "BMW",
+"model": "BMW iX3",
+"year": 2024
+}
+if "model" in car:
+  print("Yes, 'model' is one of the keys in the car dictionary")
 
 
 
