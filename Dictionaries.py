@@ -38,6 +38,25 @@ thisdict = {
 }
 print(thisdict)     #different datatypes allow single dictionaries
 
+      #ACCESS ITEM DICTIONARIES
+
+thisdict = {
+  "name": "harshu",
+  "age": "20",
+  "year": 2005
+}
+x = thisdict["name"]
+print(x)     #creates a dictionary and stores the value of the key "name" into the variable x.
+
+thisdict =	{
+  "name": "harshu",
+  "age": "20",
+  "year": 2005
+}
+x = thisdict.get("year")
+print(x)       #used to get() method
+
+
 
 
 
