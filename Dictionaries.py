@@ -202,6 +202,22 @@ thisdict = {
 thisdict.popitem()
 print(thisdict)    #popitem() method removes the last inserted item
 
+thisdict = {
+  "name" : "harshu",
+  "age"  : "20",
+  "dept" : "IT"
+  }
+del thisdict["age"]
+print(thisdict)   #del keyword removes the item with specified key name
+
+thisdict = {
+  "brand": "GT-650",
+  "model": "XMP4",
+  "year": 1998
+}
+thisdict.clear()
+print(thisdict) #clear() methods empties the dictS
+
   
 
 
