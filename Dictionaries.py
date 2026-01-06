@@ -156,5 +156,23 @@ if "model" in car:
   print("Yes, 'model' is one of the keys in the car dictionary")
 
 
+      #CHANGE DICTIONARY ITEMS
+
+  thisdict =	{
+  "brand": "Pulsar",
+  "model": "ns2",
+  "year": 1989
+}
+thisdict["year"] = 2018
+print(thisdict)   #change the value of a specific item 
+
+thisdict = {
+  "brand": "pulsar",
+  "model": "ns25",
+  "year": 1964
+}
+thisdict.update({"year": 2020})
+print(thisdict)    #update the dict
+
 
 
