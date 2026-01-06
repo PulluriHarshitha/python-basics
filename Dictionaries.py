@@ -182,7 +182,26 @@ thisdict =	{
   "year": 1998
 }
 thisdict["color"] = "WHITE"
-print(thisdict)
+print(thisdict)   #Adding the items
+
+      #REMOVE A ITEMS
+
+thisdict = {
+  "brand": "GT-650",
+  "model": "XMP4",
+  "year": 1998
+}
+thisdict.pop("model")
+print(thisdict)   #pop() method removes a item with specified name
+
+thisdict = {
+  "brand": "GT-650",
+  "model": "XMP4",
+  "year": 1998
+}
+thisdict.popitem()
+print(thisdict)    #popitem() method removes the last inserted item
+
   
 
 
