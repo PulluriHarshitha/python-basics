@@ -174,5 +174,16 @@ thisdict = {
 thisdict.update({"year": 2020})
 print(thisdict)    #update the dict
 
+      #ADD DICT ITEMS
+
+thisdict =	{
+  "brand": "GT-650",
+  "model": "RX54",
+  "year": 1998
+}
+thisdict["color"] = "WHITE"
+print(thisdict)
+  
+
 
 
