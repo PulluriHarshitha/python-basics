@@ -279,3 +279,71 @@ hisdict = {
 }
 mydict = dict(thisdict)
 print(mydict) #  Another way to make a copy is to use the built-in function dict().
+
+  #NESTED DICTIONARIES
+
+student = {                 #main dict
+    "id": 1250,
+    "name": "Harshitha",
+    "marks": {             #key value another dict
+        "ATCD": 85,       # dict inside dict(nested dict)
+        "ADA": 90,
+        "ES": 88,
+        "DM" : 87,
+    }
+}
+print("Student ID:", student["id"])    #to nested access the dict
+print("Student Name:", student["name"])
+print("ATCD Marks:", student["marks"]["ATCD"])
+print("ADA Marks:", student["marks"]["ADA"])
+print("ES Marks:", student["marks"]["ES"])
+print("DM:", student["marks"]["DM"])
+
+
+#EXAMPLE 1 OF NESTED DICTIONARIES
+
+student1 = {    # Create three dictionaries
+    "name": "Harshitha",
+    "age": 20,
+    "course": "Python"
+}
+student2 = {
+    "name": "Rohith",
+    "age": 21,
+    "course": "Java"
+}
+student3 = {
+    "name": "Harith",
+    "age": 22,
+    "course": "Data Science"
+}
+students = {
+    "student1": student1,
+    "student2": student2,
+    "student3": student3
+}   # Create one dictionary containing all three dictionaries
+print(students)    #Print the nested dictionary
+
+#EXAMPLE 2
+
+Engineering = {
+"student1" : {                   
+    "name": "Harshitha",
+    "age": 20,
+    "course": "Python"
+},
+"student2" : {
+    "name": "Rohith",
+    "age": 21,
+    "course": "Java"
+},
+"student3" : {
+    "name": "Harith",
+    "age": 22,
+    "course": "Data Science"
+}
+}
+for x, obj in Engineering.items():   #it gives key and value
+  print(x)                            #student key 1,2,3
+  for y in obj:                        #student detail dict
+    print(y + ':', obj[y])               #prints student name ,age,key
