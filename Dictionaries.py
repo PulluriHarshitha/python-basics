@@ -252,6 +252,30 @@ thisdict = {
 for x in thisdict.keys():
   print(x)   #the keys() method to return the keys of a dictionary
   
+thisdict = {
+  "name" : "harshu",
+  "age"  : "20",
+  "dept" : "IT"
+  }
+for x, y in thisdict.items():
+  print(x, y)  #Loop through both keys and values, by using the items() method
+ 
+ 
+             #COPY DICTIONARIES
+thisdict = {
+  "NAME": "Harshitha",
+  "DEPT": "IT",
+  "CLG": "SMEC",
+  "PLACE" : "Dhulapalli"
+}
+mydict = thisdict.copy()
+print(mydict)   #copy of a dictionary with the copy() method
 
-
-
+hisdict = {
+  "NAME": "Harshitha",
+  "DEPT": "IT",
+  "CLG": "SMEC",
+  "PLACE" : "Dhulapalli"
+}
+mydict = dict(thisdict)
+print(mydict) #  Another way to make a copy is to use the built-in function dict().
