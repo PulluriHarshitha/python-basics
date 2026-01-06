@@ -218,6 +218,39 @@ thisdict = {
 thisdict.clear()
 print(thisdict) #clear() methods empties the dictS
 
+      #LOOP DICTIONARIES
+      
+thisdict = {
+  "name" : "harshu",
+  "age"  : "20",
+  "dept" : "IT"
+  }
+for x in thisdict:
+  print(thisdict[x])   #Print all key names in the dictionary, one by one
+
+thisdict = {
+  "name" : "harshu",
+  "age"  : "20",
+  "dept" : "IT"
+  }
+for x in thisdict:
+  print(thisdict[x])  #Print all values in the dictionary, one by one
+
+thisdict = {
+  "name" : "harshu",
+  "age"  : "20",
+  "dept" : "IT"
+  }
+for x in thisdict.values():
+  print(x)   #the values() method to return values of a dictionary
+
+thisdict = {
+  "name" : "harshu",
+  "age"  : "20",
+  "dept" : "IT"
+  }
+for x in thisdict.keys():
+  print(x)   #the keys() method to return the keys of a dictionary
   
 
 
