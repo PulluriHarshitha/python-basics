@@ -67,11 +67,11 @@ elif day == 6:
 elif day == 7:
   print("Sunday")
 
-#IF ELSE
+#IF ELSE SYNTAX
 
-if condition:
+#if condition:
     # code runs if condition is True
-else:
+#else:
     # code runs if condition is False
 
 
