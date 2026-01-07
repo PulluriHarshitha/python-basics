@@ -66,3 +66,13 @@ elif day == 6:
   print("Saturday")
 elif day == 7:
   print("Sunday")
+
+#IF ELSE
+
+if condition:
+    # code runs if condition is True
+else:
+    # code runs if condition is False
+
+
+
