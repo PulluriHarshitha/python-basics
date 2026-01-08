@@ -84,3 +84,9 @@ else:
     print("Grade C")
 
 
+for i in range(5):
+    print(i)
+else:
+    print("Loop finished")   #The else block executes after the loop completes normally (without break)
+
+
