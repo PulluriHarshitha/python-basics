@@ -74,5 +74,13 @@ elif day == 7:
 #else:
     # code runs if condition is False
 
+marks = 65
+
+if marks >= 90:
+    print("Grade A")
+elif marks >= 60:
+    print("Grade B")
+else:
+    print("Grade C")
 
 
