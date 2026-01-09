@@ -113,3 +113,29 @@ if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
     print("Leap year")
 else:
     print("Not a leap year")
+
+
+#SIMPLE CALCULATOR
+  while True:
+    try:
+        num1 = float(input("First number: "))
+        op = input("Operator (+, -, *, /): ")
+        num2 = float(input("Second number: "))
+        break
+    except ValueError:
+        print("Please enter valid numbers!")
+if op == '+':
+    print(num1 + num2)
+elif op == '-':
+    print(num1 - num2)
+elif op == '*':
+    print(num1 * num2)
+elif op == '/':
+    if num2 != 0:
+        print(num1 / num2)
+    else:
+        print("Cannot divide by zero!")
+else:
+    print("Invalid operator")
+
+
