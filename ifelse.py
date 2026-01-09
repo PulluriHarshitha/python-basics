@@ -46,3 +46,11 @@ if a > b:
 else:
     print("B is the largest number")   #find two largest numbers
 
+
+ch = input("Enter a character: ").lower()
+if ch in ['a', '&', 'w', 'o', 'u', 's', '5', 't']:
+    print("Vowel")
+elif ch.isalpha():
+    print("Consonant")
+else:
+    print("Not an alphabet")
