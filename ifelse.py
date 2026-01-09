@@ -65,3 +65,46 @@ elif current_hour < 18:
     print("Good afternoon!")
 else:
     print("Good evening!")    #hour based times of day
+
+x = 5
+if x == 5:
+    print("Equal")
+if x > 3:
+    print("Greater")
+else:
+    print("Small")
+
+num = 0
+if num:
+    print("Yes")
+else:
+    print("No")
+
+x = 3
+y = 7
+if x > 5 or y > 5:
+    print("One is big")
+else:
+    print("Both small")
+
+name = ""
+if name == "":
+    print("Empty")
+else:
+    print("Not empty")
+  
+
+  #MEDIUM LEVEL
+  
+score = int(input("Enter score: "))
+if score >= 90:
+    print("Grade: A")
+elif score >= 80:
+    print("Grade: B")
+elif score >= 70:
+    print("Grade: C")
+elif score >= 60:
+    print("Grade: D")
+else:
+    print("Grade: F")
+
