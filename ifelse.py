@@ -54,3 +54,14 @@ elif ch.isalpha():
     print("Consonant")
 else:
     print("Not an alphabet")
+
+
+
+current_hour = 18
+
+if current_hour < 12:
+    print("Good morning!")
+elif current_hour < 18:
+    print("Good afternoon!")
+else:
+    print("Good evening!")    #hour based times of day
