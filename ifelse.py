@@ -30,3 +30,19 @@ elif signal == "yellow":   #elif → checks another condition
 else:                      #else → executes when all conditions fail
     print("Stop")   #TRAFFIC SIGNAL
 
+
+age = int(input("Enter your age: "))
+if age >= 18:
+    print("Eligible for driving license")
+else:
+    print("Not eligible for driving license")
+
+
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+if a > b:
+    print("A is the largest number")
+else:
+    print("B is the largest number")   #find two largest numbers
+
