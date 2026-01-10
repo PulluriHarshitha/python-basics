@@ -14,3 +14,19 @@ print(status)
 num = 6
 result = "Even" if num % 2 == 0 else "Odd"
 print(result)
+
+#without else
+a = 5
+if a > 3: 
+    print("Greater than 3")
+
+#multiple conditions on one line
+a = 339
+b = 338
+print("A") if a > b else print("=") if a == b else print("B")
+
+#examples
+x = 2004
+y = 2005
+min_value = x if x > y else y
+print("Minimum value:", min_value)
