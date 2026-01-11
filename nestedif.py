@@ -27,3 +27,42 @@ if age >= 18:
     print("You can drive")
 else:
   print("You are too young to drive")
+
+
+marks = 75
+if marks >= 35:
+    if marks >= 75:
+        print("Distinction")
+    else:
+        print("Pass")
+else:
+    print("Fail")
+
+
+
+score = 25
+attendance = 90
+submitted = True
+if score >= 60:
+  if attendance >= 80:
+    if submitted:
+      print("Pass with good standing")
+    else:
+      print("Pass but missing assignment")
+  else:
+    print("Pass but low attendance")
+else:
+  print("Fail")
+
+
+score = 82
+extra_credit = 5
+if score >= 90:
+  if extra_credit > 0:
+    print("A+ grade")
+  else:
+    print("A grade")
+elif score >= 80:
+  print("B grade")
+else:
+  print("C grade or below")
