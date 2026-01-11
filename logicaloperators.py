@@ -30,4 +30,24 @@ print(not a > b)
 a = 10
 print(not a > 5)
 print(not a < 5)
+
+
+age = 20
+if age >= 18 and age <= 60:
+    print("Eligible")  #using if operator
+
+
+username = "admin"
+password = "1234"
+if username == "harshu" and password == "1234":
+    print("Login Successful")
+else:
+    print("Login Failed")
+
+score = 31
+if score >= 0 and score <= 100:
+  print("Valid score")
+else:
+  print("Invalid score")
+
  
