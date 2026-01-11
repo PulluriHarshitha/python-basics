@@ -30,3 +30,7 @@ x = 2004
 y = 2005
 min_value = x if x > y else y
 print("Minimum value:", min_value)
+
+username = ""
+display_name = username if username else "HARSHITHA"
+print("Welcome,", display_name)
