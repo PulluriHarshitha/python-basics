@@ -48,6 +48,6 @@ score = 31
 if score >= 0 and score <= 100:
   print("Valid score")
 else:
-  print("Invalid score")
+  print("Invalid score")   #range checking using operators
 
  
