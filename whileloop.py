@@ -33,3 +33,33 @@ while i < 6:
   if i == 5:
     continue
   print(i)
+
+for i in range(1, 5):
+    for j in range(i):
+        print(i, end=' ')
+    print()
+
+rows = 4
+cols = 6
+
+for i in range(rows):
+    for j in range(cols):
+        print("*", end=" ")
+    print()
+ 
+rows = 4
+cols = 6
+
+for i in range(rows):
+    for j in range(cols):
+        print(1, end=" ")
+    print()
+
+rows = 4
+cols = 5
+
+for i in range(1, rows+1):
+    for j in range(cols):
+        print(i, end=" ")
+    print()
+
