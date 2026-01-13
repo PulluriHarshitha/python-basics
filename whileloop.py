@@ -63,3 +63,21 @@ for i in range(1, rows+1):
         print(i, end=" ")
     print()
 
+rows = 4
+cols = 5
+
+for i in range(rows):
+    for j in range(1, cols+1):
+        print(j, end=" ")
+    print()
+
+# Example: Searching for an element in a list
+
+a = [1, 3, 5, 7, 9, 11]
+val = 9
+for i in a:
+    if i == val:
+        print(f"Found at {i}!")
+        break
+else:
+    print(f"not found")
