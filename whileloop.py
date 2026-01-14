@@ -81,3 +81,10 @@ for i in a:
         break
 else:
     print(f"not found")
+
+for letter in 'harshitha':
+    pass
+print('last Letter :', letter)
+
+name = "harshitha"
+print("3rd letter:", name[2])   #using indexing
