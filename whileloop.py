@@ -36,7 +36,7 @@ while i < 6:
 
 for i in range(1, 5):
     for j in range(i):
-        print(i, end=' ')
+        print(i, end=' ')   #right angled triangle
     print()
 
 rows = 4
@@ -44,22 +44,22 @@ cols = 6
 
 for i in range(rows):
     for j in range(cols):
-        print("*", end=" ")
+        print("*", end=" ")   #stars
     print()
  
 rows = 4
 cols = 6
 
 for i in range(rows):
-    for j in range(cols):
+    for j in range(cols):   #rectangle numbers
         print(1, end=" ")
     print()
 
 rows = 4
 cols = 5
 
-for i in range(1, rows+1):
-    for j in range(cols):
+for i in range(1, rows+1):   #rectangle row vth nums
+    for j in range(cols): 
         print(i, end=" ")
     print()
 
@@ -67,7 +67,7 @@ rows = 4
 cols = 5
 
 for i in range(rows):
-    for j in range(1, cols+1):
+    for j in range(1, cols+1):    #rectangle col with nums
         print(j, end=" ")
     print()
 
@@ -88,3 +88,16 @@ print('last Letter :', letter)
 
 name = "harshitha"
 print("3rd letter:", name[2])   #using indexing
+
+
+#number increment triangle
+
+for i in range(1, 7):
+    for j in range(1, i+1):
+        print(j, end=" ")
+    print()
+
+for i in range(1, 7):
+    for j in range(i):
+        print("#", end=" ")
+    print()
