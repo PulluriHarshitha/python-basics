@@ -60,3 +60,34 @@ while i <= 9:
         j += 1
     print()
     i += 1
+
+#alphabet diamond pattern
+
+i = 1
+while i <= 3:
+    space = 3 - i
+    while space > 0:
+        print(" ", end="")
+        space -= 1
+
+    j = 0
+    while j < i:
+        print(chr(65 + j), end=" ")
+        j += 1
+    print()
+    i += 1
+
+i = 2
+while i >= 1:
+    space = 3 - i
+    while space > 0:
+        print(" ", end="")
+        space -= 1
+
+    j = 0
+    while j < i:
+        print(chr(65 + j), end=" ")
+        j += 1
+    print()
+    i -= 1
+   
