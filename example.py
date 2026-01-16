@@ -93,12 +93,28 @@ while i >= 1:
 
 for i in range(4):
      for j in range(4):
-        print("*", end=" ")
+        print("*", end=" ")    #square pattern
      print()
    
 for i in range(1, 5):
+    for j in range(i):    #right angled triangle
+        print("*", end=" ")
+    print()
+
+for i in range(1, 5):
+    for j in range(1, i + 1):   #number triangle
+        print(j, end=" ")
+    print()
+
+for i in range(1, 5):
+    for j in range(i):
+        print(i, end=" ")   #same num triangle
+    print()
+
+for i in range(4, 0, -1):   #inverted triangle
     for j in range(i):
         print("*", end=" ")
     print()
 
-   
+
+
