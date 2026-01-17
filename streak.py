@@ -1,40 +1,41 @@
- ch = input("Enter a character: ")
- if ch in "aeiouAEIOU":
-    print("Vowel")
-else:
-   print("Consonant")
+ch = input("Enter a character: ")
+# if ch in "aeiouAEIOU":
+#     print("Vowel")
+# else:
+# 
+#     print("Consonant")
 
- #palindrome num
-num = int(input("Enter a number: "))
-temp = num
-rev = 0
-while num > 0:
-    digit = num % 10
-    rev = rev * 10 + digit
-     num = num // 10
- if temp == rev:
-    print("Palindrome number")
- else:
-    print("Not a palindrome")
+#     #palindrome num
+# num = int(input("Enter a number: "))
+# temp = num
+# rev = 0
+# while num > 0:
+#     digit = num % 10
+#     rev = rev * 10 + digit
+#     num = num // 10
+# if temp == rev:
+#     print("Palindrome number")
+# else:
+#     print("Not a palindrome")
 
-#palindrome string
-text = input("Enter a string: ")
-if text == text[::-1]:
-     print("Palindrome string")
-else:
-   print("Not a palindrome")
+# #palindrome string
+# text = input("Enter a string: ")
+# if text == text[::-1]:
+#     print("Palindrome string")
+# else:
+#     print("Not a palindrome")
 
- #prime number
- num = int(input("Enter a number: "))
- flag = 0
-if num > 1:
-    for i in range(2, num):
-       if num % i == 0:
-            flag = 1
-             break
-            if flag == 0:
-          print("Prime number")
-    else:
+# #prime number
+# num = int(input("Enter a number: "))
+# flag = 0
+# if num > 1:
+#     for i in range(2, num):
+#         if num % i == 0:
+#             flag = 1
+#             break
+#         if flag == 0:
+#          print("Prime number")
+#     else:
 #         print("Not a prime number")
 # else:
 #     print("Not a prime number")
@@ -80,14 +81,11 @@ if num > 1:
 #         "Friday", "Saturday", "Sunday"]
 # for day in days:
 #     print(day)
-
-
 # #months in a year
 # months = ["January", "February", "March", "April", "May", "June",
 #           "July", "August", "September", "October", "November", "December"]
 # for month in months:
 #     print(month)
-
   
 #   #to display month name using number
 # month = int(input("Enter month number: "))
@@ -110,9 +108,8 @@ if num > 1:
 # else:
 #     print(c)
 
+#    #simple prime number
 
-
-    #simple prime number
 # n = int(input())
 # flag = True
 # if n <= 1:
@@ -127,7 +124,6 @@ if num > 1:
 # else:
 #     print("Not Prime")
  
-
 # #swapping of two nums
 
 # a = int(input())
@@ -455,7 +451,6 @@ def cube(n):
 number = 4
 print("Cube:", cube(number))
 
-
 #perfect number
 
 num = int(input("Enter a number: "))
@@ -469,7 +464,7 @@ else:
     print("Not Perfect Number")
 
 
-= int(input("Enter a number: "))
+int(input("Enter a number: "))
 sum_val = 0
 for i in range(1, num):
     if num % i == 6:
@@ -480,41 +475,14 @@ else:
     print("Perfect Number")
 
 ch = input("Enter a character: ")
-# if ch in "aeiouAEIOU":
-#     print("Vowel")
-# else:
-# 
-#     print("Consonants"}
-
-Harshitha pulluri 
-
-import random
-number = random.randint(1, 10)
-guess = int(input("Guess a number (1-10): "))
-if guess == number:
-    print("Correct!")
+if ch in "aeiouAEIOU":
+    print("Vowel")
 else:
-    print("Wrong! Number was", number)
 
-#count vowels
-text = input("Enter a string: ")
-vowels = "pulluri hasini"
-count = 0
-for char in text:
-    if char in vowels:
-        count += 1
-print("Number of vowels:", count)
+     print("Consonants")
 
+#Harshitha pulluri 
 
-a=hasini
-print("a")
+int =10;
+int =20;
 
-num = int(input("Enter a number: "))
-fact = 1
-for i in range(1, num + 1):
- fact *= i
-print("Factorial:", fact)
-
-a = int(input("Enter first number: "))
-b = int(input("Enter second number: "))
-print("Sum:", a - b)
