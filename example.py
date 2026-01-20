@@ -101,21 +101,29 @@ for i in range(1, 5):
         print("*", end=" ")
     print()
 
+
+#number triangle
 for i in range(1, 5):
     for j in range(1, i + 1):   #number triangle
         print(j, end=" ")
     print()
 
+
+#sample number triangle
 for i in range(1, 5):
     for j in range(i):
         print(i, end=" ")   #same num triangle
     print()
 
+
+#inverted triangle
 for i in range(4, 0, -1):   #inverted triangle
     for j in range(i):
         print("*", end=" ")
     print()
 
+
+#pyramid pattern
 n = 4
 for i in range(1, n + 1):
     print(" " * (n - i), end="")
@@ -123,20 +131,22 @@ for i in range(1, n + 1):
         print("* ", end="")   #pyramid pattern
     print()
 
+
+#alphabet pattern
 for i in range(4):
     for j in range(i + 1):
         print(chr(65 + j), end=" ")    #alphabet pattern
     print()
 
-    n = 4
 
+#diamond pattern
+    n = 4
 # Upper part
 for i in range(1, n + 1):
     print(" " * (n - i), end="")
     for j in range(i):
         print("* ", end="")
     print()
-
 # Lower part
 for i in range(n - 1, 0, -1):
     print(" " * (n - i), end="")
@@ -145,6 +155,7 @@ for i in range(n - 1, 0, -1):
     print()
 
 
+#hollow square pattern
 n = 5
 for i in range(n):
     for j in range(n):
@@ -154,7 +165,7 @@ for i in range(n):
             print(" ", end=" ")
     print()
 
-
+#hollow triangle
 n = 5
 for i in range(1, n + 1):
     for j in range(1, i + 1):
@@ -164,6 +175,8 @@ for i in range(1, n + 1):
             print(" ", end=" ")
     print()
 
+
+#number pyramid
 n = 4
 for i in range(1, n + 1):
     print(" " * (n - i), end="")
@@ -171,6 +184,8 @@ for i in range(1, n + 1):
         print(j, end=" ")
     print()
 
+
+#mixed patterns
 for i in range(1, 6):
     for j in range(i):
         if i % 2 == 0:
@@ -179,7 +194,7 @@ for i in range(1, 6):
             print(i, end=" ")
     print()
 
-
+#floyds triangle
 num = 1
 for i in range(1, 5):
     for j in range(i):
@@ -187,8 +202,9 @@ for i in range(1, 5):
         num += 1
     print()
 
-n = 3
 
+#butterfly pattern
+n = 3
 # Upper part
 for i in range(1, n + 1):
     for j in range(1, i + 1):
@@ -208,17 +224,15 @@ for i in range(n - 1, 0, -1):
     print()
 
 
-
+#alphabet pattern
 n = 3
 ch = 65
-
 # Upper part
 for i in range(1, n + 1):
     print(" " * (n - i), end="")
     for j in range(i):
         print(chr(ch + i - 1), end=" ")
     print()
-
 # Lower part
 for i in range(n - 1, 0, -1):
     print(" " * (n - i), end="")
@@ -227,6 +241,8 @@ for i in range(n - 1, 0, -1):
     print()
 
 
+
+#hollow pyaramid
 n = 5
 for i in range(1, n + 1):
     print(" " * (n - i), end="")
