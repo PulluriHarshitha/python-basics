@@ -29,3 +29,31 @@ for i in range(n):
             print(" ", end=" ")
     print()
 
+
+#same alphabets in eachrow
+i = 0
+while i < 4:
+    j = 0
+    while j <= i:
+        print(chr(65 + i), end=" ")
+        j += 1
+    print()
+    i += 1
+
+
+#square with increasing alphabets
+n = 4
+for i in range(n):
+    for j in range(n):
+        print(chr(65 + i), end=" ")
+    print()
+
+
+#square with continous alphabets
+n = 5   #same rows & cols
+ch = 65
+for i in range(n):
+    for j in range(n):
+        print(chr(ch), end=" ")
+        ch += 1
+    print()
