@@ -53,3 +53,12 @@ for i in range(rows):
         else:
             print(" ", end=" ")
     print()
+
+
+#same rectangle alphabets 
+rows = 5
+cols = 10
+for i in range(rows):
+    for j in range(cols):
+        print("A", end=" ")
+    print()
