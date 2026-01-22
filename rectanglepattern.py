@@ -79,3 +79,13 @@ for i in range(rows):
     for j in range(cols):
         print(chr(65 + j), end = " ")
     print()
+
+    #continous alphabets rectangle
+rows = 5
+cols = 10
+ch = 65
+for i in range(rows):
+    for j in range(cols):
+        print(chr(ch), end=" ")
+        ch += 1
+    print()
