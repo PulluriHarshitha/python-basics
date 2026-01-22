@@ -43,7 +43,7 @@ for i in range(rows):
         num += 1
     print()
 
-    #hollow rectangle
+    #hollow rectangle in numbers
 rows = 5
 cols = 10
 for i in range(rows):
@@ -88,4 +88,15 @@ for i in range(rows):
     for j in range(cols):
         print(chr(ch), end=" ")
         ch += 1
+    print()
+
+#hollow rectangle with alphabets
+rows = 5
+cols = 10
+for i in range(rows):
+    for j in range(cols):
+        if i == 0 or i == rows - 1 or j == 0 or j == cols - 1:
+            print("H", end=" ")
+        else:
+            print(" ", end=" ")
     print()
