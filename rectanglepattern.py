@@ -62,3 +62,12 @@ for i in range(rows):
     for j in range(cols):
         print("A", end=" ")
     print()
+
+
+#row wise alphabet rectangle
+rows = 5
+cols = 10
+for i in range(rows):
+    for j in range(cols):
+        print(chr(65 + i), end = " ")
+    print()
