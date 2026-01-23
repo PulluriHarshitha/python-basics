@@ -20,3 +20,20 @@ for i in range(1, n + 1):
         print(num, end=" ")
         num += 1
     print()
+
+
+#Right-Angle Alphabet Triangle
+n = 5
+for i in range(n):
+    for j in range(i + 1):
+         print(chr(65 + i), end = " ")
+    print()
+
+ # Alphabet Increasing Triangle 
+  
+n = 5
+for i in range(n):
+    for j in range(i + 1):
+        print(chr(65 + j), end=" ")
+    print()
+
