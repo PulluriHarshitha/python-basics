@@ -20,3 +20,11 @@ if __name__ == '__main__':
     print(a + b)      # Sum
     print(a - b)      # Difference  
     print(a * b)      # Product
+
+#operators on division on above logic
+
+if __name__ == '__main__':
+    a = int(input())
+    b = int(input())
+    print(a//b)
+    print(a/b)
