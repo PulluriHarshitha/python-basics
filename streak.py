@@ -3,8 +3,7 @@ if ch in "aeiouAEIOU":
     print("Vowel")
 else:
     print("Consonant")
-
-while
+    
 num = int(input("Enter a number: "))
 temp = num
 rev = 0
@@ -24,3 +23,17 @@ if text == text[::-1]:
 else:
     print("Not a palindrome")
 
+
+num = int(input("Enter a number: "))
+flag = 0
+if num > 1:
+    for i in range(2, num):
+        if num % i == 0:
+            flag = 1
+            break
+        if flag == 0:
+         print("Prime number")
+    else:
+        print("Not a prime number")
+else:
+    print("Not a prime number")
