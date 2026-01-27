@@ -57,4 +57,12 @@ n = int(input("Enter number of terms: "))
 a, b = 0, 1
 for i in range(n):
     print(a, end=" ")
-    a, b = b, a + b
+    
+   #sum of digits
+num = int(input("Enter number: "))
+sum = 0
+while num > 0:
+    sum += num % 10
+    num //= 10
+print("Sum of digits:", sum)
+ 
