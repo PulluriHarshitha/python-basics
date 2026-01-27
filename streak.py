@@ -58,6 +58,7 @@ a, b = 0, 1
 for i in range(n):
     print(a, end=" ")
     
+
    #sum of digits
 num = int(input("Enter number: "))
 sum = 0
@@ -66,3 +67,10 @@ while num > 0:
     num //= 10
 print("Sum of digits:", sum)
  
+#largest of three numbers
+a = int(input())
+b = int(input())
+c = int(input())
+largest = max(a, b, c)
+print("Largest:", largest)
+
