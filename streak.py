@@ -74,14 +74,22 @@ c = int(input())
 largest = max(a, b, c)
 print("Largest:", largest)
 
-
+#days in a week
 days = ["Monday", "Tuesday", "Wednesday", "Thursday",
         "Friday", "Saturday", "Sunday"]
 for day in days:
     print(day)
-
+#months in a year
 months = ["January", "February", "March", "April", "May", "June",
           "July", "August", "September", "October", "November", "December"]
 for month in months:
     print(month)
   
+  #to display month name using number
+month = int(input("Enter month number: "))
+months = ["January", "February", "March", "April", "May", "June",
+          "July", "August", "September", "October", "November", "December"]
+if 1 <= month <= 12:
+    print("Month is:", months[month - 1])
+else:
+    print("Invalid input")
