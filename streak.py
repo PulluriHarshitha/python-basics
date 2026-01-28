@@ -74,3 +74,8 @@ c = int(input())
 largest = max(a, b, c)
 print("Largest:", largest)
 
+
+days = ["Monday", "Tuesday", "Wednesday", "Thursday",
+        "Friday", "Saturday", "Sunday"]
+for day in days:
+    print(day)
