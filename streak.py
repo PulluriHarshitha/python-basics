@@ -57,6 +57,7 @@ n = int(input("Enter number of terms: "))
 a, b = 0, 1
 for i in range(n):
     print(a, end=" ")
+    a,b = b,a+b
     
 
    #sum of digits
@@ -122,3 +123,9 @@ if flag:
 else:
     print("Not Prime")
  
+#swapping of two nums
+
+a = int(input())
+b = int(input())
+a, b = b, a
+print(a, b)
