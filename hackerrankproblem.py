@@ -14,8 +14,8 @@ else:
 #operators hackerank
 
 if __name__ == '__main__':
-    a = int(input().strip())
-    b = int(input().strip())
+    a = int(input("Enter a first number"))
+    b = int(input("Enter a second number"))
     
     print(a + b)      # Sum
     print(a - b)      # Difference  
@@ -24,15 +24,15 @@ if __name__ == '__main__':
 #operators on division on above logic
 
 if __name__ == '__main__':
-    a = int(input())
-    b = int(input())
+    a = int(input("Enter a first number"))
+    b = int(input("Enter a second number"))
     print(a//b)
     print(a/b)
 
 #task using square the numbers 
 
 if __name__ == '__main__':
-    n = int(input())
+    n = int(input("enter a number"))
     for i in range(n):
         print(i*i) 
 
@@ -49,5 +49,12 @@ def is_leap(year):
 
      return leap
 
-year = int(input())
+year = int(input("enter a year"))
 print(is_leap(year))
+
+#print a function
+
+if __name__ == '__main__':
+    n = int(input("Enter a number"))
+for i in range(1, n + 1):
+    print(i, end='')
