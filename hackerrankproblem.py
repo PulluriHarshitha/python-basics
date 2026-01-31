@@ -72,3 +72,12 @@ result = [[i, j, k]
           for k in range(z + 1)
           if i + j + k != n]
 print(result)
+
+#reverse array
+
+if __name__ == '__main__':
+    n = int(input())
+arr = list(map(int, input().split()))
+unique_scores = sorted(set(arr), reverse=True)
+runner_up = unique_scores[1]
+print(runner_up)
