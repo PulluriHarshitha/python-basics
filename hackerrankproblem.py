@@ -85,26 +85,26 @@ print(runner_up)
 
 if __name__ == '__main__':
     N = int(input("ENTER A NUM"))
-    lst = []
+    list = []
     for _ in range(N):
         command = input().split()
         op = command[0]
         if op == "insert":
             i = int(command[1])
             e = int(command[2])
-            lst.insert(i, e)
+            list.insert(i, e)
         elif op == "print":
-            print(lst)
+            print(list)
         elif op == "remove":
             e = int(command[1])
-            lst.remove(e)
+            list.remove(e)
         elif op == "append":
             e = int(command[1])
-            lst.append(e)
+            list.append(e)
         elif op == "sort":
-            lst.sort()
+            list.sort()
         elif op == "pop":
-            lst.pop()
+            list.pop()
         elif op == "reverse":
-            lst.reverse()
+            list.reverse()
 
