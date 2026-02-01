@@ -82,7 +82,7 @@ unique_scores = sorted(set(arr), reverse=True)
 runner_up = unique_scores[1]
 print(runner_up)
 
-
+#list
 if __name__ == '__main__':
     N = int(input("ENTER A NUM"))
     list = []
