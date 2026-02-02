@@ -63,3 +63,10 @@ def cube(x): return x*x*x   # without lambda
 cube_l = lambda x : x*x*x  # with lambda
 print(cube(7))
 print(cube_l(7))
+
+#return statement in function
+
+def square_value(num):
+    return num**2
+print(square_value(31))
+print(square_value(50))
