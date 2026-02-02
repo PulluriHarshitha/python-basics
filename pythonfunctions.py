@@ -50,9 +50,16 @@ myFun('Hey', 'Welcome', first='pulluri', mid='harshu', last='sweetie')
 #function within function
 
 def f1():
-    s = 'I LOVE YOU ROHITH❤️'
+    s = 'I LOVE YOU ROHITH'
     def f2():
         print(s)
-        
-        f2()
+
+    f2()
 f1()
+
+#anomymous function
+
+def cube(x): return x*x*x   # without lambda
+cube_l = lambda x : x*x*x  # with lambda
+print(cube(7))
+print(cube_l(7))
