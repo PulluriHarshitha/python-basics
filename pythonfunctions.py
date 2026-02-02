@@ -46,3 +46,13 @@ def myFun(*args, **kwargs):
     for key, value in kwargs.items():
         print(f"{key} == {value}")
 myFun('Hey', 'Welcome', first='pulluri', mid='harshu', last='sweetie') 
+
+#function within function
+
+def f1():
+    s = 'I LOVE YOU ROHITH❤️'
+    def f2():
+        print(s)
+        
+        f2()
+f1()
