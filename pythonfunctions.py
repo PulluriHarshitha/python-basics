@@ -20,3 +20,9 @@ def myFun(x, y=60):
     print("x: ", x)
     print("y: ", y)
 myFun(30)
+
+#keyword arguments
+def student(fname, lname):
+    print(fname, lname)
+student(fname='harshu', lname='sweety')
+student(lname='sweety', fname='harshu')
