@@ -13,3 +13,10 @@ def evenOdd(x):
         return "Odd"
 print(evenOdd(16))
 print(evenOdd(7))
+
+#default arguments
+
+def myFun(x, y=60):
+    print("x: ", x)
+    print("y: ", y)
+myFun(30)
