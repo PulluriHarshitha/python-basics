@@ -26,3 +26,12 @@ def student(fname, lname):
     print(fname, lname)
 student(fname='harshu', lname='sweety')
 student(lname='sweety', fname='harshu')
+
+#positional keywords
+def nameAge(name, age):
+    print("Hi, I am", name)
+    print("My age is ", age)
+print("Case-1:")
+nameAge("Harshu", 19)
+print("Case-2:")
+nameAge(19, "Harshu")
