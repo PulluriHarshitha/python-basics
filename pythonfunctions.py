@@ -35,3 +35,14 @@ print("Case-1:")
 nameAge("Harshu", 19)
 print("Case-2:")
 nameAge(19, "Harshu")
+
+#arbitary arguments
+
+def myFun(*args, **kwargs):
+    print("Non-Keyword Arguments (*args):")
+    for arg in args:
+        print(arg)
+    print("\\nKeyword Arguments (**kwargs):")
+    for key, value in kwargs.items():
+        print(f"{key} == {value}")
+myFun('Hey', 'Welcome', first='pulluri', mid='harshu', last='sweetie') 
