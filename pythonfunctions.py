@@ -61,8 +61,8 @@ f1()
 
 def cube(x): return x*x*x   # without lambda
 cube_l = lambda x : x*x*x  # with lambda
-print(cube(7))
-print(cube_l(7))
+print(cube(6))
+print(cube_l(22))
 
 #return statement in function
 
@@ -70,3 +70,21 @@ def square_value(num):
     return num**2
 print(square_value(31))
 print(square_value(50))
+
+#pass by value & pass by reference
+#Mutable objects: Changes inside the function affect the original object.
+#Immutable objects: The original value remains unchanged.
+
+# Function modifies the first element of list
+def myFun(x):
+    x[3] = 20
+list = [10, 11, 12 ,13]
+myFun(list)
+print(list)   # list is modified
+# Function tries to modify an integer
+def myFun2(x):
+    x = 20
+a = 13
+myFun2(a)
+print(a)     # integer is not modified
+#based on index values the o/p should br print
