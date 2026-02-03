@@ -88,3 +88,13 @@ a = 13
 myFun2(a)
 print(a)     # integer is not modified
 #based on index values the o/p should br print
+
+#Recursive functions
+
+def factorial(n):
+    if n == 0:  
+        return 1
+    else:
+        return n * factorial(n - 1) 
+print(factorial(5)) 
+    
