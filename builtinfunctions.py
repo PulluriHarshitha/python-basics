@@ -46,3 +46,24 @@ print("")
 # Calling function cal_time()
 print(" The calculated Time(hr) :",
       cal_time(abs(48), abs(4.5)))
+
+# B.BUILT-IN-FUNCTIONS
+
+var = -25
+print('Absolute value of integer is:', abs(var))
+
+#MAXIMUM OF THREE NUMBERS
+
+var1 = 10
+var2 = 20
+var3 = 30
+largest = max(var1,var2,var3)
+print(largest)
+
+#minimum of list
+
+list1 = 10
+list2 = 20
+list3 = 30
+smallest = min(list1,list2,list3)
+print(smallest)
