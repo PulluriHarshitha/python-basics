@@ -135,3 +135,13 @@ print("Hello", name)
 
 for i in range(1, 6):
     print(i)
+
+
+
+#fibonacci series
+n = int(input("Enter number of terms: "))
+a, b = 0, 1
+print("Fibonacci Series:")
+for i in range(n):
+    print(a, end=" ")
+    a, b = b, a + b
