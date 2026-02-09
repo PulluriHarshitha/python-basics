@@ -195,3 +195,11 @@ with open("data.txt", "r") as f:
 student = {"name": "Harshitha", "age": 18, "course": "Python"}
 print(student["name"])
 
+
+import random
+num = random.randint(1, 25)
+guess = int(input("Guess number (1-254): "))
+if guess == num:
+    print("Correct!")
+else:
+    print("Wrong! Number was:", num)
