@@ -183,3 +183,9 @@ if guess == num:
 else:
     print("Wrong! Number was:", num)
 
+#file handlingg
+with open("data.txt", "w") as f:
+    f.write("Python streak day 9")
+
+with open("data.txt", "r") as f:
+    print(f.read())
