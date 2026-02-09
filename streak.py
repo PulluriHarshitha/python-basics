@@ -189,3 +189,9 @@ with open("data.txt", "w") as f:
 
 with open("data.txt", "r") as f:
     print(f.read())
+
+#dictionary example
+
+student = {"name": "Harshitha", "age": 18, "course": "Python"}
+print(student["name"])
+
