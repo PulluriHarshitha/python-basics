@@ -232,3 +232,14 @@ model = DecisionTreeClassifier()
 model.fit(X, y)
 print(model.predict([[10]]))  # Even -> 0
 print(model.predict([[7]]))   # Odd -> 1
+
+
+#student marks prediction
+
+import numpy as np
+from sklearn.linear_model import LinearRegression
+hours = np.array([[1], [2], [3], [4], [5]])
+marks = np.array([35, 45, 55, 65, 75])
+model = LinearRegression()
+model.fit(hours, marks)
+print("Predicted marks for 6 hours:", model.predict([[6]])[0])
