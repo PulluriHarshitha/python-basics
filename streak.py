@@ -203,3 +203,21 @@ if guess == num:
     print("Correct!")
 else:
     print("Wrong! Number was:", num)
+
+#house price prediction
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+# Sample data
+data = {
+    'Area': [800, 1000, 1200, 1500, 1800],
+    'Price': [40, 50, 60, 75, 90]
+}
+df = pd.DataFrame(data)
+X = df[['Area']]
+y = df['Price']
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+model = LinearRegression()
+model.fit(X_train, y_train)
+# Prediction
+print(model.predict([[1600]]))
