@@ -221,3 +221,14 @@ model = LinearRegression()
 model.fit(X_train, y_train)
 # Prediction
 print(model.predict([[1600]]))
+
+
+#even or odd prediction
+
+from sklearn.tree import DecisionTreeClassifier
+X = [[1], [2], [3], [4], [5], [6]]
+y = [1, 0, 1, 0, 1, 0]  # 1 = Odd, 0 = Even
+model = DecisionTreeClassifier()
+model.fit(X, y)
+print(model.predict([[10]]))  # Even -> 0
+print(model.predict([[7]]))   # Odd -> 1
