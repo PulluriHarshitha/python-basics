@@ -243,3 +243,15 @@ marks = np.array([35, 45, 55, 65, 75])
 model = LinearRegression()
 model.fit(hours, marks)
 print("Predicted marks for 6 hours:", model.predict([[6]])[0])
+
+#class and object example
+
+class Student:
+    def __init__(self, name, marks):
+        self.name = name
+        self.marks = marks
+def display(self):
+        print(self.name, self.marks)
+s1 = Student("Harshitha", 95)
+s1.display()
+
