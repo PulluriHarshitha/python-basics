@@ -255,3 +255,16 @@ def display(self):
 s1 = Student("Harshitha", 95)
 s1.display()
 
+
+#inheritance example
+
+class A:
+    def show(self):
+        print("Class A")
+class B(A):
+    def display(self):
+        print("Class B")
+obj = B()
+obj.show()
+obj.display()
+
