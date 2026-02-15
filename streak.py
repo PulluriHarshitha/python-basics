@@ -204,59 +204,7 @@ if guess == num:
     print("Correct!")
 else:
     print("Wrong! Number was:", num)
-
-#house price prediction
-import pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression
-# Sample data
-data = {
-    'Area': [800, 1000, 1200, 1500, 1800],
-    'Price': [40, 50, 60, 75, 90]
-}
-df = pd.DataFrame(data)
-X = df[['Area']]
-y = df['Price']
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
-model = LinearRegression()
-model.fit(X_train, y_train)
-# Prediction
-print(model.predict([[1600]]))
-
-
-#even or odd prediction
-
-from sklearn.tree import DecisionTreeClassifier
-X = [[1], [2], [3], [4], [5], [6]]
-y = [1, 0, 1, 0, 1, 0]  # 1 = Odd, 0 = Even
-model = DecisionTreeClassifier()
-model.fit(X, y)
-print(model.predict([[10]]))  # Even -> 0
-print(model.predict([[7]]))   # Odd -> 1
-
-
-#student marks prediction
-
-import numpy as np
-from sklearn.linear_model import LinearRegression
-hours = np.array([[1], [2], [3], [4], [5]])
-marks = np.array([35, 45, 55, 65, 75])
-model = LinearRegression()
-model.fit(hours, marks)
-print("Predicted marks for 6 hours:", model.predict([[6]])[0])
-
-#class and object example
-
-class Student:
-    def __init__(self, name, marks):
-        self.name = name
-        self.marks = marks
-def display(self):
-        print(self.name, self.marks)
-s1 = Student("Harshitha", 95)
-s1.display()
-
-
+    
 #inheritance example
 
 class A:
