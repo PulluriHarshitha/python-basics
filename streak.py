@@ -269,3 +269,30 @@ obj = B()
 obj.show()
 obj.display()
 
+#suduko solver
+
+def solve(board):
+    for i in range(9):
+        for j in range(9):
+            if board[i][j] == 0:
+                for n in range(1, 10):
+                    if valid(board, i, j, n):
+                        board[i][j] = n
+                        if solve(board):
+                            return True
+                        board[i][j] = 0
+                return False
+    return True
+
+def valid(board, row, col, num):
+    if num in board[row]:
+        return False
+    for i in range(9):
+        if board[i][col] == num:
+            return False
+    sr, sc = (row//3)*3, (col//3)*3
+    for i in range(sr, sr+3):
+        for j in range(sc, sc+3):
+            if board[i][j] == num:
+                return False
+    return True
