@@ -294,3 +294,10 @@ with open("data.txt", "w") as f:
 
 with open("data.txt", "r") as f:
     print(f.read())
+
+
+#Merge Two Dictionaries
+d1 = {1: 10, 2: 20}
+d2 = {3: 30, 4: 40}
+d3 = {**d1, **d2}
+print(d3)
