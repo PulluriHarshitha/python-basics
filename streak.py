@@ -286,3 +286,11 @@ if sum_val == num:
     print("Perfect Number")
 else:
     print("Not Perfect Number")
+
+
+#file handling-write and read
+with open("data.txt", "w") as f:
+    f.write("Hello Python")
+
+with open("data.txt", "r") as f:
+    print(f.read())
