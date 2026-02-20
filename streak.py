@@ -301,3 +301,12 @@ d1 = {1: 10, 2: 20}
 d2 = {3: 30, 4: 40}
 d3 = {**d1, **d2}
 print(d3)
+
+
+#Remove Duplicate Characters
+s = input("Enter a string: ")
+result = ""
+for ch in s:
+    if ch not in result:
+        result += ch
+print("After removing duplicates:", result)
