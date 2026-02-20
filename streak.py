@@ -310,3 +310,10 @@ for ch in s:
     if ch not in result:
         result += ch
 print("After removing duplicates:", result)
+
+
+#Find Second Largest Number in List
+lst = list(map(int, input("Enter numbers: ").split()))
+unique = list(set(lst))
+unique.sort()
+print("Second largest:", unique[-2])
