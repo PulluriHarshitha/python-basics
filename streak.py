@@ -317,3 +317,9 @@ lst = list(map(int, input("Enter numbers: ").split()))
 unique = list(set(lst))
 unique.sort()
 print("Second largest:", unique[-2])
+
+#Reverse Each Word in a Sentence
+s = input("Enter a sentence: ")
+words = s.split()
+rev = [w[::-1] for w in words]
+print(" ".join(rev))
