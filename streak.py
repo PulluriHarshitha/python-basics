@@ -333,3 +333,9 @@ print("a =", a, "b =", b)
 #Remove Duplicates from List
 lst = [1, 2, 2, 3, 4, 4, 5]
 print(list(set(lst)))
+
+#Find Missing Number in Array
+arr = [1, 2, 3, 5, 6]
+n = 6
+expected = n * (n + 1) // 2
+print("Missing =", expected - sum(arr))
