@@ -323,3 +323,9 @@ s = input("Enter a sentence: ")
 words = s.split()
 rev = [w[::-1] for w in words]
 print(" ".join(rev))
+
+#Swap Two Numbers
+a = 100
+b = 200
+a, b = b, a
+print("a =", a, "b =", b)
