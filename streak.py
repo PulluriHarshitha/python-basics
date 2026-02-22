@@ -329,3 +329,7 @@ a = 100
 b = 200
 a, b = b, a
 print("a =", a, "b =", b)
+
+#Remove Duplicates from List
+lst = [1, 2, 2, 3, 4, 4, 5]
+print(list(set(lst)))
