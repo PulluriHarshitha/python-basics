@@ -339,3 +339,25 @@ arr = [1, 2, 3, 5, 6]
 n = 6
 expected = n * (n + 1) // 2
 print("Missing =", expected - sum(arr))
+
+#simple atm machine
+balance = 5000
+while True:
+    print("\n1.Deposit  2.Withdraw  3.Check Balance  4.Exit")
+    choice = int(input("Enter choice: "))
+
+    if choice == 1:
+        amt = int(input("Enter deposit amount: "))
+        balance += amt
+    elif choice == 2:
+        amt = int(input("Enter withdraw amount: "))
+        if amt <= balance:
+            balance -= amt
+        else:
+            print("Insufficient Balance")
+    elif choice == 3:
+        print("Balance =", balance)
+    elif choice == 4:
+        break
+    else:
+        print("Invalid choice")
