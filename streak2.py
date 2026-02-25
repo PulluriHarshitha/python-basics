@@ -218,3 +218,7 @@ print("Simple Interest =", si)
 r = float(input("Enter radius: "))
 area = 3.14 * r * r
 print("Area =", area)
+
+#Print Even Numbers from 1 to 20
+for i in range(2, 21, 2):
+    print(i)
