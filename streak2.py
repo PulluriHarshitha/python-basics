@@ -184,14 +184,21 @@
 #     print("Wrong! Number was:", num)
 
 #file handlingg
-with open("data.txt", "w") as f:
-    f.write("Python streak day 9")
+#with open("data.txt", "w") as f:
+ #   f.write("Python streak day 9")
 
-with open("data.txt", "r") as f:
-    print(f.read())
+#with open("data.txt", "r") as f:
+ #   print(f.read())
 
 #dictionary example
 
 student = {"name": "Harshitha", "age": 18, "course": "Python"}
 print(student["name"])
 
+#simple calculator
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+print("Add =", a + b)
+print("Sub =", a - b)
+print("Mul =", a * b)
+print("Div =", a / b)
