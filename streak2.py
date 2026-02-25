@@ -212,4 +212,9 @@ p = int(input("Enter principal: "))
 t = int(input("Enter time: "))
 r = int(input("Enter rate: "))
 si = (p * t * r) / 100
-print("Simple Interest =", si)  
+print("Simple Interest =", si) 
+
+#Area of Circle
+r = float(input("Enter radius: "))
+area = 3.14 * r * r
+print("Area =", area)
