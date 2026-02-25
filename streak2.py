@@ -202,3 +202,14 @@ print("Add =", a + b)
 print("Sub =", a - b)
 print("Mul =", a * b)
 print("Div =", a / b)
+
+#print numbers from 1 to 10
+for i in range(1, 11):
+    print(i)
+
+ #simple interest
+p = int(input("Enter principal: "))
+t = int(input("Enter time: "))
+r = int(input("Enter rate: "))
+si = (p * t * r) / 100
+print("Simple Interest =", si)  
