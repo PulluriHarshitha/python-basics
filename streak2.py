@@ -222,3 +222,8 @@ print("Area =", area)
 #Print Even Numbers from 1 to 20
 for i in range(2, 21, 2):
     print(i)
+
+    #Find Square and Cube
+n = int(input("Enter number: "))
+print("Square =", n*n)
+print("Cube =", n*n*n) 
