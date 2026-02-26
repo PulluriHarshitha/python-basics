@@ -227,3 +227,8 @@ for i in range(2, 21, 2):
 n = int(input("Enter number: "))
 print("Square =", n*n)
 print("Cube =", n*n*n) 
+
+#Print Table of a Number
+n = int(input("Enter number: "))
+for i in range(1, 11):
+    print(n, "x", i, "=", n*i)
