@@ -233,7 +233,7 @@ n = int(input("Enter number: "))
 for i in range(1, 11):
     print(n, "x", i, "=", n*i)
 
-#area of acircle
+#area of a circle
 r = float(input("Enter radius: "))
 area = 3.14 * r * r
 print("Area =", area)  
