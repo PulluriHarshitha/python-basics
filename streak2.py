@@ -237,3 +237,13 @@ for i in range(1, 11):
 r = float(input("Enter radius: "))
 area = 3.14 * r * r
 print("Area =", area)  
+
+
+#DICTIONARY EXAMPLES
+student = {
+    "name": "Harshitha",
+    "age": 18,
+    "course": "Python"
+}
+print(student["name"])
+print(student["age"])
