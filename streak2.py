@@ -247,3 +247,11 @@ student = {
 }
 print(student["name"])
 print(student["age"])
+
+#Find Duplicate Elements in List
+lst = [1, 2, 3, 4, 2, 5, 3, 6 ,10]
+duplicates = []
+for i in lst:
+    if lst.count(i) > 1 and i not in duplicates:
+        duplicates.append(i)
+print("Duplicates:", duplicates)
