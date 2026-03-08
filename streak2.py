@@ -255,3 +255,17 @@ for i in lst:
     if lst.count(i) > 1 and i not in duplicates:
         duplicates.append(i)
 print("Duplicates:", duplicates)
+
+
+#example
+x = int(1)
+y = int(2.8)
+z = int("3")
+print(x)
+print(y)
+print(z)
+
+#string
+name ="harshu"
+print(name)
+print(type(name))
