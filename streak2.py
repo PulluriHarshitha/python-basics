@@ -317,3 +317,8 @@ if text == text[::-1]:
     print("Palindrome string")
 else:
     print("Not a palindrome")
+
+#Remove Duplicates from List
+numbers = [1, 2, 2, 3, 4, 4, 5]
+unique = list(set(numbers))
+print("List without duplicates:", unique)
