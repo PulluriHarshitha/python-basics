@@ -304,3 +304,9 @@ for char in string:
     if char.lower() in "aeiou":
         count += 1
 print("Number of vowels:", count)
+
+
+#Find 2nd Largest Number in a List
+numbers = [10,30,45,78,20]
+numbers.sort()
+print("Second largest number:", numbers[-2])
