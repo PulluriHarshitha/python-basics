@@ -286,3 +286,13 @@ while b != 0:
     b = a % b
     a = temp
 print("GCD is:", a)
+
+
+#Sort a List
+numbers = []
+n = int(input("Enter number of elements: "))
+for i in range(n):
+    num = int(input("Enter number: "))
+    numbers.append(num)
+numbers.sort()
+print("Sorted list:", numbers)
