@@ -310,3 +310,10 @@ print("Number of vowels:", count)
 numbers = [10,30,45,78,20]
 numbers.sort()
 print("Second largest number:", numbers[-2])
+
+#Check Palindrome String
+text = input("Enter a string: ")
+if text == text[::-1]:
+    print("Palindrome string")
+else:
+    print("Not a palindrome")
