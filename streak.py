@@ -368,3 +368,6 @@ arr = [1, 2, 3, 5, 6]
 n = 6
 expected = n * (n + 1) // 2
 print("Missing =", expected - sum(arr))
+
+#example
+  print("hello world");
