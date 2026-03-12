@@ -3,3 +3,13 @@ def my_function(fname):
 
 my_function("rohith")
 my_function("harshitha")
+
+
+#FUNCTIONS v/s ARGUMENTS
+#From a function's perspective:
+#A parameter is the variable listed inside the parentheses in the function definition.
+#An argument is the actual value that is sent to the function when it is called.
+
+def my_function(name):  #name is parameter
+    print("hello", name)
+my_function("HARSHITHA") #harshitha is an argument  
