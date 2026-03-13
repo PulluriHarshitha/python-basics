@@ -379,4 +379,15 @@ fact = 1
 for i in range(1, num + 1):
     fact = fact * i
 
-print("Factorial =", fact)  
+print("Factorial =", fact) 
+
+#python reverse py
+num = int(input("Enter a number: "))
+rev = 0
+
+while num > 0:
+    digit = num % 10
+    rev = rev * 10 + digit
+    num = num // 10
+
+print("Reversed Number =", rev)
