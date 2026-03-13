@@ -370,9 +370,10 @@ expected = n * (n + 1) // 2
 print("Missing =", expected - sum(arr))
 
 #example
-  print("hello world");
+print("hello world");
 
 #EXAMPLE
+
 num = int(input("Enter a number: "))
 fact = 1
 
@@ -391,3 +392,14 @@ while num > 0:
     num = num // 10
 
 print("Reversed Number =", rev)
+
+#find largest nums
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+c = int(input("Enter third number: "))
+if a > b and a > c:
+    print("Largest =", a)
+elif b > c:
+    print("Largest =", b)
+else:
+    print("Largest =", c)
