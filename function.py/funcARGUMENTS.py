@@ -12,4 +12,10 @@ my_function("harshitha")
 
 def my_function(name):  #name is parameter
     print("hello", name)
-my_function("HARSHITHA") #harshitha is an argument  
+my_function("HARSHITHA") #harshitha is an argument 
+
+#number of arguments
+
+def my_function(fname, lname):
+    print(fname + " " +lname)
+my_function("PULLURI" ,"HARSHITHA") 
