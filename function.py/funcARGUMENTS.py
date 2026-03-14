@@ -47,6 +47,6 @@ my_function("dog", name = "doggie", age = 7)
 def my_function(names):
   for name in names:
     print(name)
-my_names = ["komaplly", "suchitra", "alwal"]
+my_names = ["kompally", "suchitra", "alwal"]
 my_function(my_names)
 
