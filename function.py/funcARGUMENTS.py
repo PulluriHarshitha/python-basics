@@ -37,9 +37,16 @@ my_function("India")
 my_function()
 my_function("Brazil")
 
-
+#mixed arguments
 def my_function(animal, name, age):
   print("I have a", age, "year old", animal, "named", name)
 
 my_function("dog", name = "doggie", age = 7)
+
+#Sending a list as an argument func()
+def my_function(names):
+  for name in names:
+    print(name)
+my_names = ["komaplly", "suchitra", "alwal"]
+my_function(my_names)
 
