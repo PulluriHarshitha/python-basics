@@ -19,3 +19,21 @@ my_function("HARSHITHA") #harshitha is an argument
 def my_function(fname, lname):
     print(fname + " " +lname)
 my_function("PULLURI" ,"HARSHITHA") 
+
+#DEFAULT parameter values
+def my_function(name="friend"):
+    print("hello" , name)
+my_function("reethu")
+my_function("shiny")
+my_function("vaishu") 
+my_function("rohith")
+my_function()
+
+#exmple2
+def my_function(country = "Norway"):
+  print("I am from", country)
+my_function("Sweden")
+my_function("India")
+my_function()
+my_function("Brazil")
+
