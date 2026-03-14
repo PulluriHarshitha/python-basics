@@ -37,3 +37,9 @@ my_function("India")
 my_function()
 my_function("Brazil")
 
+
+def my_function(animal, name, age):
+  print("I have a", age, "year old", animal, "named", name)
+
+my_function("dog", name = "doggie", age = 7)
+
