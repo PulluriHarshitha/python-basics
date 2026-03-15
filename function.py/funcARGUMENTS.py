@@ -55,5 +55,13 @@ def my_function(animal, name):
    print("i have a",animal)
    print("my",animal + " 's name is" ,name)
 my_function(animal = "monkey", name = "hanuman")
-   
+
+#sending dictionary as an argument
+def my_function(person):
+   print("Name:",person["name"])
+   print("age:",person["age"])
+my_person = {"name": "srinivas","age": 45}
+my_function(my_person)
+
+      
 
