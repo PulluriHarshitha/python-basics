@@ -405,5 +405,11 @@ else:
     print("Largest =", c)
 
     #PRINT FUNCTION
-    
+
 print("harshitha pulluri")
+
+#sub
+a = 10
+b = 20
+result = a - b
+print("Subtraction:", result)
