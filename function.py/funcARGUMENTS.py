@@ -63,5 +63,21 @@ def my_function(person):
 my_person = {"name": "srinivas","age": 45}
 my_function(my_person)
 
+#Returning Different Data Types
+#A function that returns a list:
+def my_function():
+  return ["srinivas", "kalyani", "sahasra"]
+fruits = my_function()
+print(fruits[0])
+print(fruits[1])
+print(fruits[2])
+
+# A function that returns a tuple:
+def my_function():
+  return ("harshu","chachu")
+x, y = my_function()
+print("x:", x)
+print("y:", y)
+
       
 
