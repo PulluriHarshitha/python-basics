@@ -443,3 +443,10 @@ def square(n):
     return n * n
 num = 6
 print("Square:", square(num))
+
+#simples cubes
+def cube(n):
+    return n * n * n
+num = 4
+print("Cube:", cube(num))
+
