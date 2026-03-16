@@ -424,3 +424,10 @@ def add(a, b):
     sum = a + b
     print("Sum:", sum)
 add(10, 20)
+
+#Function with Return Value
+def multiply(a, b):
+    result = a * b
+    return result
+ans = multiply(5, 4)
+print("Multiplication:", ans)
