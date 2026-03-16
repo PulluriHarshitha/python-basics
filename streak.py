@@ -431,3 +431,9 @@ def multiply(a, b):
     return result
 ans = multiply(5, 4)
 print("Multiplication:", ans)
+
+#Function for Subtraction
+def subtraction(a, b):
+    result = a - b
+    print("Subtraction:", result)
+subtraction(20, 10)
