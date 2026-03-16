@@ -413,3 +413,8 @@ a = 10
 b = 20
 result = a - b
 print("Subtraction:", result)
+
+#syntax of func
+def greet():
+    print("Hello, welcome to Python")
+greet()
