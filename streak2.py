@@ -332,3 +332,10 @@ a, b = 0, 1
 for i in range(n):
     print(a, end=" ")
     a, b = b, a + b
+
+#palindrome check
+text = input("Enter a string: ")
+if text == text[::-1]:
+    print("Palindrome")
+else:
+    print("Not Palindrome")
