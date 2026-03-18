@@ -404,3 +404,13 @@ for i in range(2):
 print("Result:")
 for row in result:
     print(row)
+
+#file operation 
+# Write
+f = open("sample.txt", "w")
+f.write("Hello Python")
+f.close()
+# Read
+f = open("sample.txt", "r")
+print(f.read())
+f.close()
