@@ -448,5 +448,5 @@ print("Square:", square(num))
 def cube(n):
     return n * n * n
 num = 4
-print("Cube:", cube(num))
+print("Cube:", cube(number))
 
