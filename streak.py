@@ -439,6 +439,7 @@ def subtraction(a, b):
 subtraction(20, 10)
 
 #Simple square Program
+
 def square(n):
     return n * n
 num = 6
@@ -447,6 +448,6 @@ print("Square:", square(num))
 #simples cubes
 def cube(n):
     return n * n * n
-num = 4
+number = 4
 print("Cube:", cube(number))
 
