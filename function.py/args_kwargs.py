@@ -11,3 +11,10 @@ def my_function(*args):
   print("Third argument:", args[2])
   print("All arguments:", args)
 my_function("harshu","sweetie","ammu")
+
+#Using *args with Regular Arguments
+def my_function(greeting, *names):
+  for name in names:
+    print(greeting, name)
+
+my_function("Hello", "harshitha", "hasini")
