@@ -410,7 +410,7 @@ for row in result:
 f = open("sample.txt", "w")
 f.write("Hello Python")
 f.close()
-# Read
+# Reads
 f = open("sample.txt", "r")
 print(f.read())
 f.close()
