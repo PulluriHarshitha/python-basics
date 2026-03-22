@@ -1,4 +1,4 @@
-# ch = input("Enter a character: ")
+ko# ch = input("Enter a character: ")
 # if ch in "aeiouAEIOU":
 #     print("Vowel")
 # else:
@@ -414,3 +414,11 @@ f.close()
 f = open("sample.txt", "r")
 print(f.read())
 f.close()
+
+#matrix addition
+A = [[1, 5], [3, 7]]
+B = [[5, 6], [7, 6]]
+result = [[0, 0], [0, 0]]
+for i in range(2):
+    for j in range(2):
+        result[i][j] = A[i][j] + B[i][j]
