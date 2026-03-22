@@ -183,15 +183,13 @@ ko# ch = input("Enter a character: ")
 # else:
 #     print("Wrong! Number was:", num)
 
-#file handlingg
+#file handling
 #with open("data.txt", "w") as f:
  #   f.write("Python streak day 9")
-
 #with open("data.txt", "r") as f:
  #   print(f.read())
 
 #dictionary example
-
 student = {"name": "Harshitha", "age": 18, "course": "Python"}
 print(student["name"])
 
@@ -206,6 +204,7 @@ print("Div =", a / b)
 #print numbers from 1 to 10
 for i in range(1, 11):
     print(i)
+ 
 
  #simple interest
 p = int(input("Enter principal: "))
