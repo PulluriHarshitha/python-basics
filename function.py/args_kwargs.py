@@ -3,7 +3,7 @@ def my_function(*kids):
 my_function("harshu", "sweetie", "kanamma")
 
 
-#accessing indiviual arguments
+#accessing indiviual arguments example1
 def my_function(*args):
   print("Type:", type(args))
   print("First argument:", args[0])
@@ -11,6 +11,15 @@ def my_function(*args):
   print("Third argument:", args[2])
   print("All arguments:", args)
 my_function("harshu","sweetie","ammu")
+
+#accessing indiviual arguments example2
+def my_function(*args):
+  print("Type:", type(args))
+  print("First argument:", args[0])
+  print("Second argument:", args[1])
+  print("Third argument:", args[2])
+  print("All arguments:", args)
+my_function("hasini","sahasra","chachu")
 
 #Using *args with Regular Arguments
 def my_function(greeting, *names):
