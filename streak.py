@@ -1,4 +1,4 @@
-# ch = input("Enter a character: ")
+r# ch = input("Enter a character: ")
 # if ch in "aeiouAEIOU":
 #     print("Vowel")
 # else:
@@ -482,6 +482,6 @@ ch = input("Enter a character: ")
 # 
 #     print("Consonants"}
 
-ha
+harshitha
 
 
