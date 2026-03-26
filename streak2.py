@@ -432,3 +432,9 @@ a = 100
 b = 200
 sum = a + b
 print("Sum:", sum)
+
+a = 45
+b = 55
+sum = a - b
+print("diff:", diff)
+
