@@ -426,3 +426,9 @@ a = 10
 b = 20
 sum = a + b
 print("Sum:", sum)
+
+
+a = 100
+b = 200
+sum = a + b
+print("Sum:", sum)
