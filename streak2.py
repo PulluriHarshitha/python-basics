@@ -421,3 +421,8 @@ result = [[0, 0], [0, 0]]
 for i in range(2):
     for j in range(2):
         result[i][j] = A[i][j] + B[i][j]
+
+a = 10
+b = 20
+sum = a + b
+print("Sum:", sum)
