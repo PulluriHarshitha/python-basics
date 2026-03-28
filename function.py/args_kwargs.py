@@ -45,4 +45,4 @@ def my_function(*numbers):
   return total
 print(my_function(5,6,7,8,9,10))
 print(my_function(50,60,70,80,90,100))
-print(my_function(10))
+print(my_function(17))
