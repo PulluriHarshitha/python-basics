@@ -108,3 +108,10 @@ if __name__ == '__main__':
         elif op == "reverse":
             list.reverse()
 
+if __name__ == '__main__':
+    n = int(input())
+arr = list(map(int, input().split()))
+unique_scores = sorted(set(arr), reverse=False)
+runner_up = unique_scores[1]
+print(runner_up)
+
