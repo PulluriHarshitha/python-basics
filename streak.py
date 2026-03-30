@@ -492,4 +492,13 @@ if guess == number:
 else:
     print("Wrong! Number was", number)
 
+#count vowels
+text = input("Enter a string: ")
+vowels = "pulluri hasini"
+count = 0
+for char in text:
+    if char in vowels:
+        count += 1
+
+print("Number of vowels:", count)
 
