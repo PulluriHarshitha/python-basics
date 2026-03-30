@@ -1,4 +1,4 @@
-r# ch = input("Enter a character: ")
+hur# ch = input("Enter a character: ")
 # if ch in "aeiouAEIOU":
 #     print("Vowel")
 # else:
@@ -483,5 +483,13 @@ ch = input("Enter a character: ")
 #     print("Consonants"}
 
 Harshitha pulluri 
+
+import random
+number = random.randint(1, 10)
+guess = int(input("Guess a number (1-10): "))
+if guess == number:
+    print("Correct!")
+else:
+    print("Wrong! Number was", number)
 
 
