@@ -1,8 +1,7 @@
-hur# ch = input("Enter a character: ")
+ ch = input("Enter a character: ")
 # if ch in "aeiouAEIOU":
 #     print("Vowel")
 # else:
-# 
 #     print("Consonant")
 
 #     #palindrome num
@@ -81,11 +80,14 @@ hur# ch = input("Enter a character: ")
 #         "Friday", "Saturday", "Sunday"]
 # for day in days:
 #     print(day)
+
+
 # #months in a year
 # months = ["January", "February", "March", "April", "May", "June",
 #           "July", "August", "September", "October", "November", "December"]
 # for month in months:
 #     print(month)
+
   
 #   #to display month name using number
 # month = int(input("Enter month number: "))
@@ -108,8 +110,9 @@ hur# ch = input("Enter a character: ")
 # else:
 #     print(c)
 
-#    #simple prime number
 
+
+    #simple prime number
 # n = int(input())
 # flag = True
 # if n <= 1:
@@ -124,6 +127,7 @@ hur# ch = input("Enter a character: ")
 # else:
 #     print("Not Prime")
  
+
 # #swapping of two nums
 
 # a = int(input())
