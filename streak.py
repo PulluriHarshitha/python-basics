@@ -505,3 +505,6 @@ for char in text:
         count += 1
 print("Number of vowels:", count)
 
+
+a=hasini
+print("a")
