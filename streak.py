@@ -514,3 +514,7 @@ fact = 1
 for i in range(1, num + 1):
  fact *= i
 print("Factorial:", fact)
+
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+print("Sum:", a - b)
