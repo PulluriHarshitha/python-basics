@@ -4,8 +4,8 @@
 else:
    print("Consonant")
 
-#     #palindrome num
-# num = int(input("Enter a number: "))
+ #palindrome num
+num = int(input("Enter a number: "))
 # temp = num
 # rev = 0
 # while num > 0:
