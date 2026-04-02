@@ -6,11 +6,11 @@ else:
 
  #palindrome num
 num = int(input("Enter a number: "))
-# temp = num
+temp = num
 # rev = 0
 # while num > 0:
 #     digit = num % 10
-#     rev = rev * 10 + digit
+    rev = rev * 10 + digit
 #     num = num // 10
 # if temp == rev:
 #     print("Palindrome number")
