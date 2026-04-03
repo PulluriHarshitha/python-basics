@@ -14,8 +14,8 @@ while num > 0:
      num = num // 10
  if temp == rev:
     print("Palindrome number")
-# else:
-#     print("Not a palindrome")
+ else:
+    print("Not a palindrome")
 
 # #palindrome string
 # text = input("Enter a string: ")
