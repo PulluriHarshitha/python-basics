@@ -13,7 +13,7 @@ while num > 0:
     rev = rev * 10 + digit
      num = num // 10
  if temp == rev:
-#     print("Palindrome number")
+    print("Palindrome number")
 # else:
 #     print("Not a palindrome")
 
