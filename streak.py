@@ -21,10 +21,10 @@ while num > 0:
 text = input("Enter a string: ")
 if text == text[::-1]:
      print("Palindrome string")
-# else:
-#     print("Not a palindrome")
+else:
+   print("Not a palindrome")
 
-# #prime number
+ #prime number
 # num = int(input("Enter a number: "))
 # flag = 0
 # if num > 1:
