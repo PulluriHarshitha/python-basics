@@ -1,7 +1,7 @@
 ch = input("Enter a character: ")
 if ch in "aeiouAEIOU":
     print("Vowel")
-# else:
+else:
 # 
 #     print("Consonant")
 
