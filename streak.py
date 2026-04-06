@@ -218,7 +218,6 @@ obj.show()
 obj.display()
 
 #suduko solver
-
 def solve(board):
     for i in range(9):
         for j in range(9):
@@ -231,7 +230,6 @@ def solve(board):
                         board[i][j] = 0
                 return False
     return True
-
 def valid(board, row, col, num):
     if num in board[row]:
         return False
@@ -246,7 +244,6 @@ def valid(board, row, col, num):
     return True
 
 #prime numbers blw two numbers
-
 a, b = map(int, input("Enter range: ").split())
 for n in range(a, b+1):
     if n > 1:
