@@ -26,8 +26,8 @@ else:
 
 
 # #prime number
- num = int(input("Enter a number: "))
- flag = 0
+num = int(input("Enter a number: "))
+flag = 0
 if num > 1:
 #     for i in range(2, num):
 #         if num % i == 0:
@@ -185,7 +185,8 @@ if num > 1:
 #     print("Wrong! Number was:", num)
 
 #file handlingg
-with open("data.txt", "w") as f:
+
+ with open("data.txt", "w") as f:
     f.write("Python streak day 9")
 
 with open("data.txt", "r") as f:
