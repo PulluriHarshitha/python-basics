@@ -32,13 +32,13 @@ if num > 1:
      for i in range(2, num):
          if num % i == 0:
              flag = 1
-#             break
-#         if flag == 0:
-#          print("Prime number")
-#     else:
-#         print("Not a prime number")
-# else:
-#     print("Not a prime number")
+             break
+         if flag == 0:
+          print("Prime number")
+     else:
+         print("Not a prime number")
+else:
+    print("Not a prime number")
 
 # #armstrong num
 # num = int(input("Enter a number: "))
