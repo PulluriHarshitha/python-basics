@@ -44,17 +44,17 @@ else:
 num = int(input("Enter a number: "))
 temp = num
 sum = 0
-# while num > 0:
-#     digit = num % 10
-#     sum = sum + digit**3
-#     num = num // 10
-# if temp == sum:
-#     print("Armstrong number")
-# else:
-#     print("Not an Armstrong number")
+while num > 0:
+     digit = num % 10
+     sum = sum + digit**3
+     num = num // 10
+if temp == sum:
+     print("Armstrong number")
+else:
+     print("Not an Armstrong number")
 
-# #fibonacci series
-# n = int(input("Enter number of terms: "))
+##fibonacci series
+n = int(input("Enter number of terms: "))
 # a, b = 0, 1
 # for i in range(n):
 #     print(a, end=" ")
