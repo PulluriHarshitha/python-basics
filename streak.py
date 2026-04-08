@@ -69,12 +69,12 @@ for i in range(n):
      num //= 10
  print("Sum of digits:", sum)
  
-# #largest of three numbers
-# a = int(input())
-# b = int(input())
-# c = int(input())
-# largest = max(a, b, c)
-# print("Largest:", largest)
+ #largest of three numbers
+ a = int(input())
+ b = int(input())
+ c = int(input())
+ largest = max(a, b, c)
+ print("Largest:", largest)
 
 # #days in a week
 # days = ["Monday", "Tuesday", "Wednesday", "Thursday",
