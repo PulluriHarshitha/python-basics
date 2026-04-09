@@ -93,7 +93,7 @@ days = ["Monday", "Tuesday", "Wednesday", "Thursday",
 if 1 <= month <= 12:
      print("Month is:", months[month - 1])
  else:
-#     print("Invalid input")
+    print("Invalid input")
 
 
 # #find the largest of three numbers
