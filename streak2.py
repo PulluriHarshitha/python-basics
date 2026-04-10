@@ -6,7 +6,7 @@
 
 # #palindrome num
  num = int(input("Enter a number: "))
-# temp = num
+temp = num
 # rev = 0
 # while num > 0:
 #     digit = num % 10
