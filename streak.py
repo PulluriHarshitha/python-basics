@@ -95,17 +95,16 @@ if 1 <= month <= 12:
 else:
     print("Invalid input")
 
-
-# #find the largest of three numbers
-# a = int(input())
-# b = int(input())
-# c = int(input())
-# if a >= b and a >= c:
-#     print(a)
-# elif b >= c:
-#     print(b)
-# else:
-#     print(c)
+#find the largest of three numbers
+a = int(input())
+b = int(input())
+c = int(input())
+if a >= b and a >= c:
+     print(a)
+elif b >= c:
+    print(b)
+else:
+     print(c)
 
 #    #simple prime number
 
