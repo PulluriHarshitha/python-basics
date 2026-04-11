@@ -58,41 +58,41 @@ n = int(input("Enter number of terms: "))
 a, b = 0, 1
 for i in range(n):
     print(a, end=" ")
-     a,b = b,a+b
+a,b = b,a+b
     
 
     #sum of digits
- num = int(input("Enter number: "))
- sum = 0
- while num > 0:
+num = int(input("Enter number: "))
+sum = 0
+while num > 0:
     sum += num % 10
-     num //= 10
- print("Sum of digits:", sum)
+    num //= 10
+print("Sum of digits:", sum)
  
  #largest of three numbers
- a = int(input())
- b = int(input())
- c = int(input())
- largest = max(a, b, c)
- print("Largest:", largest)
+a = int(input())
+b = int(input())
+c = int(input())
+largest = max(a, b, c)
+print("Largest:", largest)
 
 # #days in a week
 days = ["Monday", "Tuesday", "Wednesday", "Thursday",
          "Friday", "Saturday", "Sunday"]
-   for day in days:
+for day in days:
     print(day)
 
 ##months in a year
- months = ["January", "February", "March", "April", "May", "June","July", "August", "September", "October", "November", "December"]
- for month in months:
+months = ["January", "February", "March", "April", "May", "June","July", "August", "September", "October", "November", "December"]
+for month in months:
    print(month)
   
 ##to display month name using number
- month = int(input("Enter month number: "))
- months = ["January", "February", "March", "April", "May", "June","July", "August", "September", "October", "November", "December"]
+month = int(input("Enter month number: "))
+months = ["January", "February", "March", "April", "May", "June","July", "August", "September", "October", "November", "December"]
 if 1 <= month <= 12:
      print("Month is:", months[month - 1])
- else:
+else:
     print("Invalid input")
 
 
