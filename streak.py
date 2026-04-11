@@ -106,7 +106,7 @@ elif b >= c:
 else:
      print(c)
 
-#    #simple prime number
+##simple prime number
 
 # n = int(input())
 # flag = True
