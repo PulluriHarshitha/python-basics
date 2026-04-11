@@ -113,13 +113,13 @@ if n <= 1:
      flag = False
 else:
      for i in range(2, n):
-#         if n % i == 0:
-#             flag = False
-#             break
-# if flag:
-#     print("Prime")
-# else:
-#     print("Not Prime")
+         if n % i == 0:
+             flag = False
+             break
+if flag:
+     print("Prime")
+else:
+     print("Not Prime")
  
 # #swapping of two nums
 
@@ -181,12 +181,6 @@ else:
 # else:
 #     print("Wrong! Number was:", num)
 
-#file handling
-      with open("data.txt", "w") as f:
-       f.write("Python streak day 9")
-
-with open("data.txt", "r") as f:
-    print(f.read())
 
 #dictionary example
 
