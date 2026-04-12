@@ -124,7 +124,7 @@ else:
 ##swapping of two nums
 
  a = int(input())
-# b = int(input())
+ b = int(input())
 # a, b = b, a
 # print(a, b)
 
