@@ -121,9 +121,9 @@ if flag:
 else:
      print("Not Prime")
  
-# #swapping of two nums
+##swapping of two nums
 
-# a = int(input())
+ a = int(input())
 # b = int(input())
 # a, b = b, a
 # print(a, b)
