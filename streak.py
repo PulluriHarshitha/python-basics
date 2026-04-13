@@ -140,7 +140,7 @@ n = int(input("Enter number of terms: "))
 print("Fibonacci Series:")
  for i in range(n):
 #    print(a, end=" ")
-#     a, b = b, a + b
+     a, b = b, a + b
 
 
 # #recursive fibonacci program
