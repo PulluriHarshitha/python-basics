@@ -161,7 +161,7 @@ def fibonacci(n):
         print(a, end=" ")
         a, b = b, a + b
 n = int(input("Enter number of terms: "))
-# fibonacci(n)
+fibonacci(n)
 
 # #lists
 # lst = [10, 20, 30, 40]
