@@ -165,7 +165,7 @@ fibonacci(n)
 
 ##lists
 list = [10, 20, 30, 40]
-# print("Max:", max(lst))
+print("Max:", max(list))
 # print("Min:", min(lst))
 
 
