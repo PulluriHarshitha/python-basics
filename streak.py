@@ -163,7 +163,7 @@ def fibonacci(n):
 n = int(input("Enter number of terms: "))
 fibonacci(n)
 
-# #lists
+##lists
 # lst = [10, 20, 30, 40]
 # print("Max:", max(lst))
 # print("Min:", min(lst))
