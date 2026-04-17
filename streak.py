@@ -176,7 +176,7 @@ guess = int(input("Guess number (1-10): "))
 if guess == num:
     print("Correct!")
 else:
-#     print("Wrong! Number was:", num)
+    print("Wrong! Number was:", num)
 
 
 #dictionary example
