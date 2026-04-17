@@ -466,8 +466,4 @@ else:
 
      print("Consonants")
 
-#Harshitha pulluri 
 
-int =10;
-int =20;
-print(10+20)
