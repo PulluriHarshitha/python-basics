@@ -184,10 +184,10 @@ if temp == rev:
 #     print("Wrong! Number was:", num)
 
 #file handling
-#with open("data.txt", "w") as f:
- #   f.write("Python streak day 9")
-#with open("data.txt", "r") as f:
- #   print(f.read())
+with open("data.txt", "w") as f:
+   f.write("Python streak day 9")
+with open("data.txt", "r") as f:
+   print(f.read())
 
 #dictionary example
 student = {"name": "Harshitha", "age": 18, "course": "Python"}
