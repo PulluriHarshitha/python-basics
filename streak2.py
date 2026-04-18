@@ -181,7 +181,7 @@ if temp == rev:
 # if guess == num:
 #     print("Correct!")
 # else:
-#     print("Wrong! Number was:", num)
+     print("Wrong! Number was:", num)
 
 #file handling
 with open("data.txt", "w") as f:
