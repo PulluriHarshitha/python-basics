@@ -14,11 +14,11 @@ while num > 0:
 num = num // 10
 if temp == rev:
      print("Palindrome number")
- else:
+else:
     print("Not a palindrome")
 
 ##palindrome string
- text = input("Enter a string: ")
+text = input("Enter a string: ")
 # if text == text[::-1]:
 #     print("Palindrome string")
 # else:
