@@ -368,7 +368,7 @@ import random
 number = random.randint(1, 100)
 while True:
     guess = int(input("Guess number (1-100): "))
-     if guess > number:
+    if guess > number:
         print("Too high")
     elif guess < number:
         print("Too low")
