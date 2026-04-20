@@ -169,7 +169,7 @@ text = input("Enter a string: ")
 # fibonacci(n)
 
 # #lists
-# list = [10, 20, 30, 40]
+list = [10, 20, 30, 40]
 print("Max:", max(list))
 print("Min:", min(list))
 
