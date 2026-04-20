@@ -170,8 +170,8 @@ text = input("Enter a string: ")
 
 # #lists
 # lst = [10, 20, 30, 40]
-# print("Max:", max(lst))
-# print("Min:", min(lst))
+print("Max:", max(lst))
+print("Min:", min(lst))
 
 
  #number guessing game
