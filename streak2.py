@@ -168,7 +168,7 @@ text = input("Enter a string: ")
 # n = int(input("Enter number of terms: "))
 # fibonacci(n)
 
-# #lists
+ #lists
 list = [10, 20, 30, 40]
 print("Max:", max(list))
 print("Min:", min(list))
