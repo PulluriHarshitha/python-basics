@@ -436,7 +436,7 @@ print("Sum:", sum)
 a = 45
 b = 55
 sum = a - b
-print("diff:", diff)
+print("diff:",)
 
 
 a = 66
@@ -445,6 +445,3 @@ sum = a - b
 print("diff:", diff)
 
 
-a=harshitha 
-b=hasini
-print(b)
