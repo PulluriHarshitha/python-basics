@@ -169,9 +169,9 @@ text = input("Enter a string: ")
 # fibonacci(n)
 
 # #lists
-# lst = [10, 20, 30, 40]
-print("Max:", max(lst))
-print("Min:", min(lst))
+# list = [10, 20, 30, 40]
+print("Max:", max(list))
+print("Min:", min(list))
 
 
  #number guessing game
