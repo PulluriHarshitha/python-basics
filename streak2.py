@@ -162,11 +162,11 @@ text = input("Enter a string: ")
 # def fibonacci(n):
 #     a, b = 0, 1
 #     for _ in range(n):
-#         print(a, end=" ")
-#         a, b = b, a + b
+print(a, end=" ")
 
+a, b = b, a + b
 n = int(input("Enter number of terms: "))
-fibonacci(n)
+ #fibonacci(n)
 
  #lists
 list = [10, 20, 30, 40]
