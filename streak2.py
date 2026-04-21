@@ -166,7 +166,7 @@ text = input("Enter a string: ")
 #         a, b = b, a + b
 
 # n = int(input("Enter number of terms: "))
-# fibonacci(n)
+ fibonacci(n)
 
  #lists
 list = [10, 20, 30, 40]
