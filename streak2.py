@@ -128,7 +128,7 @@ text = input("Enter a string: ")
 # a = int(input())
 # b = int(input())
 # a, b = b, a
-# print(a, b)
+print(a, b)
 
 name = input("Enter your name: ")
 print("Hello", name)
