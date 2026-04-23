@@ -131,8 +131,7 @@ text = input("Enter a string: ")
 # print(a, b)
 
 # name = input("Enter your name: ")
-# print("Hello", name)
-
+print("Hello", name)
 for i in range(1, 6):
      print(i)
 
