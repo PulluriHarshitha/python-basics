@@ -121,9 +121,9 @@ text = input("Enter a string: ")
 # if flag:
 #     print("Prime")
 # else:
-#     print("Not Prime")
+     print("Not Prime")
  
-# #swapping of two nums
+##swapping of two nums
 
 a = int(input())
 b = int(input())
