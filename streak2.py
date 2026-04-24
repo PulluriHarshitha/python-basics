@@ -120,7 +120,7 @@ text = input("Enter a string: ")
 #             break
 # if flag:
 #     print("Prime")
-# else:
+else:
      print("Not Prime")
  
 ##swapping of two nums
