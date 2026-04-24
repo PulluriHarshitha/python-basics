@@ -126,8 +126,8 @@ text = input("Enter a string: ")
 # #swapping of two nums
 
 # a = int(input())
-# b = int(input())
-#a, b = b, a
+b = int(input())
+a, b = b, a
 print(a, b)
 
 name = input("Enter your name: ")
