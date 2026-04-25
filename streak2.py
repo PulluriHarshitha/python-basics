@@ -119,7 +119,7 @@ text = input("Enter a string: ")
 #             flag = False
 #             break
 # if flag:
-#     print("Prime")
+     print("Prime")
 else:
      print("Not Prime")
  
