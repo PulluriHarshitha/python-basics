@@ -114,10 +114,10 @@ text = input("Enter a string: ")
 # if n <= 1:
 #     flag = False
 # else:
-#     for i in range(2, n):
-#         if n % i == 0:
-#             flag = False
-                break
+     for i in range(2, n):
+        if n % i == 0:
+            flag = False
+break
 if num:
      print("Prime")
 else:
