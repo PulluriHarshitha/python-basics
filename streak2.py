@@ -117,14 +117,13 @@ text = input("Enter a string: ")
 #     for i in range(2, n):
 #         if n % i == 0:
 #             flag = False
-#             break
+             break
 if num:
      print("Prime")
 else:
      print("Not Prime")
  
 ##swapping of two nums
-
 a = int(input())
 b = int(input())
 a, b = b, a
