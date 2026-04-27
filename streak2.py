@@ -109,7 +109,7 @@ text = input("Enter a string: ")
 
 #    #simple prime number
 
-# n = int(input())
+n = int(input())
 flag = True
 if n <= 1:
     flag = False
