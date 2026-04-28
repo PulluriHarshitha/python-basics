@@ -435,9 +435,5 @@ sum = a - b
 print("diff:",)
 
 
-a = 66
-b = 77
-sum = a - b
-print("diff:", diff)
 
 
