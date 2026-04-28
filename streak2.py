@@ -19,7 +19,7 @@ else:
 
 ##palindrome string
 text = input("Enter a string: ")
-# if text == text[::-1]:
+if text == text[::-1]:
 #     print("Palindrome string")
 # else:
 #     print("Not a palindrome")
