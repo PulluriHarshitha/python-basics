@@ -21,7 +21,7 @@ else:
 text = input("Enter a string: ")
 if text == text[::-1]:
      print("Palindrome string")
-# else:
+else:
 #     print("Not a palindrome")
 
 # #prime number
