@@ -97,15 +97,15 @@ text = input("Enter a string: ")
 
 
 # #find the largest of three numbers
-# a = int(input())
+ a = int(input())
 # b = int(input())
 # c = int(input())
 # if a >= b and a >= c:
 #     print(a)
 # elif b >= c:
-#     print(b)
-# else:
-#     print(c)
+print(b)
+else:
+print(c)
 
 #simple prime number
 n = int(input())
