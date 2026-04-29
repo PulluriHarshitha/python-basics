@@ -76,7 +76,7 @@ if num > 1:
 # print("Largest:", largest)
 
 ##days in a week
-# days = ["Monday", "Tuesday", "Wednesday", "Thursday",
+days = ["Monday", "Tuesday", "Wednesday", "Thursday",
 #         "Friday", "Saturday", "Sunday"]
 # for day in days:
 #     print(day)
