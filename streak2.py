@@ -77,7 +77,7 @@ if num > 1:
 
 ##days in a week
 days = ["Monday", "Tuesday", "Wednesday", "Thursday",
-#         "Friday", "Saturday", "Sunday"]
+         "Friday", "Saturday", "Sunday"]
 # for day in days:
 #     print(day)
 # #months in a year
