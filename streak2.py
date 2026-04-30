@@ -73,7 +73,7 @@ a = int(input())
 b = int(input())
 c = int(input())
 largest = max(a, b, c)
-# print("Largest:", largest)
+print("Largest:", largest)
 
 ##days in a week
 days = ["Monday", "Tuesday", "Wednesday", "Thursday",
