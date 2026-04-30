@@ -69,7 +69,7 @@ if num > 1:
 # print("Sum of digits:", sum)
  
 ##largest of three numbers
-# a = int(input())
+a = int(input())
 # b = int(input())
 # c = int(input())
 # largest = max(a, b, c)
