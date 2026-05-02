@@ -35,7 +35,7 @@ if num > 1:
      if flag == 0:
          print("Prime number")
      else:
-#         print("Not a prime number")
+         print("Not a prime number")
 # else:
 #     print("Not a prime number")
 
