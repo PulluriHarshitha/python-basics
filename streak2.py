@@ -32,8 +32,8 @@ if num > 1:
         if num % i == 0:
             flag = 1
             break
-            if flag == 0:
-#          print("Prime number")
+     if flag == 0:
+         print("Prime number")
 #     else:
 #         print("Not a prime number")
 # else:
