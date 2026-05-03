@@ -36,7 +36,7 @@ if num > 1:
          print("Prime number")
      else:
          print("Not a prime number")
-# else:
+ else:
 #     print("Not a prime number")
 
 # #armstrong num
