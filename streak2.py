@@ -1,4 +1,4 @@
-ch = input("Enter a character: ")
+lch = input("Enter a character: ")
 if ch in "aeiouAEIOU":
      print("Vowel")
 else:
@@ -49,7 +49,7 @@ while num > 0:
     num = num // 10
      if temp == sum:
      print("Armstrong number")
-# else:
+ else:
 #     print("Not an Armstrong number")
 
 # #fibonacci series
