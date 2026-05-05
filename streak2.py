@@ -4,7 +4,7 @@ if ch in "aeiouAEIOU":
 else:
      print("Consonant")
 
-# #palindrome num
+##palindrome num
 num = int(input("Enter a number: "))
 temp = num
 rev = 0
