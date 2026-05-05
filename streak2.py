@@ -52,7 +52,7 @@ while num > 0:
  else:
    print("Not an Armstrong number")
 
-# #fibonacci series
+##fibonacci series
 # n = int(input("Enter number of terms: "))
 # a, b = 0, 1
 # for i in range(n):
