@@ -50,7 +50,7 @@ while num > 0:
      if temp == sum:
      print("Armstrong number")
  else:
-#     print("Not an Armstrong number")
+   print("Not an Armstrong number")
 
 # #fibonacci series
 # n = int(input("Enter number of terms: "))
