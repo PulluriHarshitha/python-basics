@@ -24,7 +24,7 @@ if text == text[::-1]:
 else:
      print("Not a palindrome")
 
-# #prime number
+##prime number
 num = int(input("Enter a number: "))
 flag = 0
 if num > 1:
