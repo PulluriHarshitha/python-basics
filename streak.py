@@ -465,6 +465,8 @@ if ch in "aeiouAEIOU":
 else:
 
      print("Consonants")
+
+
 #squares
 def square(n):
     return n * n
