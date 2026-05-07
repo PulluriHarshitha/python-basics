@@ -436,7 +436,7 @@ b = 55
 sum = a - b
 print("diff:",)
 
-
+#DICTONARY EXAMPLE 
 student = {
     "name": "Hasini",
     "age": 15,
