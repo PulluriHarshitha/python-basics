@@ -1,4 +1,4 @@
-#creation of list
+#creation of list.   
 
 mylist = ["apple","banana","cherry"]
 print(mylist)  
