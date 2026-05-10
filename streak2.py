@@ -467,8 +467,8 @@ b = 2000
 sum = a + b
 print("Sum:", sum)
 
-a = 1250
-b = 1231
+a = 231250
+b = 231231
 sum = a + b
 print("the sum is:",sum)
 
