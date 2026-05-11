@@ -12,6 +12,7 @@ def my_function(*args):
   print("All arguments:", args)
 my_function("harshu","sweetie","ammu")
 
+
 #accessing indiviual arguments example2
 def my_function(*args):
   print("Type:", type(args))
