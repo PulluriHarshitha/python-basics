@@ -459,6 +459,11 @@ student = {
 print(student["name"])
 print(student["Course"])
 
+a = 100
+b = 200
+sum = a + b
+print("Sum:", sum)
+
 
 
 
