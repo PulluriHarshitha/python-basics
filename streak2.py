@@ -445,6 +445,21 @@ student = {
 print(student["name"])
 print(student["Course"])
 
+a = 55
+b = 75 
+sum = a - b
+print("diff:",)
+
+#DICTONARY EXAMPLE 
+student = {
+    "name": "Hasini",
+    "age": 15,
+    "course": "Cyber Security"
+}
+print(student["name"])
+print(student["Course"])
+
+
 
 
 
