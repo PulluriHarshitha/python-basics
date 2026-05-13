@@ -1,4 +1,4 @@
-lch = input("Enter a character: ")
+ch = input("Enter a character: ")
 if ch in "aeiouAEIOU":
      print("Vowel")
 else:
@@ -36,13 +36,10 @@ if num > 1:
          print("Prime number")
      else:
          print("Not a prime number")
-<<<<<<< HEAD
 else:
-#     print("Not a prime number")
-=======
+    print("Not a prime number")
  else:
    print("Not a prime number")
->>>>>>> 8de689db890abe6183a456a3b85537f7a743caaa
 
 ##armstrong num
  num = int(input("Enter a number: "))
