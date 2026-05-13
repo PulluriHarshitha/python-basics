@@ -1,4 +1,4 @@
-#creation of list
+#creation of list.   
 
 mylist = ["apple","banana","cherry"]
 print(mylist)  
@@ -188,5 +188,13 @@ list1 = ["a", "b" ,"c"]
 list2 = [1, 2, 3]
 list1.extend(list2)
 print(list1)   #extend keyword
+
+
+list1 = ["a", "b" ,"c", "d"]
+list2 = [1, 2, 3]
+list1.extend(list2)
+print(list1)   #extend keywords
+
+
 
 

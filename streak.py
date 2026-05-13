@@ -467,3 +467,10 @@ else:
      print("Consonants")
 
 
+#squares
+def square(n):
+    return n * n
+num = 12
+print("Square:", square(num))
+
+

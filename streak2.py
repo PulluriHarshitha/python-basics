@@ -1,4 +1,4 @@
-ch = input("Enter a character: ")
+lch = input("Enter a character: ")
 if ch in "aeiouAEIOU":
      print("Vowel")
 else:
@@ -24,7 +24,7 @@ if text == text[::-1]:
 else:
      print("Not a palindrome")
 
-# #prime number
+##prime number
 num = int(input("Enter a number: "))
 flag = 0
 if num > 1:
@@ -36,28 +36,33 @@ if num > 1:
          print("Prime number")
      else:
          print("Not a prime number")
+<<<<<<< HEAD
 else:
 #     print("Not a prime number")
+=======
+ else:
+   print("Not a prime number")
+>>>>>>> 8de689db890abe6183a456a3b85537f7a743caaa
 
-# #armstrong num
-# num = int(input("Enter a number: "))
-# temp = num
-# sum = 0
-# while num > 0:
-#     digit = num % 10
-#     sum = sum + digit**3
-#     num = num // 10
-# if temp == sum:
-#     print("Armstrong number")
-# else:
-#     print("Not an Armstrong number")
+##armstrong num
+ num = int(input("Enter a number: "))
+ temp = num
+ sum = 0
+while num > 0:
+     digit = num % 10
+     sum = sum + digit**3
+    num = num // 10
+     if temp == sum:
+     print("Armstrong number")
+ else:
+   print("Not an Armstrong number")
 
-# #fibonacci series
-# n = int(input("Enter number of terms: "))
-# a, b = 0, 1
-# for i in range(n):
-#     print(a, end=" ")
-#     a,b = b,a+b
+##fibonacci series
+n = int(input("Enter number of terms: "))
+ a, b = 0, 1
+for i in range(n):
+     print(a, end=" ")
+     a,b = b,a+b
     
 
 ##sum of digits
@@ -435,6 +440,35 @@ a = 45
 b = 55
 sum = a - b
 print("diff:",)
+
+#DICTONARY EXAMPLE 
+student = {
+    "name": "Hasini",
+    "age": 15,
+    "course": "Cyber Security"
+}
+print(student["name"])
+print(student["Course"])
+
+a = 55
+b = 75 
+sum = a - b
+print("diff:",)
+
+#DICTONARY EXAMPLE 
+student = {
+    "name": "Hasini",
+    "age": 15,
+    "course": "Cyber Security"
+}
+print(student["name"])
+print(student["Course"])
+
+a = 100
+b = 200
+sum = a + b
+print("Sum:", sum)
+
 
 
 

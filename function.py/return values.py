@@ -4,6 +4,7 @@ def get_greeting():
 message = get_greeting()
 print(message)
 
+
 #function with return value directly
 def get_greeting():
     return "good morning"
