@@ -4,7 +4,7 @@ if ch in "aeiouAEIOU":
 else:
      print("Consonant")
 
-# #palindrome num
+##palindrome num
 num = int(input("Enter a number: "))
 temp = num
 rev = 0
@@ -36,7 +36,7 @@ if num > 1:
          print("Prime number")
      else:
          print("Not a prime number")
-# else:
+else:
 #     print("Not a prime number")
 
 # #armstrong num
