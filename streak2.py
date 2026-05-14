@@ -38,20 +38,19 @@ if num > 1:
          print("Not a prime number")
 else:
     print("Not a prime number")
- else:
-   print("Not a prime number")
 
 ##armstrong num
- num = int(input("Enter a number: "))
- temp = num
- sum = 0
+num = int(input("Enter a number: "))
+
+temp = num
+sum = 0
 while num > 0:
      digit = num % 10
      sum = sum + digit**3
-    num = num // 10
+     num = num // 10
      if temp == sum:
-     print("Armstrong number")
- else:
+      print("Armstrong number")
+else:
    print("Not an Armstrong number")
 
 ##fibonacci series
