@@ -88,7 +88,7 @@ for day in days:
 months = ["January", "February", "March", "April", "May", "June",
           "July", "August", "September", "October", "November", "December"]
 for month in months:
-#     print(month)
+     print(month)
   
 ##to display month name using number
 month = int(input("Enter month number: "))
