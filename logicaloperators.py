@@ -12,6 +12,14 @@ a = 10
 b = 5
 print(a > 5 and  b < 5)   
 
+a= 45
+b= 69
+c = 5
+if a < b and b < c:
+  print("true")
+else:
+   print("false")
+
 a = 200
 b = 33
 c = 500
