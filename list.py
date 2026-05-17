@@ -22,7 +22,6 @@ mylist = ["apple", "banana", "cherry"]
 print(type(mylist))   #define the class using type
 
 #ACCESS THE LIST ITEMS
-
 thislist = ["apple", "banana", "cherry"]
 print(thislist[2])
 thislist = ["apple", "banana", "cherry"]
