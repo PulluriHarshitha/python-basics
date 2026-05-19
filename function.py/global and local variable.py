@@ -11,3 +11,11 @@ def greet():
     print("Inside function:", msg)
 greet()
 print("Outside function:", msg)
+
+#Global Variables:Global variables are declared outside all functions and can be accessed anywhere in the program, including inside functions.
+
+msg = "Python is easy language"
+def display():
+    print("Inside function:", msg)
+display()
+print("Outside function:", msg)
