@@ -6,9 +6,11 @@ def greet():
     print(msg)
 greet()
 
+msg = "Hello!"
+
 def greet():
-    msg = "Hello!"
     print("Inside function:", msg)
+    
 greet()
 print("Outside function:", msg)
 
