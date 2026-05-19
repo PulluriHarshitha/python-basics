@@ -27,7 +27,7 @@ for i in  range(10):
     else:
         print(i)
 
-
+#IN CLASSES
 class EmptyClass:
     pass  # No methods or attributes yet
 class Person:
