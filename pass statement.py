@@ -17,3 +17,39 @@ if x >= 10:
     pass
 else:
     print ("x is 10 or less")
+
+
+#IN LOOPS
+
+for i in  range(10):
+    if i == 5:
+        pass   #do nothing stops
+    else:
+        print(i)
+
+
+class EmptyClass:
+    pass  # No methods or attributes yet
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def greet(self):
+        pass  # Placeholder for greet method
+# Creating an instance of the class
+p = Person("Emily", 30)
+
+class EmptyClass:
+    pass  # No methods or attributes yet
+
+
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    
+    def greet(self):
+     print("hello" ,self.name)
+     print("hello",self.age)
+p = Person("emily", 20)
+p.greet()
