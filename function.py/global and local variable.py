@@ -5,3 +5,9 @@ def greet():
     msg = "Hello from inside the function!"
     print(msg)
 greet()
+
+def greet():
+    msg = "Hello!"
+    print("Inside function:", msg)
+greet()
+print("Outside function:", msg)
