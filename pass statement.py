@@ -4,3 +4,10 @@
 def fun():
     pass
 fun() # Call the function
+
+#In conditional statements
+x = 50
+if x <= 10:    #The else block runs only when the condition is False.
+    pass     #placeholder for future logic
+else:
+    print (" x is 10 or less ")
