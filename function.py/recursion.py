@@ -46,3 +46,11 @@ def sum_numbers(n):
         return 1
     return n + sum_numbers(n-1)
 print(sum_numbers(4))
+
+#EXAMPLE 5
+
+def reverse_string(text):
+    if len(text) == 0:
+        return text
+    return reverse_string(text[1:]) + text[0]
+print(reverse_string("harshu"))
