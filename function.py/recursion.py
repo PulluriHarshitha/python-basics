@@ -5,3 +5,10 @@
 #Base Case → condition to stop recursion
 #Recursive Call → function calls itself
 #Without a base case, the function runs forever and gives an error.
+
+
+#SIMPLE STRUCTURE
+def function_name():
+    # Base case
+    # Recursive call
+    function_name()
