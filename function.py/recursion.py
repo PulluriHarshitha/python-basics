@@ -12,3 +12,12 @@ def function_name():
     # Base case
     # Recursive call
     function_name()
+
+    #EXAMPLE 1
+def countdown(n):
+    if n == 0:       #base case
+        print("DONE")    
+    else:
+        print(n)
+        countdown(n-1)    #recursive case
+countdown(5)
