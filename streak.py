@@ -12,7 +12,7 @@ if ch in "aeiouAEIOU":
 #     digit = num % 10
 #     rev = rev * 10 + digit
 # num = num // 10
-# if temp == rev:
+ if temp == rev:
      print("Palindrome number")
  else:
       print("Not a palindrome")
