@@ -1,21 +1,21 @@
-ch = input("Enter a character: ")
-if ch in "aeiouAEIOU":
-    print("Vowel")
-else:
-    print("Consonant")
+# ch = input("Enter a character: ")
+# if ch in "aeiouAEIOU":
+#     print("Vowel")
+# else:
+#     print("Consonant")
 
-     #palindrome num
-num = int(input("Enter a number: "))
-temp = num
-rev = 0
-while num > 0:
-    digit = num % 10
-    rev = rev * 10 + digit
-num = num // 10
-if temp == rev:
-     print("Palindrome number")
-else:
-     print("Not a palindrome")
+#      #palindrome num
+# num = int(input("Enter a number: "))
+# temp = num
+# rev = 0
+# while num > 0:
+#     digit = num % 10
+#     rev = rev * 10 + digit
+# num = num // 10
+# if temp == rev:
+#      print("Palindrome number")
+# else:
+#      print("Not a palindrome")
 
  #palindrome string
 text = input("Enter a string: ")
