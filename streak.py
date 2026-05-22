@@ -9,12 +9,21 @@ if ch in "aeiouAEIOU":
 # temp = num
 # rev = 0
 # while num > 0:
+<<<<<<< HEAD
     digit = num % 10
     rev = rev * 10 + digit
  num = num // 10
  if temp == rev:
      print("Palindrome number")
  else:
+=======
+#     digit = num % 10
+#     rev = rev * 10 + digit
+# num = num // 10
+# if temp == rev:
+#      print("Palindrome number")
+else:
+>>>>>>> 24f3934 (21-05-26)
       print("Not a palindrome")
 
  #palindrome string

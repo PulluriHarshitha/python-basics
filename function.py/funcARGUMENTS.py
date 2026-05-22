@@ -15,7 +15,6 @@ def my_function(name):  #name is parameter
 my_function("HARSHITHA") #harshitha is an argument 
 
 #number of arguments
-
 def my_function(fname, lname):
     print(fname + " " +lname)
 my_function("PULLURI" ,"HARSHITHA") 
