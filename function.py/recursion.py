@@ -62,3 +62,8 @@ def function(n):
     else:
         return 2*function(n+1)
 print(function(2))
+
+#Types of Recursion
+#Recursion can be broadly classified into two types: tail recursion and non-tail recursion. The main difference between them is related to what happens after recursive call.
+#Tail Recursion: The recursive call is the last thing the function does, so nothing happens after it returns. Some languages can optimize this to work like a loop, saving memory.
+#Non-Tail Recursion: The function does more work after the recursive call returns, so it can’t be optimized into a loop.
