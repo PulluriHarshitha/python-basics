@@ -47,7 +47,7 @@ def sum_numbers(n):
     return n + sum_numbers(n-1)
 print(sum_numbers(4))
 
-#EXAMPLE 5
+#EXAMPLE5 reverse string
 
 def reverse_string(text):
     if len(text) == 0:
