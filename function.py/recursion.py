@@ -53,7 +53,7 @@ def reverse_string(text):
     if len(text) == 0:
         return text
     return reverse_string(text[1:]) + text[0]
-print(reverse_string("harshu"))
+print(reverse_string("harshurohith"))
 
 #example  6
 def function(n):
