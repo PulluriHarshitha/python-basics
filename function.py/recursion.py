@@ -71,6 +71,13 @@ def print_numbers(n):
     print(n)
 print_numbers(31)
 
+#print n to 1 numbers
+def print_reverse(n):
+    if n == 0:
+        return
+    print(n)
+    print_reverse(n - 1)
+print_reverse(50)
 
 #Types of Recursion
 #Recursion can be broadly classified into two types: tail recursion and non-tail recursion. The main difference between them is related to what happens after recursive call.
