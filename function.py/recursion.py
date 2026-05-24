@@ -79,6 +79,8 @@ def print_reverse(n):
     print_reverse(n - 1)
 print_reverse(50)
 
+#sum of n natural numbers
+
 #Types of Recursion
 #Recursion can be broadly classified into two types: tail recursion and non-tail recursion. The main difference between them is related to what happens after recursive call.
 #Tail Recursion: The recursive call is the last thing the function does, so nothing happens after it returns. Some languages can optimize this to work like a loop, saving memory.
