@@ -98,6 +98,9 @@ def sum_n(n):
     return n + sum_n(n - 1)
 print(sum_n(5))
 
+
+def palindrome(s):
+
 #Types of Recursion
 #Recursion can be broadly classified into two types: tail recursion and non-tail recursion. The main difference between them is related to what happens after recursive call.
 #Tail Recursion: The recursive call is the last thing the function does, so nothing happens after it returns. Some languages can optimize this to work like a loop, saving memory.
