@@ -100,11 +100,12 @@ print(sum_n(5))
 
 
 def palindrome(s):
-if len(s) <= 1:
+  if len(s) <= 1:
         return True
-if s[0] != s[-1]:
+  if s[0] != s[-1]:
         return False
-    return palindrome(s[1:-1])
+  return palindrome(s[1:-1])
+print(palindrome("madam"))
 
 #Types of Recursion
 #Recursion can be broadly classified into two types: tail recursion and non-tail recursion. The main difference between them is related to what happens after recursive call.
