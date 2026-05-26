@@ -111,3 +111,11 @@ print(palindrome("madam"))
 #Recursion can be broadly classified into two types: tail recursion and non-tail recursion. The main difference between them is related to what happens after recursive call.
 #Tail Recursion: The recursive call is the last thing the function does, so nothing happens after it returns. Some languages can optimize this to work like a loop, saving memory.
 #Non-Tail Recursion: The function does more work after the recursive call returns, so it can’t be optimized into a loop.
+
+#tail recursion ex-1
+
+def sum_tail(n, total=0):
+    if n == 0:
+        return total
+    return sum_tail(n - 1, total + n)
+print(sum_tail(9))
