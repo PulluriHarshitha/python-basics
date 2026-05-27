@@ -117,7 +117,7 @@ def sum_tail(n, total=0):
      if n == 0:
          return
      print(n)
-#     return countdown(n - 1)
+     return countdown(n - 1)
 # countdown(10)
 
 # #fib towords tail recursion
