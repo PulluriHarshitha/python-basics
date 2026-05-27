@@ -113,7 +113,7 @@ print(palindrome("madam"))
 #Non-Tail Recursion: The function does more work after the recursive call returns, so it can’t be optimized into a loop.
 
 #tail recursion ex-1
-# def sum_tail(n, total=0):
+def sum_tail(n, total=0):
 #     if n == 0:
 #         return
 #     print(n)
