@@ -114,7 +114,7 @@ print(palindrome("madam"))
 
 #tail recursion ex-1
 def sum_tail(n, total=0):
-#     if n == 0:
+     if n == 0:
 #         return
 #     print(n)
 #     return countdown(n - 1)
