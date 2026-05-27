@@ -113,16 +113,16 @@ print(palindrome("madam"))
 #Non-Tail Recursion: The function does more work after the recursive call returns, so it can’t be optimized into a loop.
 
 #tail recursion ex-1
-def sum_tail(n, total=0):
-    if n == 0:
-        return
-    print(n)
-    return countdown(n - 1)
-countdown(10)
+# def sum_tail(n, total=0):
+#     if n == 0:
+#         return
+#     print(n)
+#     return countdown(n - 1)
+# countdown(10)
 
-#fib towords tail recursion
-def fib_tail(n, a=0, b=1):
-    if n == 0:
-        return a
-    return fib_tail(n - 1, b, a + b)
-print(fib_tail(6))
+# #fib towords tail recursion
+# def fib_tail(n, a=0, b=1):
+#     if n == 0:
+#         return a
+#     return fib_tail(n - 1, b, a + b)
+# print(fib_tail(6))
