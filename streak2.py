@@ -472,3 +472,10 @@ print("diff:",)
 # sum = a + b
 print("the sum is:",sum)
 
+def countdown(n):
+    if n == 0:
+        print("Done")
+    else:
+        print(n)
+        countdown(n - 1)
+countdown(6)
