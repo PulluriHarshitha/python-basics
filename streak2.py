@@ -453,24 +453,24 @@ sum = a - b
 print("diff:",)
 
 #DICTONARY EXAMPLE 
-student = {
-    "name": "Hasini",
-    "age": 15,
-    "course": "Cyber Security"
-}
-print(student["name"])
-print(student["Course"])
-print(student["age"])
+# student = {
+#     "name": "Hasini",
+#     "age": 15,
+#     "course": "Cyber Security"
+# }
+# print(student["name"])
+# print(student["Course"])
+# print(student["age"])
 
-a = 1000
-b = 2000
-sum = a + b
-print("Sum:", sum)
+# a = 1000
+# b = 2000
+# sum = a + b
+# print("Sum:", sum)
 
-a = 231250
-b = 231231
-sum = a + b
-print("the sum is:",sum)
+# a = 231250
+# b = 231231
+# sum = a + b
+# print("the sum is:",sum)
 
 
 
