@@ -472,5 +472,3 @@ print("diff:",)
 # sum = a + b
 # print("the sum is:",sum)
 
-
-
