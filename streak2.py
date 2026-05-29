@@ -463,7 +463,7 @@ print("diff:",)
 # print(student["age"])
 
 # a = 1000
-# b = 2000
+b = 2000
 sum = a + b
 print("Sum:", sum)
 
