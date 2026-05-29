@@ -469,7 +469,7 @@ print("diff:",)
 
 # a = 231250
 # b = 231231
-# sum = a + b
+sum = a + b
 print("the sum is:",sum)
 
 def countdown(n):
