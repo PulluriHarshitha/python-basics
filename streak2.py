@@ -465,7 +465,7 @@ print("diff:",)
 # a = 1000
 # b = 2000
 # sum = a + b
-# print("Sum:", sum)
+print("Sum:", sum)
 
 a = 231250
 b = 231231
