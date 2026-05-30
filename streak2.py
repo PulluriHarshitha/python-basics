@@ -456,7 +456,7 @@ print("diff:",)
 student = {
 #     "name": "Hasini",
 #     "age": 15,
-#     "course": "Cyber Security"
+    "course": "Cyber Security"
 }
 print(student["name"])
 print(student["Course"])
