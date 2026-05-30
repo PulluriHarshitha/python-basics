@@ -459,7 +459,7 @@ print("diff:",)
 #     "course": "Cyber Security"
 # }
 # print(student["name"])
-# print(student["Course"])
+print(student["Course"])
 print(student["age"])
 
 a = 1000
