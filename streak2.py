@@ -458,7 +458,7 @@ print("diff:",)
 #     "age": 15,
 #     "course": "Cyber Security"
 # }
-# print(student["name"])
+print(student["name"])
 print(student["Course"])
 print(student["age"])
 
