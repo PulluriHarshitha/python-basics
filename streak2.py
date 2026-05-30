@@ -460,7 +460,7 @@ print("diff:",)
 # }
 # print(student["name"])
 # print(student["Course"])
-# print(student["age"])
+print(student["age"])
 
 a = 1000
 b = 2000
