@@ -453,11 +453,11 @@ sum = a - b
 print("diff:",)
 
 #DICTONARY EXAMPLE 
-# student = {
+student = {
 #     "name": "Hasini",
 #     "age": 15,
 #     "course": "Cyber Security"
-# }
+}
 print(student["name"])
 print(student["Course"])
 print(student["age"])
