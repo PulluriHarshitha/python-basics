@@ -455,7 +455,7 @@ print("diff:",)
 #DICTONARY EXAMPLE 
 student = {
 #     "name": "Hasini",
-#     "age": 15,
+    "age": 15,
     "course": "Cyber Security"
 }
 print(student["name"])
