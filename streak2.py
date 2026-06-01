@@ -109,7 +109,7 @@ if a >= b and a >= c:
 elif b >= c:
       print(b)
 else:
-#      print(c)
+     print(c)
 
 #simple prime number
 n = int(input())
