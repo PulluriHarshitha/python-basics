@@ -388,92 +388,92 @@ else:
 
     #PRINT FUNCTION
 
-print("harshitha pulluri")
+# print("harshitha pulluri")
 
-#sub
-a = 10
-b = 20
-result = a - b
-print("Subtraction:", result)
+# #sub
+# a = 10
+# b = 20
+# result = a - b
+# print("Subtraction:", result)
 
-#syntax of func
-def greet():
-    print("Hello, welcome to Python")
-greet()
+# #syntax of func
+# def greet():
+#     print("Hello, welcome to Python")
+# greet()
 
-#Function with Parameters
-def add(a, b):
-    sum = a + b
-    print("Sum:", sum)
-add(10, 20)
+# #Function with Parameters
+# def add(a, b):
+#     sum = a + b
+#     print("Sum:", sum)
+# add(10, 20)
 
-#Function with Return Value
-def multiply(a, b):
-    result = a * b
-    return result
-ans = multiply(5, 4)
-print("Multiplication:", ans)
+# #Function with Return Value
+# def multiply(a, b):
+#     result = a * b
+#     return result
+# ans = multiply(5, 4)
+# print("Multiplication:", ans)
 
-#Function for Subtraction
-def subtraction(a, b):
-    result = a - b
-    print("Subtraction:", result)
-subtraction(20, 10)
+# #Function for Subtraction
+# def subtraction(a, b):
+#     result = a - b
+#     print("Subtraction:", result)
+# subtraction(20, 10)
 
-#Simple square Program
+# #Simple square Program
 
-def square(n):
-    return n * n
-num = 6
-print("Square:", square(num))
+# def square(n):
+#     return n * n
+# num = 6
+# print("Square:", square(num))
 
-#simples cubes
-def cube(n):
-    return n * n * n
-number = 4
-print("Cube:", cube(number))
+# #simples cubes
+# def cube(n):
+#     return n * n * n
+# number = 4
+# print("Cube:", cube(number))
 
-#perfect number
+# #perfect number
 
-num = int(input("Enter a number: "))
-sum_val = 0
-for i in range(1, num):
-    if num % i == 6:
-        sum_val += i
-if sum_val == num:
-    print("Perfect Number")
-else:
-    print("Not Perfect Number")
-
-
-int(input("Enter a number: "))
-sum_val = 0
-for i in range(1, num):
-    if num % i == 6:
-        sum_val += i
-if sum_val == num:
-    print("Perfect Number")
-else:
-    print("Perfect Number")
-
-ch = input("Enter a character: ")
-if ch in "aeiouAEIOU":
-    print("Vowel")
-else:
-
-     print("Consonants")
+# num = int(input("Enter a number: "))
+# sum_val = 0
+# for i in range(1, num):
+#     if num % i == 6:
+#         sum_val += i
+# if sum_val == num:
+#     print("Perfect Number")
+# else:
+#     print("Not Perfect Number")
 
 
-#squares
-def square(n):
-    return n * n
-num = 12
-print("Square:", square(num))
+# int(input("Enter a number: "))
+# sum_val = 0
+# for i in range(1, num):
+#     if num % i == 6:
+#         sum_val += i
+# if sum_val == num:
+#     print("Perfect Number")
+# else:
+#     print("Perfect Number")
 
-list1 = ["burger", "phone", "teacher","hardware","doctor"]
-list2 = ["coke", "charger", "student","software","patient"]
-join_list = []
-for i in range(len(list1)):
-    join_list.append(list1[i])
-    join_list.append(list2[i])
-print(join_list)  
+# ch = input("Enter a character: ")
+# if ch in "aeiouAEIOU":
+#     print("Vowel")
+# else:
+
+#      print("Consonants")
+
+
+# #squares
+# def square(n):
+#     return n * n
+# num = 12
+# print("Square:", square(num))
+
+# list1 = ["burger", "phone", "teacher","hardware","doctor"]
+# list2 = ["coke", "charger", "student","software","patient"]
+# join_list = []
+# for i in range(len(list1)):
+#     join_list.append(list1[i])
+#     join_list.append(list2[i])
+# print(join_list)  
