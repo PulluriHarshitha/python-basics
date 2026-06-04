@@ -468,7 +468,7 @@ print("harshitha pulluri")
 # def square(n):
 #     return n * n
 num = 12
-# print("Square:", square(num))
+print("Square:", square(num))
 
  list1 = ["burger", "phone", "teacher","hardware","doctor"]
  list2 = ["coke", "charger", "student","software","patient"]
