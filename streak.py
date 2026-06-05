@@ -456,12 +456,11 @@ print("harshitha pulluri")
 # else:
 #     print("Perfect Number")
 
-# ch = input("Enter a character: ")
-# if ch in "aeiouAEIOU":
-#     print("Vowel")
-# else:
-
-#      print("Consonants")
+ch = input("Enter a character: ")
+if ch in "aeiouAEIOU":
+     print("Vowel")
+else:
+      print("Consonants")
 
 
 ##squares
