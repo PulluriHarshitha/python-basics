@@ -391,10 +391,10 @@ else:
 print("harshitha pulluri")
 
 ##sub
-# a = 10
-# b = 20
-# result = a - b
-# print("Subtraction:", result)
+a = 10
+b = 20
+result = a - b
+print("Subtraction:", result)
 
 # #syntax of func
 # def greet():
