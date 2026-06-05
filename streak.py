@@ -464,9 +464,9 @@ print("harshitha pulluri")
 #      print("Consonants")
 
 
-# #squares
-# def square(n):
-#     return n * n
+##squares
+def square(n):
+    return n * n
 num = 12
 print("Square:", square(num))
 
