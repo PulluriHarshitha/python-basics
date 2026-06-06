@@ -404,7 +404,7 @@ greet()
 ##Function with Parameters
 def add(a, b):
      sum = a + b
-#     print("Sum:", sum)
+     print("Sum:", sum)
 # add(10, 20)
 
 # #Function with Return Value
