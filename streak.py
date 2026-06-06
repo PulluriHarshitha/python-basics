@@ -402,7 +402,7 @@ def greet():
 greet()
 
 ##Function with Parameters
-# def add(a, b):
+def add(a, b):
 #     sum = a + b
 #     print("Sum:", sum)
 # add(10, 20)
