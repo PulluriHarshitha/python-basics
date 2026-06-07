@@ -420,12 +420,12 @@ def subtraction(a, b):
   print("Subtraction:", result)
 subtraction(20, 10)
 
-# #Simple square Program
+##Simple square Program
 
-# def square(n):
-#     return n * n
-# num = 6
-# print("Square:", square(num))
+def square(n):
+    return n * n
+num = 6
+print("Square:", square(num))
 
 # #simples cubes
 # def cube(n):
