@@ -418,7 +418,7 @@ print("Multiplication:", ans)
 def subtraction(a, b):
   result = a - b
   print("Subtraction:", result)
-# subtraction(20, 10)
+subtraction(20, 10)
 
 # #Simple square Program
 
