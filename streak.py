@@ -414,8 +414,8 @@ def multiply(a, b):
 ans = multiply(5, 4)
 print("Multiplication:", ans)
 
-# #Function for Subtraction
-# def subtraction(a, b):
+##Function for Subtraction
+def subtraction(a, b):
 #     result = a - b
 #     print("Subtraction:", result)
 # subtraction(20, 10)
