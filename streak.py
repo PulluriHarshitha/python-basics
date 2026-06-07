@@ -409,10 +409,10 @@ add(10, 20)
 
 ##Function with Return Value
 def multiply(a, b):
-#     result = a * b
-#     return result
-# ans = multiply(5, 4)
-# print("Multiplication:", ans)
+ result = a * b
+ return result
+ans = multiply(5, 4)
+print("Multiplication:", ans)
 
 # #Function for Subtraction
 # def subtraction(a, b):
