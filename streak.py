@@ -428,7 +428,7 @@ num = 6
 print("Square:", square(num))
 
 ##simples cubes
-# def cube(n):
+def cube(n):
 #     return n * n * n
 # number = 4
 # print("Cube:", cube(number))
