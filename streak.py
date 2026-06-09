@@ -446,7 +446,7 @@ else:
    print("Not Perfect Number")
 
 
-# int(input("Enter a number: "))
+int(input("Enter a number: "))
 # sum_val = 0
 # for i in range(1, num):
 #     if num % i == 6:
