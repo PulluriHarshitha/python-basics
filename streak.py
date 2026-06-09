@@ -436,7 +436,7 @@ print("Cube:", cube(number))
 ##perfect number
 
 num = int(input("Enter a number: "))
-# sum_val = 0
+sum_val = 0
 # for i in range(1, num):
 #     if num % i == 6:
 #         sum_val += i
