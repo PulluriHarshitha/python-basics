@@ -452,7 +452,7 @@ for i in range(1, num):
     if num % i == 6:
         sum_val += i
 if sum_val == num:
-#     print("Perfect Number")
+     print("Perfect Number")
 # else:
 #     print("Perfect Number")
  ch = input("Enter a character: ")
