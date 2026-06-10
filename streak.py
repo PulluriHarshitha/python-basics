@@ -455,7 +455,7 @@ if sum_val == num:
      print("Perfect Number")
 # else:
 #     print("Perfect Number")
- ch = input("Enter a character: ")
+ch = input("Enter a character: ")
 if ch in "aeiouAEIOU":
      print("Vowel")
 else:
