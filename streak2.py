@@ -480,3 +480,4 @@ def countdown(n):
         countdown(n - 1)
 countdown(6)
 
+age = int(input("Enter your age: "))
