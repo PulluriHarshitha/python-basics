@@ -482,3 +482,5 @@ countdown(6)
 
 age = int(input("Enter your age: "))
 print("Hello", age)
+for i in range(1, 10):
+     print(i)
