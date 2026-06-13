@@ -38,7 +38,7 @@ thisdict = {
 }
 print(thisdict)     #different datatypes allow single dictionaries
 
-      #ACCESS ITEM DICTIONARIES
+#ACCESS ITEM DICTIONARIES
 
 thisdict = {
   "name": "harshu",
