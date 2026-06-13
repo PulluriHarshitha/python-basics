@@ -1,7 +1,7 @@
 thisdict = {
   "name": "harshu",
   "age": "20",
-  "year": 2005
+  "year": 2006
 }
 print(thisdict)  #Create and print a dictionary
 
