@@ -126,3 +126,11 @@ def fib_tail(n, a=0, b=1):
          return a
      return fib_tail(n - 1, b, a + b)
 print(fib_tail(6))
+
+def countdown(n):
+     if n == 0:
+         print("DONE")
+         return
+     print(n)
+     return countdown(n-1)
+countdown(7)
