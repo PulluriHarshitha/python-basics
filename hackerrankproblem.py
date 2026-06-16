@@ -159,6 +159,6 @@
 # print("Occurrences:", count)
 
 #WHAT IS YOUR NAME???
-first = input("Enter First Name: ")
-last = input("Enter Last Name: ")
-print(f"Hello {first} {last}! You just developed the python.")
+# first = input("Enter First Name: ")
+# last = input("Enter Last Name: ")
+# print(f"Hello {first} {last}! You just developed the python.")
