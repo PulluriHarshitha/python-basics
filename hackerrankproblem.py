@@ -162,3 +162,10 @@
 # first = input("Enter First Name: ")
 # last = input("Enter Last Name: ")
 # print(f"Hello {first} {last}! You just developed the python.")
+
+#MUTATIONS
+# string = input("enter a string:")
+# position,character = input("enter a position and a character:").split()
+# position = int(position)
+# new_string = string[:position] + character + string[position+1:]
+# print("Modified string:", new_string)
