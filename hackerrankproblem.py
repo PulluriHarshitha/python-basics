@@ -157,3 +157,8 @@
 #     if string[i:i+len(sub_string)] == sub_string:
 #         count += 1
 # print("Occurrences:", count)
+
+#WHAT IS YOUR NAME???
+first = input("Enter First Name: ")
+last = input("Enter Last Name: ")
+print(f"Hello {first} {last}! You just developed the python.")
