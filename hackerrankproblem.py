@@ -149,7 +149,7 @@
 #     n = int(input())
 #     print_rangoli(n)
 
-    #FIND A STRING like mixed numbers
+#FIND A STRING like mixed numbers
 string = input("Enter String: ")
 sub_string = input("Enter Substring: ")
 count = 0
