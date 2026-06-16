@@ -1,150 +1,159 @@
-#ifelse hackerrank
-import sys
+# #ifelse hackerrank
+# import sys
 
-import string
-if __name__ == '__main__':  
- n = int(input().strip())
-if n % 2 != 0:   #input 3(odd)
-    print("Weird")
-elif n % 2 == 0 and 2 <= n <= 5:  #input 24 (even<20)
-    print("Not Weird")
-elif n % 2 == 0 and 6 <= n <= 20:
-    print("Weird")
-else:
-    print("Not Weird")
+# import string
+# if __name__ == '__main__':  
+#  n = int(input().strip())
+# if n % 2 != 0:   #input 3(odd)
+#     print("Weird")
+# elif n % 2 == 0 and 2 <= n <= 5:  #input 24 (even<20)
+#     print("Not Weird")
+# elif n % 2 == 0 and 6 <= n <= 20:
+#     print("Weird")
+# else:
+#     print("Not Weird")
 
-#operators hackerank
+# #operators hackerank
 
-if __name__ == '__main__':
-    a = int(input("Enter a first number"))
-    b = int(input("Enter a second number"))
+# if __name__ == '__main__':
+#     a = int(input("Enter a first number"))
+#     b = int(input("Enter a second number"))
     
-    print(a + b)      # Sum
-    print(a - b)      # Difference  
-    print(a * b)      # Product
+#     print(a + b)      # Sum
+#     print(a - b)      # Difference  
+#     print(a * b)      # Product
 
-#operators on division on above logic
+# #operators on division on above logic
 
-if __name__ == '__main__':
-    a = int(input("Enter a first number"))
-    b = int(input("Enter a second number"))
-    print(a//b)
-    print(a/b)
+# if __name__ == '__main__':
+#     a = int(input("Enter a first number"))
+#     b = int(input("Enter a second number"))
+#     print(a//b)
+#     print(a/b)
 
-#task using square the numbers 
+# #task using square the numbers 
 
-if __name__ == '__main__':
-    n = int(input("enter a number"))
-    for i in range(n):
-        print(i*i) 
+# if __name__ == '__main__':
+#     n = int(input("enter a number"))
+#     for i in range(n):
+#         print(i*i) 
 
-    #leapyear
+#     #leapyear
 
-def is_leap(year):
-     if year % 400 == 0:
-        return True
-     if year % 100 == 0:
-        return False
-     if year % 4 == 0:
-        return True
-     return False
+# def is_leap(year):
+#      if year % 400 == 0:
+#         return True
+#      if year % 100 == 0:
+#         return False
+#      if year % 4 == 0:
+#         return True
+#      return False
 
-     return leap
+#      return leap
 
-year = int(input("enter a year"))
-print(is_leap(year))
+# year = int(input("enter a year"))
+# print(is_leap(year))
 
-#print a function
+# #print a function
 
-if __name__ == '__main__':
-    n = int(input("Enter a number"))
-for i in range(1, n + 1):
-    print(i, end='')
+# if __name__ == '__main__':
+#     n = int(input("Enter a number"))
+# for i in range(1, n + 1):
+#     print(i, end='')
 
-#list comprehension
+# #list comprehension
 
-if __name__ == '__main__':
-    x = int(input())
-    y = int(input())
-    z = int(input())
-    n = int(input())
-result = [[i, j, k]
-          for i in range(x + 1)
-          for j in range(y + 1)
-          for k in range(z + 1)
-          if i + j + k != n]
-print(result)
+# if __name__ == '__main__':
+#     x = int(input())
+#     y = int(input())
+#     z = int(input())
+#     n = int(input())
+# result = [[i, j, k]
+#           for i in range(x + 1)
+#           for j in range(y + 1)
+#           for k in range(z + 1)
+#           if i + j + k != n]
+# print(result)
 
-#reverse array
+# #reverse array
 
-if __name__ == '__main__':
-    n = int(input())
-arr = list(map(int, input().split()))
-unique_scores = sorted(set(arr), reverse=True)
-runner_up = unique_scores[1]
-print(runner_up)
+# if __name__ == '__main__':
+#     n = int(input())
+# arr = list(map(int, input().split()))
+# unique_scores = sorted(set(arr), reverse=True)
+# runner_up = unique_scores[1]
+# print(runner_up)
 
-#list
-if __name__ == '__main__':
-    N = int(input("ENTER A NUM"))
-    list = []
-    for _ in range(N):
-        command = input().split()
-        op = command[0]
-        if op == "insert":
-            i = int(command[1])
-            e = int(command[2])
-            list.insert(i, e)
-        elif op == "print":
-            print(list)
-        elif op == "remove":
-            e = int(command[1])
-            list.remove(e)
-        elif op == "append":
-            e = int(command[1])
-            list.append(e)
-        elif op == "sort":
-            list.sort()
-        elif op == "pop":
-            list.pop()
-        elif op == "reverse":
-            list.reverse()
+# #list
+# if __name__ == '__main__':
+#     N = int(input("ENTER A NUM"))
+#     list = []
+#     for _ in range(N):
+#         command = input().split()
+#         op = command[0]
+#         if op == "insert":
+#             i = int(command[1])
+#             e = int(command[2])
+#             list.insert(i, e)
+#         elif op == "print":
+#             print(list)
+#         elif op == "remove":
+#             e = int(command[1])
+#             list.remove(e)
+#         elif op == "append":
+#             e = int(command[1])
+#             list.append(e)
+#         elif op == "sort":
+#             list.sort()
+#         elif op == "pop":
+#             list.pop()
+#         elif op == "reverse":
+#             list.reverse()
 
-if __name__ == '__main__':
-    n = int(input())
-arr = list(map(int, input().split()))
-unique_scores = sorted(set(arr), reverse=False)
-runner_up = unique_scores[1]
-print(runner_up)
+# if __name__ == '__main__':
+#     n = int(input())
+# arr = list(map(int, input().split()))
+# unique_scores = sorted(set(arr), reverse=False)
+# runner_up = unique_scores[1]
+# print(runner_up)
 
-#
-if __name__ == '__main__':
-    students = []
-    for _ in range(int(input())):
-        name = input()
-        score = float(input())
-        students.append([name, score])
+# #
+# if __name__ == '__main__':
+#     students = []
+#     for _ in range(int(input())):
+#         name = input()
+#         score = float(input())
+#         students.append([name, score])
 
-    grades = sorted(set([score for name, score in students]))
-    second_lowest = grades[1]
-    names = sorted([name for name, score in students if score == second_lowest])
-    for name in names:
-        print(name)
+#     grades = sorted(set([score for name, score in students]))
+#     second_lowest = grades[1]
+#     names = sorted([name for name, score in students if score == second_lowest])
+#     for name in names:
+#         print(name)
 
-   #ALPHABET RANGOLI
-def print_rangoli(size):
-    import string
-    alpha = string.ascii_lowercase
-    width = 4 * size - 3
+#    #ALPHABET RANGOLI
+# def print_rangoli(size):
+#     import string
+#     alpha = string.ascii_lowercase
+#     width = 4 * size - 3
 
-    lines = []
+#     lines = []
 
-    for i in range(size):
-        s = "-".join(alpha[size-1:i:-1] + alpha[i:size])
-        lines.append(s.center(width, "-"))
+#     for i in range(size):
+#         s = "-".join(alpha[size-1:i:-1] + alpha[i:size])
+#         lines.append(s.center(width, "-"))
 
-    print("\n".join(lines[::-1] + lines[1:]))
+#     print("\n".join(lines[::-1] + lines[1:]))
 
-if __name__ == '__main__':
-    n = int(input())
-    print_rangoli(n)
+# if __name__ == '__main__':
+#     n = int(input())
+#     print_rangoli(n)
+
+    #FIND A STRING like mixed numbers
+string = input("Enter String: ")
+sub_string = input("Enter Substring: ")
+count = 0
+for i in range(len(string) - len(sub_string) + 1):
+    if string[i:i+len(sub_string)] == sub_string:
+        count += 1
+print("Occurrences:", count)
