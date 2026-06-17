@@ -134,3 +134,9 @@ def countdown(n):
      print(n)
      return countdown(n-1)
 countdown(7)
+
+def power(base, exp):
+    if exp == 0:
+        return 1
+    return base * power(base, exp - 1)
+print(power(2, 5))  
