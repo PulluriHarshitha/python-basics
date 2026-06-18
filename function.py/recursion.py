@@ -148,3 +148,10 @@ def print_numbers(n):
     print_numbers(n - 1)
     print(n)
 print_numbers(10)
+
+#Find factorial of a number using recursion.
+def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n - 1)
+print(factorial(10))
