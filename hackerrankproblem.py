@@ -190,7 +190,6 @@
 # c = 'HR'
 # for i in range(thickness):
 #     print((c * (2 * i + 1)).center(2 * thickness - 1))
-
 # for i in range(thickness + 1):
 #     print((c * thickness).center(2 * thickness) +
 #           (c * thickness).center(6 * thickness))
