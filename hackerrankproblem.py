@@ -198,6 +198,5 @@
 # for i in range(thickness + 1):
 #     print((c * thickness).center(2 * thickness) +
 #           (c * thickness).center(6 * thickness))
-
 # for i in range(thickness):
 #     print((c * (2 * (thickness - i) - 1)).rjust5(6 * thickness))
