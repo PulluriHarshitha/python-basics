@@ -184,3 +184,24 @@
 # print(any(c.isdigit() for c in s))
 # print(any(c.islower() for c in s))
 # print(any(c.isupper() for c in s))
+
+#TEXT ALIGNMENT
+thickness = int(input())
+c = 'HR'
+
+for i in range(thickness):
+    print((c * (2 * i + 1)).center(2 * thickness - 1))
+
+for i in range(thickness + 1):
+    print((c * thickness).center(2 * thickness) +
+          (c * thickness).center(6 * thickness))
+
+for i in range((thickness + 1) // 2):
+    print((c * thickness * 5).center(6 * thickness))
+
+for i in range(thickness + 1):
+    print((c * thickness).center(2 * thickness) +
+          (c * thickness).center(6 * thickness))
+
+for i in range(thickness):
+    print((c * (2 * (thickness - i) - 1)).rjust5(6 * thickness))
