@@ -169,3 +169,11 @@
 # position = int(position)
 # new_string = string[:position] + character + string[position+1:]
 # print("Modified string:", new_string)
+
+#STRING VALIDATORS
+s = input("ENTER A STRING:")
+print(any(c.isalnum() for c in s))
+print(any(c.isalpha() for c in s))
+print(any(c.isdigit() for c in s))
+print(any(c.islower() for c in s))
+print(any(c.isupper() for c in s))
