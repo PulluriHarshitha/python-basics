@@ -188,7 +188,6 @@
 #TEXT ALIGNMENT
 # thickness = int(input())
 # c = 'HR'
-
 # for i in range(thickness):
 #     print((c * (2 * i + 1)).center(2 * thickness - 1))
 
