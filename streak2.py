@@ -489,3 +489,8 @@ s = "12.5"
 f = float(s)
 print(f)
 print(type(f))
+
+s = 123
+f = string(s)
+print(f)
+print(type(f))
