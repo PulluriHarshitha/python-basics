@@ -484,3 +484,8 @@ age = int(input("Enter your age: "))
 print("Hello", age)
 for i in range(1, 10):
      print(i)
+
+s = "12.5"
+f = float(s)
+print(f)
+print(type(f))
