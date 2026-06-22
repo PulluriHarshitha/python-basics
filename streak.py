@@ -475,4 +475,8 @@ join_list = []
 for i in range(len(list1)):
     join_list.append(list1[i])
     join_list.append(list2[i])
-print(join_list)  
+print(join_list) 
+
+a = 10
+b = 20
+print(a + b)
