@@ -200,3 +200,10 @@
 #           (c * thickness).center(6 * thickness))
 # for i in range(thickness):
 #     print((c * (2 * (thickness - i) - 1)).rjust5(6 * thickness))
+
+#TEXT WRAP
+import textwrap
+string = input()
+max_width = int(input("Enter max width: "))
+result = textwrap.fill(string, 4)
+print(result)
