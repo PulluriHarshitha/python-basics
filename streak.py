@@ -478,5 +478,5 @@ print("Square:", square(num))
 # print(join_list) 
 
 a = 10
-# b = 20
+b = 20
 print(a + b)
