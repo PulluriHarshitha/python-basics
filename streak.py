@@ -469,10 +469,10 @@ def square(n):
 num = 12
 print("Square:", square(num))
 
-# list1 = ["burger", "phone", "teacher","hardware","doctor"]
- list2 = ["coke", "charger", "student","software","patient"]
- join_list = []
- for i in range(len(list1)):
+list1 = ["burger", "phone", "teacher","hardware","doctor"]
+list2 = ["coke", "charger", "student","software","patient"]
+join_list = []
+for i in range(len(list1)):
     join_list.append(list1[i])
     join_list.append(list2[i])
 print(join_list) 
