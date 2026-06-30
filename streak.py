@@ -463,7 +463,7 @@ else:
       print("Consonants")
 
 
-##squares
+#squares
 def square(n):
     return n * n
 num = 12
