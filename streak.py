@@ -1,8 +1,8 @@
 ch = input("Enter a character: ")
 if ch in "aeiouAEIOU":
-     print("Vowel")
+      print("Vowel")
 else:
-     print("Consonant")
+      print("Consonant")
 
 ##palindrome num
 num = int(input("Enter a number: "))
