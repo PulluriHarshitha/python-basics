@@ -495,6 +495,6 @@ f = string(s)
 print(f)
 print(type(f))
 
-text = "apple banana mango"
+text = "apple,banana,mango"
 words = text.split()
 print(words)
