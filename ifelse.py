@@ -116,7 +116,7 @@ else:
 
 
 #SIMPLE CALCULATOR
-  while True:
+while True:
     try:
         num1 = float(input("First number: "))
         op = input("Operator (+, -, *, /): ")
