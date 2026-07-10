@@ -75,9 +75,10 @@ if gender.lower== "male":
         if region.lower == "local":
             print("Candidate is Eligible")
         else:
-            print("Candidate not belong to Local region")
+            print("Candidate is not eligible")
     else:
             print("Candidate should get a score of 60 average in the given test")
 else:
     print("Only male candidates are eligible")
+
 
