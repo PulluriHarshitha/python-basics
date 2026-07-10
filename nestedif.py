@@ -65,4 +65,19 @@ if score >= 90:
 elif score >= 80:
   print("B grade")
 else:
-  print("C grade or below")
+  print("C grade or below") 
+
+gender = input("Enter gender (M/F): ")
+avg = float(input("Enter Average Score: "))
+region = input("Enter Region (Local/Non-Local): ")
+if gender.lower() == "male":
+    if avg >= 60:
+        if region.lower() == "local":
+            print("Candidate is Eligible")
+        else:
+            print("Candidate not belong to Local region")
+    else:
+            print("Candidate should get a score of 60 average in the given test")
+else:
+    print("Only male candidates are eligible")
+
