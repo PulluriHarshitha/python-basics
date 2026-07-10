@@ -89,4 +89,25 @@ for i in range(5):
 else:
     print("Loop finished")   #The else block executes after the loop completes normally (without break)
 
+a = 10
+b = 20
+if(a>b):
+  print("a is greater")
+if(a<b):
+  print("b is greater")
+if(a==b):
+  print("a is equal to b")
+if(a!=b):
+  print("a is not equal to b") 
 
+#another example of if else
+a = 10
+b = 20
+if(a>b):
+  print("a is greater")
+elif(a<b):
+  print("b is greater")
+elif(a==b):
+  print("a is equal to b")
+else:
+  print("a is not equal to b") 
