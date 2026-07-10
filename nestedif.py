@@ -70,9 +70,9 @@ else:
 gender = input("Enter gender (M/F): ")
 avg = float(input("Enter Average Score: "))
 region = input("Enter Region (Local/Non-Local): ")
-if gender.lower() == "male":
+if gender.lower== "male":
     if avg >= 60:
-        if region.lower() == "local":
+        if region.lower == "local":
             print("Candidate is Eligible")
         else:
             print("Candidate not belong to Local region")
