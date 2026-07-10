@@ -111,3 +111,26 @@ elif(a==b):
   print("a is equal to b")
 else:
   print("a is not equal to b") 
+
+
+# a=int(input("Enter a: "))
+# b=int(input("Enter b: "))
+# c=int(input("Enter c: "))
+# if(a==0 or b==0 or c==0):
+#     print("number must be greater than 0")
+# elif(a==b and b==c and c==a):
+#     print("All numbers are equal")
+# elif(a!=b and b!=c and a!=c):
+#     print("All numbers are different")
+# else:
+#     print("Neither all are equal or different")
+
+a = int(input("Enter a first number: "))
+b = int(input("Enter a second number: "))
+c = int(input("Enter a third number: "))
+if a>b and b>c and a>c:
+    print("decreasing order")
+elif a<b and b<c and a<c:
+    print("increasing order")
+else:
+    print("Neither increasing nor decreasing order")
