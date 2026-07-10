@@ -476,6 +476,6 @@ for i in range(len(list1)):
     join_list.append(list2[i])
 print(join_list) 
 
-square area = 123
+
 
 
