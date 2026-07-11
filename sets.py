@@ -192,4 +192,5 @@ print(set3) # we can use "^" operator insted of symmertric_difference()
 set1 = {"apple", "cognizant", "accenture","tata"}
 set2 = {"google", "microsoft", "apple","meesho"}
 set1.symmetric_difference_update(set2)
-print(set1)  #symmetric_difference_update() removes common items and keeps only different items, updating the original set
+print(set1)  
+#symmetric_difference_update() removes common items and keeps only different items, updating the original set
