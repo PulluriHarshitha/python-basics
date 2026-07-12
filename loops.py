@@ -41,6 +41,7 @@ for i in range(1,n+1):
 print("Factorial", fact)
 
 #ARMSTRONG NUMBERs:is anumber that is equal to the sum of cubes of its digits. each digit is raised to the power of total number of digits.For example, 153 is an armstrong number because 1^3 + 5^3 + 3^3 = 153
+
 n = int(input())
 n_dup= n #153
 org = n #org = 153
