@@ -17,15 +17,31 @@
 # n2=int(input("enter num2"))
 # adding(n1,n2)
 
-def total_marks(external,internal):
-    total = external + internal
-    print("Total marks:",total)
-total_marks(30,40)   #passing both values to the function
-total_marks(40,10)   #passing both values to the function
+# def total_marks(external,internal):
+#     total = external + internal
+#     print("Total marks:",total)
+# total_marks(30,40)   #passing both values to the function
+# total_marks(40,10)   #passing both values to the function
 
-def mul(a,b):
-    print(a*b)
-mul(10,20)
-mul(20,10)      #positional arguments
-mul(b=15,a=20)   #passing values in different order using keyword arguments
-    
+# def mul(a,b):
+#     print(a*b)
+# mul(10,20)
+# mul(20,10)      #positional arguments
+# mul(b=15,a=20)   #passing values in different order using keyword arguments
+
+def fun1():
+    return "hello"
+print(fun1())   #function returning a value
+res = fun1()   # result storing the return value in a variable
+print(res)
+
+#returing multiple values from a function
+def func1(a,b):
+    c = a+b
+    d = a-b
+    return c,d
+res = func1(10,20)
+print(res)
+res1,res2 = func1(30,40)   #unpacking the returned values into separate variables
+print("res1:",res1)
+print("res2:",res2) 
