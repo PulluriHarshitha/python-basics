@@ -45,3 +45,7 @@ print(res)
 res1,res2 = func1(30,40)   #unpacking the returned values into separate variables
 print("res1:",res1)
 print("res2:",res2) 
+
+for i in range(0,3): #i = 0,1,2
+    for j in range(0,3): #j = 0,1,2
+        print("i=",i,"j=",j)   #i=2,j=2
