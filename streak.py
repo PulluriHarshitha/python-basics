@@ -261,7 +261,6 @@ else:
 
 
 #perfect number
-
 num = int(input("Enter a number: "))
 sum_val = 0
 for i in range(1, num):
