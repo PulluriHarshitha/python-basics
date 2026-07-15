@@ -1,480 +1,488 @@
-ch = input("Enter a character: ")
-if ch in "aeiouAEIOU":
-       print("Vowel")
-else:
-       print("Consonant")
+# ch = input("Enter a character: ")
+# if ch in "aeiouAEIOU":
+#        print("Vowel")
+# else:
+#        print("Consonant")
 
-##palindrome num
-num = int(input("Enter a number: "))
-temp = num
-rev = 0
-while num > 0:
-    digit = num % 10
-    rev = rev * 10 + digit
-num = num // 10
-if temp == rev:
-      print("Palindrome number")
-else:
-      print("Not a palindrome")
+# ##palindrome num
+# num = int(input("Enter a number: "))
+# temp = num
+# rev = 0
+# while num > 0:
+#     digit = num % 10
+#     rev = rev * 10 + digit
+# num = num // 10
+# if temp == rev:
+#       print("Palindrome number")
+# else:
+#       print("Not a palindrome")
 
- #palindrome string
-text = input("Enter a string: ")
-if text == text[::-1]:
-     print("Palindrome string")
-else:
-   print("Not a palindrome")
+#  #palindrome string
+# text = input("Enter a string: ")
+# if text == text[::-1]:
+#      print("Palindrome string")
+# else:
+#    print("Not a palindrome")
 
 
-# #prime number
-num = int(input("Enter a number: "))
-flag = 0
-if num > 1:
-     for i in range(2, num):
-         if num % i == 0:
-             flag = 1
-             break
-         if flag == 0:
-          print("Prime number")
-     else:
-         print("Not a prime number")
-else:
-    print("Not a prime number")
+# # #prime number
+# num = int(input("Enter a number: "))
+# flag = 0
+# if num > 1:
+#      for i in range(2, num):
+#          if num % i == 0:
+#              flag = 1
+#              break
+#          if flag == 0:
+#           print("Prime number")
+#      else:
+#          print("Not a prime number")
+# else:
+#     print("Not a prime number")
 
-#armstrong num
-num = int(input("Enter a number: "))
-temp = num
-sum = 0
-while num > 0:
-     digit = num % 10
-     sum = sum + digit**3
-     num = num // 10
-if temp == sum:
-     print("Armstrong number")
-else:
-     print("Not an Armstrong number")
+# #armstrong num
+# num = int(input("Enter a number: "))
+# temp = num
+# sum = 0
+# while num > 0:
+#      digit = num % 10
+#      sum = sum + digit**3
+#      num = num // 10
+# if temp == sum:
+#      print("Armstrong number")
+# else:
+#      print("Not an Armstrong number")
 
-##fibonacci series
-n = int(input("Enter number of terms: "))
-a, b = 0, 1
-for i in range(n):
-    print(a, end=" ")
-a,b = b,a+b
+# ##fibonacci series
+# n = int(input("Enter number of terms: "))
+# a, b = 0, 1
+# for i in range(n):
+#     print(a, end=" ")
+# a,b = b,a+b
     
 
-    #sum of digits
-num = int(input("Enter number: "))
-sum = 0
-while num > 0:
-    sum += num % 10
-    num //= 10
-print("Sum of digits:", sum)
+#     #sum of digits
+# num = int(input("Enter number: "))
+# sum = 0
+# while num > 0:
+#     sum += num % 10
+#     num //= 10
+# print("Sum of digits:", sum)
  
- #largest of three numbers
-a = int(input())
-b = int(input())
-c = int(input())
-largest = max(a, b, c)
-print("Largest:", largest)
+#  #largest of three numbers
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# largest = max(a, b, c)
+# print("Largest:", largest)
 
-# #days in a week
-days = ["Monday", "Tuesday", "Wednesday", "Thursday",
-         "Friday", "Saturday", "Sunday"]
-for day in days:
-    print(day)
+# # #days in a week
+# days = ["Monday", "Tuesday", "Wednesday", "Thursday",
+#          "Friday", "Saturday", "Sunday"]
+# for day in days:
+#     print(day)
 
-##months in a year
-months = ["January", "February", "March", "April", "May", "June","July", "August", "September", "October", "November", "December"]
-for month in months:
-   print(month)
+# ##months in a year
+# months = ["January", "February", "March", "April", "May", "June","July", "August", "September", "October", "November", "December"]
+# for month in months:
+#    print(month)
   
-##to display month name using number
-month = int(input("Enter month number: "))
-months = ["January", "February", "March", "April", "May", "June","July", "August", "September", "October", "November", "December"]
-if 1 <= month <= 12:
-     print("Month is:", months[month - 1])
-else:
-    print("Invalid input")
+# ##to display month name using number
+# month = int(input("Enter month number: "))
+# months = ["January", "February", "March", "April", "May", "June","July", "August", "September", "October", "November", "December"]
+# if 1 <= month <= 12:
+#      print("Month is:", months[month - 1])
+# else:
+#     print("Invalid input")
 
-#find the largest of three numbers
-a = int(input())
-b = int(input())
-c = int(input())
-if a >= b and a >= c:
-     print(a)
-elif b >= c:
-    print(b)
-else:
-     print(c)
+# #find the largest of three numbers
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# if a >= b and a >= c:
+#      print(a)
+# elif b >= c:
+#     print(b)
+# else:
+#      print(c)
 
-##simple prime number
-n = int(input())
-flag = True
-if n <= 1:
-     flag = False
-else:
-     for i in range(2, n):
-         if n % i == 0:
-             flag = False
-             break
-if flag:
-     print("Prime")
-else:
-     print("Not Prime")
+# ##simple prime number
+# n = int(input())
+# flag = True
+# if n <= 1:
+#      flag = False
+# else:
+#      for i in range(2, n):
+#          if n % i == 0:
+#              flag = False
+#              break
+# if flag:
+#      print("Prime")
+# else:
+#      print("Not Prime")
  
-##swapping of two nums
+# ##swapping of two nums
 
-a = int(input())
-b = int(input())
-a, b = b, a
-print(a, b)
-name = input("Enter your name: ")
-print("Hello", name)
-for i in range(1, 6):
-     print(i)
-
-
-
-##fibonacci series
-n = int(input("Enter number of terms: "))
-a, b = 0, 1
-print("Fibonacci Series:")
-for i in range(n):
-   print(a, end=" ")
-a, b = b, a + b
+# a = int(input())
+# b = int(input())
+# a, b = b, a
+# print(a, b)
+# name = input("Enter your name: ")
+# print("Hello", name)
+# for i in range(1, 6):
+#      print(i)
 
 
-##recursive fibonacci program
-def fibonacci(n):
-     if n <= 1:
-        return n
-     return fibonacci(n - 1) + fibonacci(n - 2)
-n = int(input("Enter number of terms: "))
-print("Fibonacci Series:")
-for i in range(n):
-     print(fibonacci(i), end=" ")
+
+# ##fibonacci series
+# n = int(input("Enter number of terms: "))
+# a, b = 0, 1
+# print("Fibonacci Series:")
+# for i in range(n):
+#    print(a, end=" ")
+# a, b = b, a + b
 
 
- #fiboonaci series vth loop method
-def fibonacci(n):
-    a, b = 0, 1
-    for _ in range(n):
-        print(a, end=" ")
-        a, b = b, a + b
-n = int(input("Enter number of terms: "))
-fibonacci(n)
-
-##lists
-list = [10, 20, 30, 40]
-print("Max:", max(list))
-print("Min:", min(list))
+# ##recursive fibonacci program
+# def fibonacci(n):
+#      if n <= 1:
+#         return n
+#      return fibonacci(n - 1) + fibonacci(n - 2)
+# n = int(input("Enter number of terms: "))
+# print("Fibonacci Series:")
+# for i in range(n):
+#      print(fibonacci(i), end=" ")
 
 
-##number guessing game
-import random
-num = random.randint(1, 10)
-guess = int(input("Guess number (1-10): "))
-if guess == num:
-    print("Correct!")
-else:
-    print("Wrong! Number was:", num)
+#  #fiboonaci series vth loop method
+# def fibonacci(n):
+#     a, b = 0, 1
+#     for _ in range(n):
+#         print(a, end=" ")
+#         a, b = b, a + b
+# n = int(input("Enter number of terms: "))
+# fibonacci(n)
+
+# ##lists
+# list = [10, 20, 30, 40]
+# print("Max:", max(list))
+# print("Min:", min(list))
 
 
-#dictionary example
+# ##number guessing game
+# import random
+# num = random.randint(1, 10)
+# guess = int(input("Guess number (1-10): "))
+# if guess == num:
+#     print("Correct!")
+# else:
+#     print("Wrong! Number was:", num)
 
-student = {"name": "Harshitha", "age": 18, "course": "Python"}
-print(student["name"])
+
+# #dictionary example
+
+# student = {"name": "Harshitha", "age": 18, "course": "Python"}
+# print(student["name"])
 
 
-import random
-num = random.randint(1, 25)
-guess = int(input("Guess number (1-254): "))
-if guess == num:
-    print("Correct!")
-else:
-    print("Wrong! Number was:", num)
+# import random
+# num = random.randint(1, 25)
+# guess = int(input("Guess number (1-254): "))
+# if guess == num:
+#     print("Correct!")
+# else:
+#     print("Wrong! Number was:", num)
     
-#inheritance example
+# #inheritance example
 
-class A:
-    def show(self):
-        print("Class A")
-class B(A):
-    def display(self):
-        print("Class B")
-obj = B()
-obj.show()
-obj.display()
+# class A:
+#     def show(self):
+#         print("Class A")
+# class B(A):
+#     def display(self):
+#         print("Class B")
+# obj = B()
+# obj.show()
+# obj.display()
 
-#suduko solver
-def solve(board):
-    for i in range(9):
-        for j in range(9):
-            if board[i][j] == 0:
-                for n in range(1, 10):
-                    if valid(board, i, j, n):
-                        board[i][j] = n
-                        if solve(board):
-                            return True
-                        board[i][j] = 0
-                return False
-    return True
-def valid(board, row, col, num):
-    if num in board[row]:
-        return False
-    for i in range(9):
-        if board[i][col] == num:
-            return False
-    sr, sc = (row//3)*3, (col//3)*3
-    for i in range(sr, sr+3):
-        for j in range(sc, sc+3):
-            if board[i][j] == num:
-                return False
-    return True
+# #suduko solver
+# def solve(board):
+#     for i in range(9):
+#         for j in range(9):
+#             if board[i][j] == 0:
+#                 for n in range(1, 10):
+#                     if valid(board, i, j, n):
+#                         board[i][j] = n
+#                         if solve(board):
+#                             return True
+#                         board[i][j] = 0
+#                 return False
+#     return True
+# def valid(board, row, col, num):
+#     if num in board[row]:
+#         return False
+#     for i in range(9):
+#         if board[i][col] == num:
+#             return False
+#     sr, sc = (row//3)*3, (col//3)*3
+#     for i in range(sr, sr+3):
+#         for j in range(sc, sc+3):
+#             if board[i][j] == num:
+#                 return False
+#     return True
 
-#prime numbers blw two numbers
-a, b = map(int, input("Enter range: ").split())
-for n in range(a, b+1):
-    if n > 1:
-        for i in range(2, int(n**0.5)+1):
-            if n % i == 0:
-                break
-        else:
-            print(n, end=" ")
-
-
-#simple calculator 
-
-a = int(input("Enter first number: "))
-b = int(input("Enter second number: "))
-print("1.Add  2.Sub  3.Mul  4.Div")
-choice = int(input("Choose operation: "))
-if choice == 1:
-    print("Result =", a + b)
-elif choice == 2:
-    print("Result =", a - b)
-elif choice == 3:
-    print("Result =", a * b)
-elif choice == 4:
-    print("Result =", a / b)
-else:
-    print("Invalid choice")
+# #prime numbers blw two numbers
+# a, b = map(int, input("Enter range: ").split())
+# for n in range(a, b+1):
+#     if n > 1:
+#         for i in range(2, int(n**0.5)+1):
+#             if n % i == 0:
+#                 break
+#         else:
+#             print(n, end=" ")
 
 
-#perfect number
-num = int(input("Enter a number: "))
-sum_val = 0
-for i in range(1, num):
-    if num % i == 0:
-        sum_val += i
-if sum_val == num:
-    print("Perfect Number")
-else:
-    print("Not Perfect Number")
+# #simple calculator 
+
+# a = int(input("Enter first number: "))
+# b = int(input("Enter second number: "))
+# print("1.Add  2.Sub  3.Mul  4.Div")
+# choice = int(input("Choose operation: "))
+# if choice == 1:
+#     print("Result =", a + b)
+# elif choice == 2:
+#     print("Result =", a - b)
+# elif choice == 3:
+#     print("Result =", a * b)
+# elif choice == 4:
+#     print("Result =", a / b)
+# else:
+#     print("Invalid choice")
 
 
-#file handling-write and read
-with open("data.txt", "w") as f:
-    f.write("Hello Python")
-
-with open("data.txt", "r") as f:
-    print(f.read())
-
-
-#Merge Two Dictionaries
-d1 = {1: 10, 2: 20}
-d2 = {3: 30, 4: 40}
-d3 = {**d1, **d2}
-print(d3)
+# #perfect number
+# num = int(input("Enter a number: "))
+# sum_val = 0
+# for i in range(1, num):
+#     if num % i == 0:
+#         sum_val += i
+# if sum_val == num:
+#     print("Perfect Number")
+# else:
+#     print("Not Perfect Number")
 
 
-#Remove Duplicate Characters
-s = input("Enter a string: ")
-result = ""
-for ch in s:
-    if ch not in result:
-        result += ch
-print("After removing duplicates:", result)
+# #file handling-write and read
+# with open("data.txt", "w") as f:
+#     f.write("Hello Python")
+
+# with open("data.txt", "r") as f:
+#     print(f.read())
 
 
-#Find Second Largest Number in List
-lst = list(map(int, input("Enter numbers: ").split()))
-unique = list(set(lst))
-unique.sort()
-print("Second largest:", unique[-2])
-
-#Reverse Each Word in a Sentence
-s = input("Enter a sentence: ")
-words = s.split()
-rev = [w[::-1] for w in words]
-print(" ".join(rev))
-
-#Swap Two Numbers
-a = 100
-b = 200
-a, b = b, a
-print("a =", a, "b =", b)
-
-#Remove Duplicates from List
-lst = [1, 2, 2, 3, 4, 4, 5]
-print(list(set(lst)))
-
-#Find Missing Number in Array
-arr = [1, 2, 3, 5, 6]
-n = 6
-expected = n * (n + 1) // 2
-print("Missing =", expected - sum(arr))
-
-#simple atm machine
-balance = 5000
-while True:
-    print("\n1.Deposit  2.Withdraw  3.Check Balance  4.Exit")
-    choice = int(input("Enter choice: "))
-
-    if choice == 1:
-        amt = int(input("Enter deposit amount: "))
-        balance += amt
-    elif choice == 2:
-        amt = int(input("Enter withdraw amount: "))
-        if amt <= balance:
-            balance -= amt
-        else:
-            print("Insufficient Balance")
-    elif choice == 3:
-        print("Balance =", balance)
-    elif choice == 4:
-        break
-    else:
-        print("Invalid choice")
+# #Merge Two Dictionaries
+# d1 = {1: 10, 2: 20}
+# d2 = {3: 30, 4: 40}
+# d3 = {**d1, **d2}
+# print(d3)
 
 
-        #find a missing array
-arr = [1, 2, 3, 5, 6]
-n = 6
-expected = n * (n + 1) // 2
-print("Missing =", expected - sum(arr))
-
-#example
-print("hello world");
-
-#EXAMPLE
-
-num = int(input("Enter a number: "))
-fact = 1
-for i in range(1, num + 1):
-    fact = fact * i
-print("Factorial =", fact) 
-
-#python reverse py
-num = int(input("Enter a number: "))
-rev = 0
-while num > 0:
-    digit = num % 10
-    rev = rev * 10 + digit
-    num = num // 10
-print("Reversed Number =", rev)
-
-#find largest nums
-a = int(input("Enter first number: "))
-b = int(input("Enter second number: "))
-c = int(input("Enter third number: "))
-if a > b and a > c:
-    print("Largest =", a)
-elif b > c:
-    print("Largest =", b)
-else:
-    print("Largest =", c)
-
-    #PRINT FUNCTION
-
-print("harshitha pulluri")
-
-##sub
-a = 10
-b = 20
-result = a - b
-print("Subtraction:", result)
-
-##syntax of func
-def greet():
-    print("Hello, welcome to Python")
-greet()
-
-##Function with Parameters
-def add(a, b):
-     sum = a + b
-     print("Sum:", sum)
-add(10, 20)
-
-##Function with Return Value
-def multiply(a, b):
- result = a * b
- return result
-ans = multiply(5, 4)
-print("Multiplication:", ans)
-
-##Function for Subtraction
-def subtraction(a, b):
-  result = a - b
-  print("Subtraction:", result)
-subtraction(20, 10)
-
-##Simple square Program
-
-def square(n):
-    return n * n
-num = 6
-print("Square:", square(num))
-
-##simples cubes
-def cube(n):
-    return n * n * n
-number = 4
-print("Cube:", cube(number))
-
-##perfect number
-
-num = int(input("Enter a number: "))
-sum_val = 0
-for i in range(1, num):
-    if num % i == 0:
-        sum_val += i
-if sum_val == num:
-    print("Perfect Number")
-else:
-   print("Not Perfect Number")
+# #Remove Duplicate Characters
+# s = input("Enter a string: ")
+# result = ""
+# for ch in s:
+#     if ch not in result:
+#         result += ch
+# print("After removing duplicates:", result)
 
 
-int(input("Enter a number: "))
-sum_val = 0
-for i in range(1, num):
-    if num % i == 6:
-        sum_val += i
-if sum_val == num:
-     print("Perfect Number")
-else:
-    print("Perfect Number")
+# #Find Second Largest Number in List
+# lst = list(map(int, input("Enter numbers: ").split()))
+# unique = list(set(lst))
+# unique.sort()
+# print("Second largest:", unique[-2])
+
+# #Reverse Each Word in a Sentence
+# s = input("Enter a sentence: ")
+# words = s.split()
+# rev = [w[::-1] for w in words]
+# print(" ".join(rev))
+
+# #Swap Two Numbers
+# a = 100
+# b = 200
+# a, b = b, a
+# print("a =", a, "b =", b)
+
+# #Remove Duplicates from List
+# lst = [1, 2, 2, 3, 4, 4, 5]
+# print(list(set(lst)))
+
+# #Find Missing Number in Array
+# arr = [1, 2, 3, 5, 6]
+# n = 6
+# expected = n * (n + 1) // 2
+# print("Missing =", expected - sum(arr))
+
+# #simple atm machine
+# balance = 5000
+# while True:
+#     print("\n1.Deposit  2.Withdraw  3.Check Balance  4.Exit")
+#     choice = int(input("Enter choice: "))
+
+#     if choice == 1:
+#         amt = int(input("Enter deposit amount: "))
+#         balance += amt
+#     elif choice == 2:
+#         amt = int(input("Enter withdraw amount: "))
+#         if amt <= balance:
+#             balance -= amt
+#         else:
+#             print("Insufficient Balance")
+#     elif choice == 3:
+#         print("Balance =", balance)
+#     elif choice == 4:
+#         break
+#     else:
+#         print("Invalid choice")
+
+
+#         #find a missing array
+# arr = [1, 2, 3, 5, 6]
+# n = 6
+# expected = n * (n + 1) // 2
+# print("Missing =", expected - sum(arr))
+
+# #example
+# print("hello world");
+
+# #EXAMPLE
+
+# num = int(input("Enter a number: "))
+# fact = 1
+# for i in range(1, num + 1):
+#     fact = fact * i
+# print("Factorial =", fact) 
+
+# #python reverse py
+# num = int(input("Enter a number: "))
+# rev = 0
+# while num > 0:
+#     digit = num % 10
+#     rev = rev * 10 + digit
+#     num = num // 10
+# print("Reversed Number =", rev)
+
+# #find largest nums
+# a = int(input("Enter first number: "))
+# b = int(input("Enter second number: "))
+# c = int(input("Enter third number: "))
+# if a > b and a > c:
+#     print("Largest =", a)
+# elif b > c:
+#     print("Largest =", b)
+# else:
+#     print("Largest =", c)
+
+#     #PRINT FUNCTION
+
+# print("harshitha pulluri")
+
+# ##sub
+# a = 10
+# b = 20
+# result = a - b
+# print("Subtraction:", result)
+
+# ##syntax of func
+# def greet():
+#     print("Hello, welcome to Python")
+# greet()
+
+# ##Function with Parameters
+# def add(a, b):
+#      sum = a + b
+#      print("Sum:", sum)
+# add(10, 20)
+
+# ##Function with Return Value
+# def multiply(a, b):
+#  result = a * b
+#  return result
+# ans = multiply(5, 4)
+# print("Multiplication:", ans)
+
+# ##Function for Subtraction
+# def subtraction(a, b):
+#   result = a - b
+#   print("Subtraction:", result)
+# subtraction(20, 10)
+
+# ##Simple square Program
+
+# def square(n):
+#     return n * n
+# num = 6
+# print("Square:", square(num))
+
+# ##simples cubes
+# def cube(n):
+#     return n * n * n
+# number = 4
+# print("Cube:", cube(number))
+
+# ##perfect number
+
+# num = int(input("Enter a number: "))
+# sum_val = 0
+# for i in range(1, num):
+#     if num % i == 0:
+#         sum_val += i
+# if sum_val == num:
+#     print("Perfect Number")
+# else:
+#    print("Not Perfect Number")
+
+
+# int(input("Enter a number: "))
+# sum_val = 0
+# for i in range(1, num):
+#     if num % i == 6:
+#         sum_val += i
+# if sum_val == num:
+#      print("Perfect Number")
+# else:
+#     print("Perfect Number")
 
     
-ch = input("Enter a character: ")
-if ch in "aeiouAEIOU":
-     print("Vowel")
-else:
-      print("Consonants")
+# ch = input("Enter a character: ")
+# if ch in "aeiouAEIOU":
+#      print("Vowel")
+# else:
+#       print("Consonants")
 
-#squares
-def square(n):
-    return n * n
-num = 12
-print("Square:", square(num))
+# #squares
+# def square(n):
+#     return n * n
+# num = 12
+# print("Square:", square(num))
 
-list1 = ["burger", "phone", "teacher","hardware","doctor"]
-list2 = ["coke", "charger", "student","software","patient"]
-join_list = []
-for i in range(len(list1)):
-    join_list.append(list1[i])
-    join_list.append(list2[i])
-print(join_list) 
+# list1 = ["burger", "phone", "teacher","hardware","doctor"]
+# list2 = ["coke", "charger", "student","software","patient"]
+# join_list = []
+# for i in range(len(list1)):
+#     join_list.append(list1[i])
+#     join_list.append(list2[i])
+# print(join_list) 
 
-
-
-
+numbers = [10, 20, 30, 40, 50]
+print(numbers)
+#Append
+numbers.append(60)
+print(numbers)
+#Remove
+numbers.remove(30)
+print(numbers)
+#Update
+numbers[1] = 25
+print(numbers)
