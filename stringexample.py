@@ -1,3 +1,6 @@
+import string
+
+
 a = "Hello"
 print(a)     #printing a string
 
@@ -47,5 +50,9 @@ print(txt)     #formated string using float with 2 decimal places :2f
 txt = f"The price is {100 * 200} rupees"
 print(txt)     #formatted string using expresssion inside math operators
 
- 
+import string
+print(string.ascii_letters)
+print(string.ascii_lowercase)
+print(string.ascii_uppercase)
+print(string.punctuation)
 
