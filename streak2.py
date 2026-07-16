@@ -498,18 +498,28 @@
 # words = text.split()
 # print(words)
 
-arr = list(map(int, input().split()))
-freq = {}
-for num in arr:
-    if num in freq:
-        freq[num] += 1
-    else:
-        freq[num] = 1
+# arr = list(map(int, input().split()))
+# freq = {}
+# for num in arr:
+#     if num in freq:
+#         freq[num] += 1
+#     else:
+#         freq[num] = 1
+# seen = set()
+# unique = True
+# for count in freq.values():
+#     if count in seen:
+#         unique = False
+#         break
+#     seen.add(count)
+# print(unique)
+
+num = (1,2,3,1)
 seen = set()
-unique = True
-for count in freq.values():
-    if count in seen:
-        unique = False
+duplicate = False
+for num in num:
+    if num in seen:
+        duplicate = True
         break
-    seen.add(count)
-print(unique)
+    seen.add(num)
+print(duplicate)
