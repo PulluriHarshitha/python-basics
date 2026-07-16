@@ -56,3 +56,17 @@ print(string.ascii_lowercase)
 print(string.ascii_uppercase)
 print(string.punctuation)
 
+string = "helloABC123@34**"
+print(string.center(1))
+print(string.isdigit())
+print(string.isalpha())
+print(string.isascii())
+print(string.index("A"))
+print(len(string))
+print(max(string))
+print(min(string))
+
+string = "python"
+print(string[::2])
+print(string[::-1])
+print(string[1:5:2])
