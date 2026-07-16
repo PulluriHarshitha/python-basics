@@ -514,12 +514,19 @@
 #     seen.add(count)
 # print(unique)
 
-num = (1,2,3,1)
-seen = set()
-duplicate = False
-for num in num:
-    if num in seen:
-        duplicate = True
-        break
-    seen.add(num)
-print(duplicate)
+# num = (1,2,3,1)
+# seen = set()
+# duplicate = False
+# for num in num:
+#     if num in seen:
+#         duplicate = True
+#         break
+#     seen.add(num)
+# print(duplicate)
+
+s = input("Enter first string: ")
+t = input("Enter second string: ")
+if sorted(s) == sorted(t):
+    print(True)
+else:
+    print(False)
