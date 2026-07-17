@@ -213,3 +213,49 @@ print(thislist)
 thislist = ["melon", "banana", "cherry", "apple", "cherry"]
 thislist.remove("cherry")
 print(thislist)
+
+#pop remove an specified index 
+thislist = ["tulips", "rose", "mariegold","sunflower","lotus"]
+thislist.pop(0)
+print(thislist)
+
+thislist = ["tulips", "rose", "mariegold","sunflower","lotus"]
+thislist.pop()
+print(thislist)
+
+#delete list
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+del thislist[0]     #delete with index
+print(thislist)
+
+#clear()-empty list
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+thislist.clear()     
+print(thislist)
+
+
+#LOOPING THROUGH THE LISTS
+
+thislist = ["apple", "cherry", "mango"]
+for x in thislist:
+  print(x)
+
+#loop through the list with range of index numbers
+nums = ["apple", "cherry", "mango"]
+for i in range(len(nums)):
+   print(i,nums[i])
+
+#while loop
+thislist = ["apple","mango","banana","cherry"]
+i = 0
+while i < len(thislist):
+    print(thislist[i])
+    i = i + 1
+
+#list comprehension 
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+newlist = []
+for x in fruits:
+  if "m" in x:
+    newlist.append(x)
+print(newlist)
