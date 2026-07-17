@@ -72,12 +72,12 @@ thisset = {"justmarried", "dearkavya", "telugumedium"}
 thisset.discard("dearkavya")
 print(thisset)    #remove an item in a set, use the remove(), or the discard() method.
 
-hisset = {"justmarried", "dearkavya", "telugumedium"}
+thisset = {"justmarried", "dearkavya", "telugumedium"}
 thisset.remove("telugumedium")
 print(thisset)
 
 
-thisset = {"justmarried", "dearkavya", "surya"}
+thisset = {"justmarried","dearkavya","surya","backbenchers"}
 x = thisset.pop()
 print(x)        #removed item
 print(thisset)   #print(thisset) #the set after removal
@@ -194,3 +194,18 @@ set2 = {"google", "microsoft", "apple","meesho"}
 set1.symmetric_difference_update(set2)
 print(set1)  
 #symmetric_difference_update() removes common items and keeps only different items, updating the original set
+
+
+#CRT SETS
+thisset = {"apple" , "cherry" ,"mango" }
+print(thisset)
+
+thisset = set(("bag", "van", "books"))
+print(thisset)  # constructor the set list is unordered, so the result will display the items in a random order.
+
+a = 10
+print(type(a))      # <class 'int'>
+b = "hello"
+print(type(b))      # <class 'str'>
+c = [1, 2, 3]
+print(type(c))     # <class 'list'>  type() is used to find the data type (class) of a variable.
