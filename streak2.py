@@ -538,7 +538,8 @@ if sorted(s) == sorted(t):
 else:
     print(False)
 
-s = input("Enter a string: ")
+s = input("Enter a string: "
+          )
 count = {}
 for ch in s:
     count[ch] = count.get(ch, 0) + 1
