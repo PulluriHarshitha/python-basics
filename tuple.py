@@ -135,17 +135,82 @@ thistuple = ("harshu","rohith")
 mytuple = thistuple * 4
 print(mytuple)   #multiply the content of a tuple a given number of times, you can use the * operator:
 
+#CRT TUPLE
+ 
+ #creating tuple
+thistuple = ("apple", "banana", "cherry")
+mixed = ("abc",1,2,True,20.4)
+print(thistuple)
+print(mixed)
 
+#single item tuple
+thistuple = ("apple",)
+print(type(thistuple))
+thistuple = ("apple")
+print(type(thistuple))
 
+#tuple constructor 
+thistuple = (("apple", "banana", "cherry"))
+print(thistuple)
 
+#indexing
+thistuple = ("apple", "banana", "cherry")
+print(thistuple[0])
 
+#negative indexing
+thistuple = ("apple", "banana", "cherry")
+print(thistuple[-2])
 
+#slicing a tuple
+thistuple = ("apple", "banana", "cherry", "mango", "orange")
+print(thistuple[1:3])
 
+thistuple = ("apple", "banana", "cherry", "mango", "orange")
+print(thistuple[-2:1])
 
+thistuple = ("apple", "banana", "cherry", "mango", "orange")
+print(thistuple[-4:-1])
 
+#tuples can't be changed directly
+thistuple = ("apple", "banana", "cherry", "mango", "orange")
+y = list(thistuple)
+y[2] = "kiwi"
+thistuple = tuple(y)    
+print(thistuple)   #tuples are unchangeable, meaning that you cannot change, add, or remove items after the tuple has been created. But we can convert it into list and then change it.
 
+#adding items to a tuple
+thistuple = ("apple", "banana", "cherry", "mango", "orange")
+y = list(thistuple)
+y.append("kiwi")
+thistuple = tuple(y)    
+print(thistuple)
 
+#removing items a tuple
+thistuple = ("apple", "banana", "cherry", "mango", "orange")
+y = list(thistuple)
+y.remove("cherry")
+thistuple = tuple(y)    
+print(thistuple)
 
+#adding tuples together 
+thistuple = ("apple", "banana", "cherry", "mango", "orange")
+y = ("kiwi",)
+thistuple += y  
+print(thistuple)
 
+#repeating tuples
+thistuple = ("mango","apple")
+mytuple = thistuple * 4
+print(mytuple) 
 
+#count()-occurrences the count value
+thistuple = ("apple", "banana", "cherry", "mango", "orange","mango")
+print(thistuple.count("mango"))  #returns the number of times a specified value occurs in a tuple
 
+#nested tuples
+tuple1 = ("JULY", "DEC", "JULY")
+tuple2 = (6,25,28)
+tuple3 = (True, False, False)
+print(tuple1)
+print(tuple2)
+print(tuple3)  #A tuple can contain different data types, including other tuples. This is called a nested tuple.
