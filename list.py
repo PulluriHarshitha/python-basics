@@ -1,4 +1,8 @@
 #creation of list.   
+from hashlib import new
+from operator import ne
+
+
 mylist = ["apple","banana","cherry"]
 print(mylist[0])  
 
@@ -259,3 +263,49 @@ for x in fruits:
   if "m" in x:
     newlist.append(x)
 print(newlist)
+
+fruits = ["apple", "banana", "cherry", "kiwi", "mango","papaya"]
+newlist = [x for x in fruits if "a"in x]
+print(newlist)
+
+fruits = ["apple", "banana", "cherry", "kiwi", "mango","papaya"]
+newlist = [x for x in fruits]
+print(newlist)
+
+#list comprehension using range
+newlist = [x for x in range(10)]
+print(newlist)
+
+#using uppercases
+fruits = ["apple", "banana", "cherry", "kiwi"]
+newlist = [x.upper() for x in fruits]
+print(newlist)
+
+fruits = ["apple", "banana", "cherry","melon"]
+newlist = ["hello" for x in fruits]
+print(newlist)
+
+#sort lists
+#ascending
+thislist = ["apple", "banana", "cherry","melon"]
+thislist.sort()
+print(thislist)
+
+#descending
+thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
+thislist.sort(reverse = True)
+print(thislist)    #To sort descending, use the keyword argument reverse = True:
+
+thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
+thislist.reverse ()
+print(thislist) 
+
+#copy lists
+thislist = ["apple", "banana", "cherry","melon"]
+#method 1 :copy()
+mylist = thislist.copy()
+ 
+#method 2 :list constructor
+mylist = list(thislist)
+print(mylist)
+
