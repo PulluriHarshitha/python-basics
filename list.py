@@ -1,6 +1,6 @@
 #creation of list.   
 mylist = ["apple","banana","cherry"]
-print(mylist)  
+print(mylist[0])  
 
 thislist = ["apple", "banana", "cherry", "apple", "cherry"]
 print(thislist)   #allow duplicate values only
@@ -193,6 +193,23 @@ list2 = [1, 2, 3]
 list1.extend(list2)
 print(list1)   #extend keywords
 
+#CRT LISTS
 
+#slicing a list
+thislist = ["apple", "banana", "cherry", "kiwi", "mango"]
+print(thislist[1:3])
 
+#replace a single list with multiple values
+thislist = ["tulip", "lotus", "rose"]
+thislist[1:3] = ["jasmine","sunflower"]
+print(thislist)
 
+#insert a list-with a specific index
+thislist = ["apple","cherry"]
+thislist.insert(1,"melon")
+print(thislist)
+
+#remove lists
+thislist = ["melon", "banana", "cherry", "apple", "cherry"]
+thislist.remove("cherry")
+print(thislist)
