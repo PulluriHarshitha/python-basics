@@ -4,7 +4,7 @@
 # else:
 #        print("Consonant")
 
-# ##palindrome num
+# #palindrome num
 # num = int(input("Enter a number: "))
 # temp = num
 # rev = 0
@@ -17,7 +17,7 @@
 # else:
 #       print("Not a palindrome")
 
-#  #palindrome string
+#  palindrome string
 # text = input("Enter a string: ")
 # if text == text[::-1]:
 #      print("Palindrome string")
