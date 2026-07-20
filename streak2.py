@@ -560,8 +560,19 @@ print(res)
 list = [1,2,2,2,5,7,7]
 print((set(list)))
 
-n = 5
-list = [1,2,3,5]
+n = 7
+list = [1,2,3,5,7]
 for i in range(1, n + 1):
     if i not in list:
         print(i)
+
+list = [1,2,3,5,7,9,14]
+left = 0
+right = len(list) -1
+while left < right:
+    list[left],list[right] = list[right],list[left]
+    left += 1
+    right -= 1
+print(list)
+
+
