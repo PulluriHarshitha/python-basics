@@ -524,28 +524,44 @@
 #     seen.add(num)
 # print(duplicate)
 
-s = input("Enter first string: ")
-t = input("Enter second string: ")
-if sorted(s) == sorted(t):
-    print(True)
-else:
-    print(False)
+# s = input("Enter first string: ")
+# t = input("Enter second string: ")
+# if sorted(s) == sorted(t):
+#     print(True)
+# else:
+#     print(False)
 
-s = "anagram"
-t = "nagaram"
-if sorted(s) == sorted(t):
-    print(True)
-else:
-    print(False)
+# s = "anagram"
+# t = "nagaram"
+# if sorted(s) == sorted(t):
+#     print(True)
+# else:
+#     print(False)
 
-s = input("Enter a string: "
-          )
-count = {}
-for ch in s:
-    count[ch] = count.get(ch, 0) + 1
-for i in range(len(s)):
-    if count[s[i]] == 1:
+# s = input("Enter a string: "
+#           )
+# count = {}
+# for ch in s:
+#     count[ch] = count.get(ch, 0) + 1
+# for i in range(len(s)):
+#     if count[s[i]] == 1:
+#         print(i)
+#         break
+# else:
+#     print(-1)
+
+list = [1,2,2,2,5,7,7]
+res = []
+for i in list:
+    if i not in res:
+        res.append(i)
+print(res)
+
+list = [1,2,2,2,5,7,7]
+print((set(list)))
+
+n = 5
+list = [1,2,3,5]
+for i in range(1, n + 1):
+    if i not in list:
         print(i)
-        break
-else:
-    print(-1)
