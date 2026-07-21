@@ -403,21 +403,21 @@ for x, obj in Engineering.items():   #it gives key and value
 # print(d1)
 
 #classes and objects
-class Student:
-  name = " "
-  rollno = " "
-  dept = " "
-  def accept(self):
-    self.name="harshitha"
-    self.rollno="23K81A1250"
-    self.dept="IT"
-  def disp(self):  #usages 2
-    print(self.name)
-    print(self.rollno)
-    print(self.dept)
-s1=Student()
-s1.accept()
-s1.disp()
+# class Student:
+#   name = " "
+#   rollno = " "
+#   dept = " "
+#   def accept(self):
+#     self.name="harshitha"
+#     self.rollno="23K81A1250"
+#     self.dept="IT"
+#   def disp(self):  #usages 2
+#     print(self.name)
+#     print(self.rollno)
+#     print(self.dept)
+# s1=Student()
+# s1.accept()
+# s1.disp()
 
 #2 def accept(self):
 #     self.name=input()
