@@ -380,14 +380,47 @@ for x, obj in Engineering.items():   #it gives key and value
 # print(avg)
 
 #3 max number
-n = int(input("enter no of players:"))
-d1={}
-for i in range(n):
-    name=(input("enter your name:"))
-    score=int(input("enter your score:"))
-    d1[name]=score
-print(d1)
-maxi = max(d1.values())
-for i in d1.keys():
-   if d1[i]==maxi:
-      print(i,d1[i])
+# n = int(input("enter no of players:"))
+# d1={}
+# for i in range(n):
+#     name=(input("enter your name:"))
+#     score=int(input("enter your score:"))
+#     d1[name]=score
+# print(d1)
+# maxi = max(d1.values())
+# for i in d1.keys():
+#    if d1[i]==maxi:
+#       print(i,d1[i])
+
+#4 frequency of letters
+# s1 = input("enter a string:")
+# d1 = {}
+# for i in s1:
+#   if i in d1:
+#     d1[i]+=1
+#   else:
+#     d1[i]=1
+# print(d1)
+
+#classes and objects
+class Student:
+  name = " "
+  rollno = " "
+  dept = " "
+  def accept(self):
+    self.name="harshitha"
+    self.rollno="23K81A1250"
+    self.dept="IT"
+  def disp(self):  #usages 2
+    print(self.name)
+    print(self.rollno)
+    print(self.dept)
+s1=Student()
+s1.accept()
+s1.disp()
+
+# def accept(self):
+#     self.name=input()
+#     self.rollno=input()
+#     self.dept=input()
+
