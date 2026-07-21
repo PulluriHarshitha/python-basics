@@ -78,7 +78,7 @@ x = bike.keys()
 
 print(x) #before the change
 
-bike["country"] = "england"
+bike["country"] = "england"  #keys are always immutable object,values are mutable or immutable
 
 print(x) #after the updated keys after pgm
 
@@ -347,3 +347,47 @@ for x, obj in Engineering.items():   #it gives key and value
   print(x)                            #student key 1,2,3
   for y in obj:                        #student detail dict
     print(y + ':', obj[y])               #prints student name ,age,key
+
+# players = {}
+# n = int(input("Enter number of players: "))
+# for i in range(n):
+#     name = input("Enter player name: ")
+#     score = int(input("Enter score: "))
+#     players[name] = score
+# total = sum(players.values())
+# average = total / len(players)
+
+# print("\nPlayers and Scores:")
+# for name, score in players.items():
+#     print(name, ":", score)
+
+# print("Total Score:", total)
+# print("Average Score:", average)
+
+#2
+# n = int(input("enter no of players:"))
+# d1={}
+# for i in range(n):
+#     name=(input("enter your name:"))
+#     score=int(input("enter your score:"))
+#     d1[name]=score
+# print(d1)
+# s=0
+# for i in d1:
+#     s=s+d1[i]
+# print(s)
+# avg = s/n
+# print(avg)
+
+#3 max number
+n = int(input("enter no of players:"))
+d1={}
+for i in range(n):
+    name=(input("enter your name:"))
+    score=int(input("enter your score:"))
+    d1[name]=score
+print(d1)
+maxi = max(d1.values())
+for i in d1.keys():
+   if d1[i]==maxi:
+      print(i,d1[i])

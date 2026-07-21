@@ -550,29 +550,43 @@
 # else:
 #     print(-1)
 
-list = [1,2,2,2,5,7,7]
-res = []
-for i in list:
-    if i not in res:
-        res.append(i)
-print(res)
+# list = [1,2,2,2,5,7,7]
+# res = []
+# for i in list:
+#     if i not in res:
+#         res.append(i)
+# print(res)
 
-list = [1,2,2,2,5,7,7]
-print((set(list)))
+# list = [1,2,2,2,5,7,7]
+# print((set(list)))
 
-n = 7
-list = [1,2,3,5,7]
-for i in range(1, n + 1):
-    if i not in list:
-        print(i)
+# n = 7
+# list = [1,2,3,5,7]
+# for i in range(1, n + 1):
+#     if i not in list:
+#         print(i)
 
-list = [1,2,3,5,7,9,14]
-left = 0
-right = len(list) -1
-while left < right:
-    list[left],list[right] = list[right],list[left]
-    left += 1
-    right -= 1
-print(list)
+# list = [1,2,3,5,7,9,14]
+# left = 0
+# right = len(list) -1
+# while left < right:
+#     list[left],list[right] = list[right],list[left]
+#     left += 1
+#     right -= 1
+# print(list)
+
+#HARSHAD NUMBER
+n = int(input("Enter a number:"))
+s=0
+temp=n
+while(n!=0):
+    r=n%10
+    s=s+r
+    n=n//10
+if temp%s==0:
+    print("true")
+else:
+    print("false")
+
 
 
