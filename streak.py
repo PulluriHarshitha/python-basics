@@ -513,6 +513,116 @@ print(twoSum(nums, target))
 #                 return [hashmap[complement], i]
 #             hashmap[nums[i]] = i
 
+#EXAMPLE
+# class Event:
+#   count=0
+#   def __init__(self,name,city):
+#        self.name = name
+#        self.city = city
+#   def increment(self):
+#       Event.count+= 1
+#   def display(self):
+#       print(Event.count)
+# while(True):
+#     print("1.Reg \n 2. Count \n 3.Exit")
+#     choice = int(input("Enter your choice: "))
+#     if choice == 1:
+#         name = input("enter your name: ")
+#         city = input("enter your city:")
+#         e1=Event(name,city)
+#         e1.increment()
+#     elif choice==2:
+#         e1.display()
+#     else:
+#         exit()
 
-
+#created me
+# class Bank:
+#     count=0
+#     def __init__(self,customername,balanceamount):
+#          self.name = customername
+#          self.city = balanceamount
+#     def increment(self):
+#          Bank.count+= 1
+#     def decrement(self):
+#          Bank.count-= 1
+#     def display(self):
+#         print("count=",Bank.count)
+# e1=None
+# while(True):
+#      print("0.depoist \n 1.withdrawl \n 2.Exit")
+#      choice = int(input("Enter your choice: "))
+#      if choice == 0:
+#         customername = input("enter the customername:")
+#         balanceamount = input("enter your balanceamount:")
+#         e1=Bank(customername,balanceamount)
+#         e1.increment()
+#      elif choice==1:
+#        if e1 is not None:
+#         e1.decrement()
+#         e1.display()
     
+#      elif choice == 2:
+#          break
+#      else:
+#           print("invalid choice")
+
+# class Bank:
+#     def __init__(self, name, balance=0.0):
+#         self.name = name
+#         self.balance = balance
+#     def deposit(self, amount):
+#         self.balance += amount
+#         print("Available balance:", self.balance)
+#     def withdraw(self, amount):
+#         if self.balance >= amount:
+#             self.balance -= amount
+#             print("Withdrawal successful.")
+#         else:
+#             print("Not enough money.")
+#         print("Available balance:", self.balance)
+# print("Welcome to Bank")
+# name = input("Enter your name: ")
+# balance = float(input("Enter your balance: "))
+# b1 = Bank(name, balance)
+# while True:
+#     print("\nChoose an option")
+#     print("w - Withdraw")
+#     print("d - Deposit")
+#     print("e - Exit")
+#     ch = input("Enter your choice: ")
+#     if ch == "w":
+#         amount = float(input("Enter amount to withdraw: "))
+#         b1.withdraw(amount)
+#     elif ch == "d":
+#         amount = float(input("Enter amount to deposit: "))
+#         b1.deposit(amount)
+#     elif ch == "e":
+#         print("Thank you for using the bank.")
+#         break
+#     else:
+#         print("Invalid choice. Please try again.")
+
+class Employee:
+    total=0
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+
+    def reg_sal(self,sal):
+        self.total=(sal*12)-(sal*12*0.1)
+        print(self.total)
+
+    def wag_sal(self,wag):
+        self.total=wag*30
+        print(self.total)
+
+name=input("enter your name")      
+age=int(input("enter your age"))  
+print("1.reg \n2.wage")    
+ch = int(input("enter your choice"))
+e1=Employee(name,age)
+if(ch==1):
+    e1.reg_sal(30000)
+elif(ch==2):
+    e1.wag_sal(500)
