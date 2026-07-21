@@ -419,8 +419,22 @@ s1=Student()
 s1.accept()
 s1.disp()
 
-# def accept(self):
+#2 def accept(self):
 #     self.name=input()
 #     self.rollno=input()
 #     self.dept=input()
 
+#3 def accept(self,n,r,d):
+  #   self.name=n
+  #   self.rollno=r
+  #   self.dept=d
+  # def disp(self):  #usages 2
+  #   print(self.name)
+  #   print(self.rollno)
+  #   print(self.dept)
+#   s1=Student()
+# s1.accept("a",9,"cse")
+# s1.disp()
+# s2=Student()
+# s2.accept("b",8,"cse")
+# s2.disp()
