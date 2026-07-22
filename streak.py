@@ -603,26 +603,44 @@ print(twoSum(nums, target))
 #     else:
 #         print("Invalid choice. Please try again.")
 
-class Employee:
-    total=0
-    def __init__(self,name,age):
-        self.name=name
-        self.age=age
+# class Employee:
+#     total=0
+#     def __init__(self,name,age):
+#         self.name=name
+#         self.age=age
 
-    def reg_sal(self,sal):
-        self.total=(sal*12)-(sal*12*0.1)
-        print(self.total)
+#     def reg_sal(self,sal):
+#         self.total=(sal*12)-(sal*12*0.1)
+#         print(self.total)
 
-    def wag_sal(self,wag):
-        self.total=wag*30
-        print(self.total)
+#     def wag_sal(self,wag):
+#         self.total=wag*30
+#         print(self.total)
 
-name=input("enter your name")      
-age=int(input("enter your age"))  
-print("1.reg \n2.wage")    
-ch = int(input("enter your choice"))
-e1=Employee(name,age)
-if(ch==1):
-    e1.reg_sal(30000)
-elif(ch==2):
-    e1.wag_sal(500)
+# name=input("enter your name")      
+# age=int(input("enter your age"))  
+# print("1.reg \n2.wage")    
+# ch = int(input("enter your choice"))
+# e1=Employee(name,age)
+# if(ch==1):
+#     e1.reg_sal(30000)
+# elif(ch==2):
+#     e1.wag_sal(500)
+
+#calculate even numbers maximum no.of subarrays with size "k"
+arr = list(map(int, input("Enter array elements: ").split()))
+k = int(input("Enter k: "))
+count = 0
+for i in range(k):
+    if arr[i] % 2 == 0:
+        count += 1
+print(count)
+for i in range(k, len(arr)):
+    if arr[i - k] % 2 == 0:
+        count -= 1
+    if arr[i] % 2 == 0:
+        count += 1
+    print(count)
+
+
+
