@@ -646,15 +646,56 @@ print(twoSum(nums, target))
 #         count += 1
 #     print(count)
 
-s = input("Enter a string: ")
-vowels = 0
-consonants = 0
-for ch in s:
-    if ch.isalpha():
-        if ch.lower() in "aeiou":
-            vowels += 1
-        else:
-            consonants += 1
-print("Vowels =", vowels)
-print("Consonants =", consonants)
+# s = input("Enter a string: ")
+# vowels = 0
+# consonants = 0
+# for ch in s:
+#     if ch.isalpha():
+#         if ch.lower() in "aeiou":
+#             vowels += 1
+#         else:
+#             consonants += 1
+# print("Vowels =", vowels)
+# print("Consonants =", consonants)
 
+#TO ACCEPT STRING FROM THE USER MAX COUNT OF CONSONSNATS SLIDING WINDOW TECHNIQUES
+#1ST WAY
+# s = input("Enter string: ")
+# k = int(input("Enter k: "))
+# vowels = "aeiou"
+# count = 0
+# for i in range(k):
+#     if s[i].isalpha() and s[i] not in vowels:
+#         count += 1
+# maxcount = count
+# for i in range(k, len(s)):
+#     if s[i - k].isalpha() and s[i - k] not in vowels:
+#         count -= 1
+# if s[i].isalpha() and s[i] not in vowels:
+#         count += 1
+# if count > maxcount:
+#         maxcount = count
+# print("Maximum consonants in a window of size", k, "=", maxcount)
+
+#2ND WAY
+# s=input("enter")
+# k=int(input("enter a string"))
+# c=0
+# for i in range(k):
+#      if s[i] not in "aeiou":
+#           c+=1
+# maxi=c
+# for i in range(k,len(s)):
+#      if s[i] not in "aeiou":
+#           c-=1
+#      maxi=max(maxi,c)
+# print(maxi)
+
+def Linear(nums,sele):
+     for i in range(len(nums)):
+          if sele==nums[i]:
+               return i
+          return -1
+nums=list(map(int,input("enter:").split()))
+sele=int(input("enter:"))
+print(Linear(nums,sele))
