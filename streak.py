@@ -691,11 +691,29 @@ print(twoSum(nums, target))
 #      maxi=max(maxi,c)
 # print(maxi)
 
-def Linear(nums,sele):
-     for i in range(len(nums)):
-          if sele==nums[i]:
-               return i
-          return -1
+#linear
+# def Linear(nums,sele):
+#      for i in range(len(nums)):
+#           if sele==nums[i]:
+#                return i
+#           return -1
+# nums=list(map(int,input("enter:").split()))
+# sele=int(input("enter:"))
+# print(Linear(nums,sele))
+
+#BINARY
+def Binary(nums,sele):
+     left=0
+     right=len(nums)-1
+     while left<=right:
+          mid=(left+right)//2
+          if nums[mid]==sele:
+               return mid
+          elif nums[mid]>sele:
+               right=mid-1
+          else:
+               left=mid+1
+     return -1
 nums=list(map(int,input("enter:").split()))
 sele=int(input("enter:"))
-print(Linear(nums,sele))
+print(Binary(nums,sele))
