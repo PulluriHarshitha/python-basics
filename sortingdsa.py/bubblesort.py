@@ -6,3 +6,5 @@ def bubblesort(nums):
   return nums
 nums=list(map(int,input().split()))
 print(bubblesort(nums))
+
+#timecomplexity=O(n2)
