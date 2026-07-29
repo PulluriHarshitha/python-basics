@@ -717,3 +717,15 @@ else:
 # nums=list(map(int,input("enter:").split()))
 # sele=int(input("enter:"))
 # print(Binary(nums,sele))
+
+#singlelinkedlist
+class Node:
+        def __init__(self,data=None,prev=None,next=None):
+            self.data=data
+            self.prev=prev
+            self.next=next
+class linkedlist:
+       def __init__(self):
+           self.head=None
+           self.tail=None
+
