@@ -69,3 +69,25 @@ while temp is not None:
     temp = temp.next
 
 #delete the element  "30" at position
+class Node:
+    def __init__(self, new_data):
+        self.data = new_data
+        self.next = None
+# Create the linked list
+head = Node(10)
+head.next = Node(20)
+head.next.next = Node(30)
+head.next.next.next = Node(40)
+head.next.next.next.next = Node(50)
+# Delete node with value 30
+temp = head
+while temp.next is not None:
+    if temp.next.data == 30:
+        temp.next = temp.next.next
+        break
+    temp = temp.next
+# Print the linked list
+temp = head
+while temp is not None:
+    print(temp.data, end=" ")
+    temp = temp.next
