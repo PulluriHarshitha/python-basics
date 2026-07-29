@@ -475,33 +475,33 @@ else:
 #     join_list.append(list2[i])
 # print(join_list) 
 
-from ast import List
+# from ast import List
 
 
-numbers = [10, 20, 30, 40, 50]
-print(numbers)
-#Append
-numbers.append(60)
-print(numbers)
-#Remove
-numbers.remove(30)
-print(numbers)
-#Update
-numbers[1] = 25
-print(numbers)
+# numbers = [10, 20, 30, 40, 50]
+# print(numbers)
+# #Append
+# numbers.append(60)
+# print(numbers)
+# #Remove
+# numbers.remove(30)
+# print(numbers)
+# #Update
+# numbers[1] = 25
+# print(numbers)
 
-def twoSum(nums, target):
-    d = {}
-    for i in range(len(nums)):
-        diff = target - nums[i]
-        if diff in d:
-            return [d[diff], i]
-        d[nums[i]] = i
-# Sample Input
-nums = [1, 5, 10, 15]
-target = 100
-# Function Call
-print(twoSum(nums, target))
+# def twoSum(nums, target):
+#     d = {}
+#     for i in range(len(nums)):
+#         diff = target - nums[i]
+#         if diff in d:
+#             return [d[diff], i]
+#         d[nums[i]] = i
+# # Sample Input
+# nums = [1, 5, 10, 15]
+# target = 100
+# # Function Call
+# print(twoSum(nums, target))
 
 
 # class Solution(object):
