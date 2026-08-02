@@ -38,7 +38,7 @@ else:
 # else:
 #     print("Not a prime number")
 
-# ##armstrong num
+# #armstrong num
 # num = int(input("Enter a number: "))
 
 # temp = num
