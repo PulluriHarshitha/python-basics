@@ -576,8 +576,8 @@ else:
 
 #HARSHAD NUMBER
 n = int(input("Enter a number:"))
-s=0
-temp=n
+s = 0
+temp = n
 while(n!=0):
     r=n%10
     s=s+r
@@ -587,5 +587,26 @@ if temp%s==0:
 else:
     print("false")
 
-
+class Node:
+    def __init__(self, data=None, left=None, right=None):
+        self.data = data
+        self.left = left
+        self.right = right
+class Tree:
+    def __init__(self):
+        self.root = None
+    def inorder(self,temp):
+        if temp==None:
+            return
+        self.inorder(temp.left)
+        print(temp.data)
+        self.inorder(temp.right)
+t1=Tree()
+n1=Node("A")
+n2=Node("B")
+n3=Node("C")
+n2.right=n3
+n1.left=n2
+t1.root=n1
+t1.inorder(t1.root)
 
