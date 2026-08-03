@@ -3,7 +3,7 @@ if ch in "aeiouAEIOU":
       print("Vowel")
 else:
      print("Consonant") 
-      
+
 #palindrome num
 # num = int(input("Enter a number: "))
 # temp = num
@@ -588,6 +588,7 @@ if temp%s==0:
 else:
     print("false")
 
+#trees implementation
 class Node:
     def __init__(self, data=None, left=None, right=None):
         self.data = data
