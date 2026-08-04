@@ -571,13 +571,13 @@ left = 0
 right = len(list) -1
 while left < right:
      list[left],list[right] = list[right],list[left]
-#     left += 1
+     left += 1
 #     right -= 1
 print(list)
 
 #HARSHAD NUMBER
 n = int(input("Enter a number:"))
-s = 0s
+s = 0
 temp = n
 while(n!=0):
     r=n%10
