@@ -566,7 +566,7 @@ else:
 #     if i not in list:
 #         print(i)
 
-# list = [1,2,3,5,7,9,14]
+list = [1,2,3,5,7,9,14]
 # left = 0
 # right = len(list) -1
 # while left < right:
