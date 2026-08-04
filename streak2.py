@@ -570,14 +570,14 @@ list = [1,2,3,5,7,9,14]
 left = 0
 right = len(list) -1
 while left < right:
-#     list[left],list[right] = list[right],list[left]
+     list[left],list[right] = list[right],list[left]
 #     left += 1
 #     right -= 1
 print(list)
 
 #HARSHAD NUMBER
 n = int(input("Enter a number:"))
-s = 0
+s = 0s
 temp = n
 while(n!=0):
     r=n%10
