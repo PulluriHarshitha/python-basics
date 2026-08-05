@@ -20,53 +20,67 @@
 #     def disp(self):
 #         print(self.heap)
 # h1=MinHeap()
-# h1.disp
+# h1.disp()
 # h1.insertion(10)
 # h1.insertion(40)
 # h1.insertion(45)
 # h1.insertion(80)
 # h1.insertion(110)
-# h1.disp
+# h1.disp()
 # h1.insertion(60)
 # h1.disp()
 # h1.insertion(5)
 # h1.disp()
 
 
-#DELETION
-class MinHeap:               
-    def __init__(self):
-         self.heap = []
-    def parent(self,i):
-         return (i-1)//2
-    def leftchild(self,i):
-         return 2*i+1
-    def rightchild(self,i):
-         return 2*i+2
-    def delete(self):
-        if len(self.heap)==0:
-             return None
-        if len(self.heap)==1:
-            return self.heap.pop()
-        root=self.heap[0]
-        self.heap[0]=self.heap.pop()
-        self.heapifydown(0)
-        return root
-    def heapifydown(self,i):
-         while True:
-              left=self.leftchild(i)
-              right=self.rightchild(i)
-              if i<len(self.heap) and self.heap[smaller]>self.heap[left]:
-                   smaller=left
-              if i<len(self.heap) and self.heap[smaller]>self.heap[right]:
-                   smaller=right
-              if smaller==i:
-                   break
-              self.heap[smaller],self.heap[i]=(self.heap[i],self.heap[smaller])
-              i=smaller
-    def peek(self):
-         return self.heap[0]
-    def search(self,x):
-         return self.heap.index(x)
-    def disp(self):
-         print(self.heap)
+# #DELETION
+# class MinHeap:               
+#     def __init__(self):
+#          self.heap = []
+#     def parent(self,i):
+#          return (i-1)//2
+#     def leftchild(self,i):
+#          return 2*i+1
+#     def rightchild(self,i):
+#          return 2*i+2
+#     def delete(self):
+#         if len(self.heap)==0:
+#              return None
+#         if len(self.heap)==1:
+#             return self.heap.pop()
+#         root=self.heap[0]
+#         self.heap[0]=self.heap.pop()
+#         self.heapifydown(0)
+#         return root
+#     def heapifydown(self,i):
+#          while True:
+#               left=self.leftchild(i)
+#               right=self.rightchild(i)
+#               if i<len(self.heap) and self.heap[smaller]>self.heap[left]:
+#                    smaller=left
+#               if i<len(self.heap) and self.heap[smaller]>self.heap[right]:
+#                    smaller=right
+#               if smaller==i:
+#                    break
+#               self.heap[smaller],self.heap[i]=(self.heap[i],self.heap[smaller])
+#               i=smaller
+#     def peek(self):
+#          return self.heap[0]
+#     def search(self,x):
+#          return self.heap.index(x)
+#     def disp(self):
+#          print(self.heap)
+
+
+import heapq
+heap=[]
+heapq.heapify(heap)
+print(heap)
+heapq.heappush(heap,10)
+print(heap)
+heapq.heappush(heap,2)
+print(heap)
+heapq.heappush(heap,30)
+print(heap)
+heapq.heappop(heap)
+print(heap)
