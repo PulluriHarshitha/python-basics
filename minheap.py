@@ -31,4 +31,42 @@
 # h1.disp()
 # h1.insertion(5)
 # h1.disp()
-                
+
+
+#DELETION
+class MinHeap:               
+    def __init__(self):
+         self.heap = []
+    def parent(self,i):
+         return (i-1)//2
+    def leftchild(self,i):
+         return 2*i+1
+    def rightchild(self,i):
+         return 2*i+2
+    def delete(self):
+        if len(self.heap)==0:
+             return None
+        if len(self.heap)==1:
+            return self.heap.pop()
+        root=self.heap[0]
+        self.heap[0]=self.heap.pop()
+        self.heapifydown(0)
+        return root
+    def heapifydown(self,i):
+         while True:
+              left=self.leftchild(i)
+              right=self.rightchild(i)
+              if i<len(self.heap) and self.heap[smaller]>self.heap[left]:
+                   smaller=left
+              if i<len(self.heap) and self.heap[smaller]>self.heap[right]:
+                   smaller=right
+              if smaller==i:
+                   break
+              self.heap[smaller],self.heap[i]=(self.heap[i],self.heap[smaller])
+              i=smaller
+    def peek(self):
+         return self.heap[0]
+    def search(self,x):
+         return self.heap.index(x)
+    def disp(self):
+         print(self.heap)
