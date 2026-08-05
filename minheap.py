@@ -71,7 +71,7 @@
 #     def disp(self):
 #          print(self.heap)
 
-
+#priority queue
 import heapq
 heap=[]
 heapq.heapify(heap)
