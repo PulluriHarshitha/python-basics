@@ -739,15 +739,27 @@
 #         print("Harshitha")
 
 #multiple exceptions
+# try:
+#         a=int(input())
+#         b=int(input())
+#         print(a/b)
+# except ZeroDivisionError as e:
+#         print("e")
+# except ValueError as e:
+#         print("e")
+# except:
+#         print("other error")
+# finally:
+#         print("operations done")
+
+class InvalidATMin(Exception):
+    pass
 try:
-        a=int(input())
-        b=int(input())
-        print(a/b)
-except ZeroDivisionError as e:
-        print("e")
-except ValueError as e:
-        print("e")
-except:
-        print("other error")
-finally:
-        print("operations done")
+    atm=1234
+    n=int(input("enter:"))
+    if atm!=n:
+        raise InvalidATMin
+    else:
+        print("pin is correct you can continue")
+except InvalidATMin:
+        print("invalid pin")
