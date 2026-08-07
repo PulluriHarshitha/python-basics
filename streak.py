@@ -730,9 +730,22 @@
 #            self.head=None
 #            self.tail=None
 
+#EXCEPTION HANDLING
+# try:
+#         a=int(input())
+#         b=int(input())
+#         print(a/b)
+# except:
+#         print("Harshitha")
+
+#multiple exceptions
 try:
         a=int(input())
         b=int(input())
         print(a/b)
+except ZeroDivisionError as e:
+        print("e")
+except ValueError as e:
+        print("e")
 except:
-        print("Harshitha")
+        print("OPERATIONS DONE")
