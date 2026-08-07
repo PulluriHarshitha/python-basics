@@ -748,4 +748,6 @@ except ZeroDivisionError as e:
 except ValueError as e:
         print("e")
 except:
-        print("OPERATIONS DONE")
+        print("other error")
+finally:
+        print("operations done")
