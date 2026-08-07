@@ -1,12 +1,9 @@
-s=input("enter")
-# k=int(input("enter a string"))
-# c=0
-# for i in range(k):
-#      if s[i] not in "aeiou":
-#           c+=1
-# maxi=c
-# for i in range(k,len(s)):
-#      if s[i] not in "aeiou":
-#           c-=1
-#      maxi=max(maxi,c)
-# print(maxi)
+ch = input("Enter a character: ")
+# if ch in "aeiouAEIOU":
+#         print("Vowel")
+# else:
+#         print("Consonant")
+
+# #palindrome num
+# num = int(input("Enter a number: "))
+# temp = num

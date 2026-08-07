@@ -1,12 +1,12 @@
-ch = input("Enter a character: ")
-if ch in "aeiouAEIOU":
-        print("Vowel")
-else:
-        print("Consonant")
+# ch = input("Enter a character: ")
+# if ch in "aeiouAEIOU":
+#         print("Vowel")
+# else:
+#         print("Consonant")
 
-#palindrome num
-num = int(input("Enter a number: "))
-temp = num
+# #palindrome num
+# num = int(input("Enter a number: "))
+# temp = num
 # rev = 0
 # while num > 0:
 #     digit = num % 10
@@ -17,7 +17,8 @@ temp = num
 # else:
 #       print("Not a palindrome")
 
-#  palindrome string
+
+# # #palindrome string
 # text = input("Enter a string: ")
 # if text == text[::-1]:
 #      print("Palindrome string")
@@ -719,13 +720,19 @@ temp = num
 # print(Binary(nums,sele))
 
 #singlelinkedlist
-class Node:
-        def __init__(self,data=None,prev=None,next=None):
-            self.data=data
-            self.prev=prev
-            self.next=next
-class linkedlist:
-       def __init__(self):
-           self.head=None
-           self.tail=None
+# class Node:
+#         def __init__(self,data=None,prev=None,next=None):
+#             self.data=data
+#             self.prev=prev
+#             self.next=next
+# class linkedlist:
+#        def __init__(self):
+#            self.head=None
+#            self.tail=None
 
+try:
+        a=int(input())
+        b=int(input())
+        print(a/b)
+except:
+        print("Harshitha")
