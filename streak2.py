@@ -563,7 +563,7 @@ else:
 # n = 7
 # list = [1,2,3,5,7]
 # for i in range(1, n + 1):
-#     if i not in list:
+     if i not in list:
 #         print(i)
 
 list = [1,2,3,5,7,9,14]
