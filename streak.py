@@ -752,14 +752,14 @@
 # finally:
 #         print("operations done")
 
-class InvalidATMin(Exception):
-    pass
-try:
-    atm=1234
-    n=int(input("enter:"))
-    if atm!=n:
-        raise InvalidATMin
-    else:
-        print("pin is correct you can continue")
-except InvalidATMin:
-        print("invalid pin")
+# class InvalidATMin(Exception):
+#     pass
+# try:
+#     atm=1234
+#     n=int(input("enter:"))
+#     if atm!=n:
+#         raise InvalidATMin
+#     else:
+#         print("pin is correct you can continue")
+# except InvalidATMin:
+#         print("invalid pin")
