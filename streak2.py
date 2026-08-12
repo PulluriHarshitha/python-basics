@@ -573,7 +573,7 @@ else:
  #    list[left],list[right] = list[right],list[left]
  #    left += 1
  #    right -= 1
-print(list)
+#print(list)
 
 #HARSHAD NUMBER
 n = int(input("Enter a number:"))
