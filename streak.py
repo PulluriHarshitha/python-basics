@@ -122,7 +122,7 @@
 # else:
 #      print("Not Prime")
  
-# ##swapping of two nums
+# #swapping of two nums
 
 # a = int(input())
 # b = int(input())
