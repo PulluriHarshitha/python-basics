@@ -20,7 +20,7 @@ num = num // 10
 # palindrome string
  text = input("Enter a string: ")
 if text == text[::-1]:
-#      print("Palindrome string")
+     print("Palindrome string")
 # else:
 #      print("Not a palindrome")
 
