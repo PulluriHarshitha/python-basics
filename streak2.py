@@ -22,7 +22,7 @@ num = num // 10
 if text == text[::-1]:
      print("Palindrome string")
  else:
-#      print("Not a palindrome")
+    print("Not a palindrome")
 
 # prime number
 # num = int(input("Enter a number: "))
