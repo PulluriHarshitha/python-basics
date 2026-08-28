@@ -12,21 +12,21 @@ while num > 0:
     digit = num % 10
     rev = rev * 10 + digit
 num = num // 10
- if temp == rev:
+if temp == rev:
       print("Palindrome number")
- else:
+else:
      print("Not a palindrome")
 
 # palindrome string
 text = input("Enter a string: ")
 if text == text[::-1]:
      print("Palindrome string")
- else:
+else:
     print("Not a palindrome")
 
 # prime number
 num = int(input("Enter a number: "))
- flag = 0
+flag = 0
 if num > 1:
      for i in range(2, num):
         if num % i == 0:
