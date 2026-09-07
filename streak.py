@@ -15,7 +15,7 @@ while num > 0:
  if temp == rev:
       print("Palindrome number")
 else:
-#       print("Not a palindrome")
+       print("Not a palindrome")
 
 
 #  palindrome string
