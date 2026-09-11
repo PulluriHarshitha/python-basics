@@ -4,22 +4,22 @@ if ch in "aeiouAEIOU":
 else:
          print("Consonant")
 
-palindrome num
- num = int(input("Enter a number: "))
- temp = num
- rev = 0
+#palindrome num
+num = int(input("Enter a number: "))
+temp = num
+rev = 0
 while num > 0:
     digit = num % 10
-     rev = rev * 10 + digit
- num = num // 10
- if temp == rev:
+    rev = rev * 10 + digit
+num = num // 10
+if temp == rev:
       print("Palindrome number")
 else:
        print("Not a palindrome")
 
 
- palindrome string
- text = input("Enter a string: ")
+#palindrome string
+text = input("Enter a string: ")
 if text == text[::-1]:
      print("Palindrome string")
 else:
@@ -27,7 +27,7 @@ else:
 
 
 # #prime number
- num = int(input("Enter a number: "))
+num = int(input("Enter a number: "))
 # flag = 0
 # if num > 1:
 #      for i in range(2, num):
