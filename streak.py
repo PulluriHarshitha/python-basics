@@ -36,7 +36,7 @@ flag = 0
             break
           if flag == 0:
           print("Prime number")
-#      else:
+     else:
 #          print("Not a prime number")
 # else:
 #     print("Not a prime number")
