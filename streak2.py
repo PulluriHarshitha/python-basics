@@ -1,4 +1,4 @@
-ch = input("Enter a character: ")
+tooch = input("Enter a character: ")
 if ch in "aeiouAEIOU":
       print("Vowel")
 else:
@@ -39,7 +39,7 @@ if num > 1:
 else:
     print("Not a prime number")
 
-# #armstrong num
+ #armstrong num
 # num = int(input("Enter a number: "))
 
 # temp = num
