@@ -40,7 +40,7 @@ else:
     print("Not a prime number")
 
  #armstrong num
-# num = int(input("Enter a number: "))
+num = int(input("Enter a number: "))
 
 # temp = num
 # sum = 0
