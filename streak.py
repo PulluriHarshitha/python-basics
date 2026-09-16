@@ -41,7 +41,7 @@ flag = 0
  else:
     print("Not a prime number")
 
-# #armstrong num
+ #armstrong num
 # num = int(input("Enter a number: "))
 # temp = num
 # sum = 0
