@@ -48,7 +48,7 @@ temp = num
 while num > 0:
      digit = num % 10
     sum = sum + digit**3
-#      num = num // 10
+    num = num // 10
 # if temp == sum:
 #      print("Armstrong number")
 # else:
