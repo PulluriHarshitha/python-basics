@@ -51,7 +51,7 @@ while num > 0:
     num = num // 10
 if temp == sum:
      print("Armstrong number")
-# else:
+else:
 #      print("Not an Armstrong number")
 
 # ##fibonacci series
