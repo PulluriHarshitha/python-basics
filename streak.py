@@ -74,7 +74,7 @@ print("Sum of digits:", sum)
 a = int(input())
 b = int(input())
 # c = int(input())
-# largest = max(a, b, c)
+ largest = max(a, b, c)
  print("Largest:", largest)
 
  # #days in a week
