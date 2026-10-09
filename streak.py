@@ -27,26 +27,26 @@ else:
 
 
  #prime number
-num = int(input("Enter a number: "))
 flag = 0
- if num > 1:
-     for i in range(2, num):
-          if num % i == 0:
-              flag = 1
+if num > 1:
+    for i in range(2, num):
+        if num % i == 0:
+            flag = 1
             break
-          if flag == 0:
-          print("Prime number")
-     else:
-          print("Not a prime number")
- else:
+
+    if flag == 0:
+        print("Prime number")
+    else:
+        print("Not a prime number")
+else:
     print("Not a prime number")
 
  #armstrong num
- num = int(input("Enter a number: "))
+num = int(input("Enter a number: "))
 temp = num
- sum = 0
+sum = 0
 while num > 0:
-     digit = num % 10
+    digit = num % 10
     sum = sum + digit**3
     num = num // 10
 if temp == sum:
@@ -63,9 +63,9 @@ a,b = b,a+b
     
 
     #sum of digits
- num = int(input("Enter number: "))
- sum = 0
- while num > 0:
+num = int(input("Enter number: "))
+sum = 0
+while num > 0:
      sum += num % 10
      num //= 10
 print("Sum of digits:", sum)
