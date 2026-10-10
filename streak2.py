@@ -76,7 +76,7 @@ while num > 0:
  largest = max(a, b, c)
  print("Largest:", largest)
 
-##days in a week
+#days in a week
 # days = ["Monday", "Tuesday", "Wednesday", "Thursday",
 #          "Friday", "Saturday", "Sunday"]
 # for day in days:
