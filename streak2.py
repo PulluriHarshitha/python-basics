@@ -1,4 +1,4 @@
-tooch = input("Enter a character: ")
+ptooch = input("Enter a character: ")
 if ch in "aeiouAEIOU":
       print("Vowel")
 else:
@@ -78,7 +78,7 @@ while num > 0:
 
 #days in a week
 days = ["Monday", "Tuesday", "Wednesday", "Thursday",
-#          "Friday", "Saturday", "Sunday"]
+          "Friday", "Saturday", "Sunday"]
 # for day in days:
 #      print(day)
 
