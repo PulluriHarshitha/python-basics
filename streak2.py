@@ -79,7 +79,7 @@ while num > 0:
 #days in a week
 days = ["Monday", "Tuesday", "Wednesday", "Thursday",
           "Friday", "Saturday", "Sunday"]
-# for day in days:
+for day in days:
 #      print(day)
 
 #  #months in a year
