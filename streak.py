@@ -96,7 +96,7 @@ if 1 <= month <= 12:
 else:
 #     print("Invalid input")
 
-# find the largest of three numbers
+ find the largest of three numbers
 # a = int(input())
 # b = int(input())
 # c = int(input())
