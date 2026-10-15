@@ -97,7 +97,7 @@ else:
 #     print("Invalid input")
 
  find the largest of three numbers
-# a = int(input())
+ a = int(input())
 # b = int(input())
 # c = int(input())
 # if a >= b and a >= c:
