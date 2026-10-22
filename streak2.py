@@ -1,4 +1,4 @@
-ptooch = input("Enter a character: ")
+ch = input("Enter a character: ")
 if ch in "aeiouAEIOU":
       print("Vowel")
 else:
