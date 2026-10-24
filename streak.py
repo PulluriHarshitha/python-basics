@@ -104,7 +104,7 @@ if a >= b and a >= c:
       print(a)
 elif b >= c:
    print(b)
-# else:
+else:
 #      print(c)
 
 # #simple prime number
