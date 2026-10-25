@@ -109,7 +109,7 @@ else:
 
 #simple prime number
  n = int(input())
-# flag = True
+flag = True
 # if n <= 1:
 #      flag = False
 # else:
