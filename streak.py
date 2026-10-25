@@ -108,7 +108,7 @@ else:
       print(c)
 
 #simple prime number
-# n = int(input())
+ n = int(input())
 # flag = True
 # if n <= 1:
 #      flag = False
