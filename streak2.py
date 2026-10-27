@@ -101,7 +101,7 @@ months = ["January", "February", "March", "April", "May", "June",
 #find the largest of three numbers
  a = int(input())
  b = int(input())
-# c = int(input())
+c = int(input())
 # if a >= b and a >= c:
 #       print(a)
 # elif b >= c:
