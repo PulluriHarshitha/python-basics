@@ -108,11 +108,11 @@ else:
       print(c)
 
 #simple prime number
- n = int(input())
+n = int(input())
 flag = True
 if n <= 1:
       flag = False
- else:
+else:
       for i in range(2, n):
 #          if n % i == 0:
 #              flag = False
