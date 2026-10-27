@@ -117,7 +117,7 @@ else:
           if n % i == 0:
               flag = False
               break
-# if flag:
+if flag:
 #      print("Prime")
 # else:
 #      print("Not Prime")
