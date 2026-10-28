@@ -119,7 +119,7 @@ else:
               break
 if flag:
       print("Prime")
-# else:
+else:
 #      print("Not Prime")
  
 # #swapping of two nums
