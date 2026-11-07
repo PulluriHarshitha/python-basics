@@ -145,7 +145,8 @@ a, b = 0, 1
 
 
 #recursive fibonacci program
-# def fibonacci(n):
+
+ def fibonacci(n):
 #      if n <= 1:
 #         return n
 #      return fibonacci(n - 1) + fibonacci(n - 2)
