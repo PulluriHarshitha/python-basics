@@ -153,7 +153,7 @@ a, b = 0, 1
 n = int(input("Enter number of terms: "))
  print("Fibonacci Series:")
 for i in range(n):
-#      print(fibonacci(i), end=" ")
+     print(fibonacci(i), end=" ")
 
 
 #  #fiboonaci series vth loop method
