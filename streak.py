@@ -156,7 +156,7 @@ for i in range(n):
      print(fibonacci(i), end=" ")
 
 
-#  #fiboonaci series vth loop method
+ #fiboonaci series vth loop method
 # def fibonacci(n):
 #     a, b = 0, 1
 #     for _ in range(n):
