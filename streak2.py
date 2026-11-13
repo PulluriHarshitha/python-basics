@@ -117,7 +117,7 @@ if a >= b and a >= c:
  else:
       for i in range(2, n):
          if n % i == 0:
-#             flag = False
+             flag = False
 #             break
 # if num:
 #      print("Prime")
