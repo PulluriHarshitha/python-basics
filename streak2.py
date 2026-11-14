@@ -119,7 +119,7 @@ if a >= b and a >= c:
          if n % i == 0:
              flag = False
              break
-# if num:
+ if num:
 #      print("Prime")
 # else:
 #      print("Not Prime")
