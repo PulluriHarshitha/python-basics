@@ -120,7 +120,7 @@ if a >= b and a >= c:
              flag = False
              break
  if num:
-#      print("Prime")
+      print("Prime")
 # else:
 #      print("Not Prime")
  
