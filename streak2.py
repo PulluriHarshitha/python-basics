@@ -121,7 +121,7 @@ if a >= b and a >= c:
              break
  if num:
       print("Prime")
-# else:
+ else:
 #      print("Not Prime")
  
 # ##swapping of two nums
