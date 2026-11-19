@@ -168,7 +168,7 @@ fibonacci(n)
 # lists
 list = [10, 20, 30, 40]
 print("Max:", max(list))
-# print("Min:", min(list))
+ print("Min:", min(list))
 
 
 # ##number guessing game
