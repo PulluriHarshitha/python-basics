@@ -122,7 +122,7 @@ if a >= b and a >= c:
  if num:
       print("Prime")
  else:
-#      print("Not Prime")
+      print("Not Prime")
  
 # ##swapping of two nums
 # a = int(input())
