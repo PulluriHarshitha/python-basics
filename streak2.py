@@ -130,7 +130,7 @@ if a >= b and a >= c:
  a, b = b, a
 print(a, b)
 
-# name = input("Enter your name: ")
+name = input("Enter your name: ")
 # print("Hello", name)
 # for i in range(1, 6):
 #      print(i)
